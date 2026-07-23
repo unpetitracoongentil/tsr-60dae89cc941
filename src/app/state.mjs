@@ -15,6 +15,7 @@ export function createReport(form) {
     date: todayISO(),
     marks: {},
     textValues: {},
+    photos: [],
     updatedAt: Date.now(),
   };
 }
@@ -53,6 +54,26 @@ export function progress(report, fieldMap) {
 /** A report cannot be exported without a serial — the filename depends on it. */
 export function isExportable(report) {
   return isValidSerial(report.serial);
+}
+
+/** Append a photo. Bytes are the raw image file; caption is optional. */
+export function addPhoto(report, { type, bytes, caption = '' }) {
+  const photo = { id: crypto.randomUUID(), type, bytes, caption };
+  return { ...report, photos: [...report.photos, photo], updatedAt: Date.now() };
+}
+
+/** Drop a photo by id. */
+export function removePhoto(report, id) {
+  return { ...report, photos: report.photos.filter((p) => p.id !== id), updatedAt: Date.now() };
+}
+
+/** Set one photo's caption. */
+export function setPhotoCaption(report, id, caption) {
+  return {
+    ...report,
+    photos: report.photos.map((p) => (p.id === id ? { ...p, caption } : p)),
+    updatedAt: Date.now(),
+  };
 }
 
 export { MARK };

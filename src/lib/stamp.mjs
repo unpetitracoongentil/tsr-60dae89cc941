@@ -65,7 +65,50 @@ export async function stampReport(templateBytes, fieldMap, values) {
     });
   }
 
+  // --- appended photo pages ---
+  for (const photo of values.photos ?? []) {
+    try {
+      const img = /png/i.test(photo.type)
+        ? await doc.embedPng(photo.bytes)
+        : await doc.embedJpg(photo.bytes);
+      drawPhotoPage(doc, helvetica, img, photo.caption ?? '');
+    } catch {
+      // A single unreadable image must not fail the whole report; skip it.
+    }
+  }
+
   return doc.save();
+}
+
+const PAGE_W = 612;
+const PAGE_H = 792;
+const PAGE_MARGIN = 36;
+const CAPTION_BAND = 28;
+const CAPTION_SIZE = 11;
+
+function drawPhotoPage(doc, font, img, caption) {
+  const page = doc.addPage([PAGE_W, PAGE_H]);
+  const availW = PAGE_W - PAGE_MARGIN * 2;
+  const availH = PAGE_H - PAGE_MARGIN * 2 - CAPTION_BAND;
+  const factor = Math.min(availW / img.width, availH / img.height, 1);
+  const w = img.width * factor;
+  const h = img.height * factor;
+  const x = (PAGE_W - w) / 2;
+  const y = PAGE_MARGIN + CAPTION_BAND + (availH - h) / 2;
+  page.drawImage(img, { x, y, width: w, height: h });
+
+  const text = String(caption).trim();
+  if (text) {
+    const tw = font.widthOfTextAtSize(text, CAPTION_SIZE);
+    page.drawText(text, {
+      x: Math.max(PAGE_MARGIN, (PAGE_W - tw) / 2),
+      y: PAGE_MARGIN,
+      size: CAPTION_SIZE,
+      font,
+      color: INK,
+      maxWidth: availW,
+    });
+  }
 }
 
 function drawGlyph(page, strokesFor, cell) {

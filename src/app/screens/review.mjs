@@ -1,11 +1,12 @@
 // src/app/screens/review.mjs
 import { el, render } from '../ui.mjs';
-import { setHeader, progress, isExportable } from '../state.mjs';
-import { deleteDraft } from '../storage.mjs';
+import { setHeader, progress, isExportable, addPhoto, removePhoto, setPhotoCaption } from '../state.mjs';
+import { deleteDraft, saveDraft } from '../storage.mjs';
 import { deliver, browserEnv } from '../share.mjs';
 import { stampReport } from '../../lib/stamp.mjs';
 import { reportFilename } from '../../lib/naming.mjs';
 import { writeSettings } from '../settings.mjs';
+import { fileToPhoto, photoUrl } from '../photos.mjs';
 
 /** Sign-off blanks, filled from the report rather than typed on the checklist. */
 const SIGN_OFF = { inspector: /inspected by/i, date: /^date/i };
@@ -28,8 +29,62 @@ export async function reviewScreen(app) {
       if (field) textValues[field.id] = app.report[key];
     }
 
-    return stampReport(template, app.fieldMap, { marks: app.report.marks, textValues });
+    return stampReport(template, app.fieldMap, {
+      marks: app.report.marks,
+      textValues,
+      photos: app.report.photos,
+    });
   };
+
+  // --- photo attachments ---
+  const photoList = el('div.photos', {});
+  const openUrls = [];
+
+  const renderPhotos = () => {
+    openUrls.splice(0).forEach(URL.revokeObjectURL);   // free previous previews
+    const items = app.report.photos.map((p) => {
+      const url = photoUrl(p);
+      openUrls.push(url);
+      return el('div.photo-item', {},
+        el('img.photo-thumb', { src: url, alt: p.caption || 'attached photo' }),
+        el('input.photo-caption', {
+          value: p.caption,
+          placeholder: 'Caption (optional)',
+          oninput: (e) => {
+            app.report = setPhotoCaption(app.report, p.id, e.target.value);
+            saveDraft(app.store, app.draftId, app.report);
+          },
+        }),
+        el('button', {
+          onclick: () => {
+            app.report = removePhoto(app.report, p.id);
+            saveDraft(app.store, app.draftId, app.report);
+            renderPhotos();
+          },
+        }, 'Remove'));
+    });
+    render(photoList,
+      app.report.photos.length
+        ? el('p.muted', {}, `${app.report.photos.length} photo(s) will be added after the form.`)
+        : el('p.muted', {}, 'No photos attached.'),
+      ...items);
+  };
+
+  const fileInput = el('input', {
+    type: 'file', accept: 'image/*', multiple: true, hidden: 'hidden',
+    onchange: async (e) => {
+      const files = [...e.target.files];
+      e.target.value = '';                              // allow re-picking the same file
+      for (const file of files) {
+        try {
+          const { type, bytes } = await fileToPhoto(file);
+          app.report = addPhoto(app.report, { type, bytes });
+        } catch { /* skip an unreadable image */ }
+      }
+      saveDraft(app.store, app.draftId, app.report);
+      renderPhotos();
+    },
+  });
 
   const send = async () => {
     status.textContent = 'Building PDF…';
@@ -72,6 +127,12 @@ export async function reviewScreen(app) {
         oninput: (e) => { app.report = setHeader(app.report, { date: e.target.value }); },
       })),
 
+    el('div.section', {},
+      el('h2', {}, 'Photos'),
+      photoList,
+      fileInput,
+      el('button', { onclick: () => fileInput.click() }, 'Add photos')),
+
     el('p', {}, 'File name: ',
       el('strong', {}, isExportable(app.report)
         ? reportFilename(app.report.date, app.report.serial)
@@ -79,6 +140,8 @@ export async function reviewScreen(app) {
 
     status,
   );
+
+  renderPhotos();
 
   const sendBtn = el('button.primary', { onclick: send }, 'Share');
   sendBtn.disabled = !isExportable(app.report);

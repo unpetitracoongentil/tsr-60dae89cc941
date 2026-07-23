@@ -1,11 +1,11 @@
 // sw.js — cache-first for the app shell so inspections work with no signal.
-const CACHE = 'tsr-v1';
+const CACHE = 'tsr-v2';
 
 const SHELL = [
   './', './index.html', './styles.css', './manifest.webmanifest',
   './src/app/main.mjs', './src/app/ui.mjs', './src/app/state.mjs',
   './src/app/storage.mjs', './src/app/memory-store.mjs', './src/app/settings.mjs',
-  './src/app/share.mjs',
+  './src/app/share.mjs', './src/app/photos.mjs',
   './src/app/screens/picker.mjs', './src/app/screens/header.mjs',
   './src/app/screens/checklist.mjs', './src/app/screens/review.mjs',
   './src/lib/marks.mjs', './src/lib/naming.mjs', './src/lib/dates.mjs',

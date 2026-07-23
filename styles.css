@@ -63,6 +63,17 @@ input, textarea {
   padding: .85rem; margin-bottom: .6rem; width: 100%; text-align: left;
 }
 .muted { color: var(--muted); }
+
+.photo-item {
+  display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem;
+  background: #fff; border: 1px solid var(--line); border-radius: .6rem; padding: .5rem;
+}
+.photo-thumb {
+  flex: none; width: 64px; height: 64px; object-fit: cover;
+  border-radius: .4rem; background: #f1f5f9;
+}
+.photo-caption { flex: 1; min-height: 44px; }
+.photo-item button { flex: none; min-height: 44px; }
 .warn {
   background: #fffbeb; border: 1px solid #fcd34d; border-radius: .6rem;
   padding: .75rem; margin-bottom: 1rem;
