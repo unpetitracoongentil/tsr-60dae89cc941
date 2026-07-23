@@ -9,6 +9,7 @@ import { reviewScreen } from './screens/review.mjs';
 
 const FORMS = [
   { id: 's2000-susie', name: 'S2000 Susie', subtitle: 'Final Inspection Form' },
+  { id: 's3005-hal', name: 'S3005 Pediatric HAL', subtitle: 'Five Year Old — Final Inspection' },
 ];
 
 const app = {
