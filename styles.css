@@ -82,7 +82,9 @@ input, textarea {
   width: 100%; min-height: 40px; border: 0; border-radius: 0; background: transparent;
   font-size: 1.1rem; color: var(--pass); font-weight: 700;
 }
-.grid-table .tick[data-ticked="1"] { background: color-mix(in srgb, var(--pass) 15%, #fff); }
+.grid-table .tick[data-mark="pass"] { background: color-mix(in srgb, var(--pass) 15%, #fff); color: var(--pass); }
+.grid-table .tick[data-mark="fail"] { background: color-mix(in srgb, var(--fail) 15%, #fff); color: var(--fail); }
+.grid-table .tick[data-mark="na"]   { background: #e2e8f0; color: var(--na); font-size: .7rem; }
 
 .photo-item {
   display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem;

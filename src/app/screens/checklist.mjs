@@ -81,18 +81,26 @@ export async function checklistScreen(app) {
       if (r.grid === grid.id) cells.set(`${r.gridRow}-${r.gridCol}`, r);
     }
 
-    const tickButton = (cell) => {
-      const isTicked = () => app.report.marks[cell.id] === MARK.PASS;
+    const cycle = grid.mode === 'cycle';
+
+    // 'tick' grids toggle blank<->✓; 'cycle' grids run the ✓/✗/N/A cycle.
+    const cellButton = (cell) => {
+      const markOf = () => app.report.marks[cell.id] ?? MARK.BLANK;
+      const paint = () => {
+        const m = markOf();
+        btn.textContent = GLYPH[m];
+        btn.dataset.mark = m;
+        btn.dataset.ticked = m === MARK.PASS ? '1' : '';
+      };
       const btn = el('button.tick', {
         title: cell.label,
         onclick: () => {
-          app.report = tickCell(app.report, cell.id);
-          btn.textContent = isTicked() ? '✓' : '';
-          btn.dataset.ticked = isTicked() ? '1' : '';
+          app.report = cycle ? toggleRow(app.report, cell.id) : tickCell(app.report, cell.id);
+          paint();
           save();
         },
-      }, isTicked() ? '✓' : '');
-      btn.dataset.ticked = isTicked() ? '1' : '';
+      });
+      paint();
       return btn;
     };
 
@@ -105,7 +113,7 @@ export async function checklistScreen(app) {
         el('th.rowlabel', {}, rowLabel),
         ...grid.colLabels.map((_, gc) => {
           const cell = cells.get(`${gr}-${gc}`);
-          return el('td', {}, cell ? tickButton(cell) : '');
+          return el('td', {}, cell ? cellButton(cell) : '');
         })));
 
     return el('div.section', {},

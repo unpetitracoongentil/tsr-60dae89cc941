@@ -3394,6 +3394,7 @@
       "id": "pulse",
       "page": 2,
       "title": "Pulse Strength Check",
+      "mode": "tick",
       "rowLabels": [
         "60/40",
         "70/40",
@@ -3415,6 +3416,7 @@
       "id": "korotkoff",
       "page": 2,
       "title": "BP = 120/80 (Korotkoff Sound)",
+      "mode": "cycle",
       "rowLabels": [
         "Right Arm",
         "Left Arm"
