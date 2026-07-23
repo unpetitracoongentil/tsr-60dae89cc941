@@ -1,0 +1,3092 @@
+{
+  "form": "s2225-hal",
+  "template": "templates/s2225-hal.pdf",
+  "pageCount": 3,
+  "pageSize": {
+    "width": 612,
+    "height": 792
+  },
+  "generatedBy": "tools/extract-cli.mjs",
+  "rows": [
+    {
+      "id": "p1-s0-r0",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Sk in overall condition",
+      "pass": {
+        "x": 211.44,
+        "y": 547.32,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 228.48,
+        "cy": 547.5600000000001,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 257.28,
+        "y": 547.32,
+        "w": 33.96,
+        "h": 0.48,
+        "cx": 274.26,
+        "cy": 547.5600000000001,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r1",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Male Genitalia placement",
+      "pass": {
+        "x": 211.44,
+        "y": 532.44,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 228.48,
+        "cy": 532.6800000000001,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 257.28,
+        "y": 532.44,
+        "w": 33.96,
+        "h": 0.48,
+        "cx": 274.26,
+        "cy": 532.6800000000001,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r2",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Female Genitalia placement",
+      "pass": {
+        "x": 211.44,
+        "y": 517.44,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 228.48,
+        "cy": 517.6800000000001,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 257.28,
+        "y": 517.44,
+        "w": 33.96,
+        "h": 0.48,
+        "cx": 274.26,
+        "cy": 517.6800000000001,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r3",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Urinary Catheterization (5 ml mi n)",
+      "pass": {
+        "x": 211.44,
+        "y": 502.56,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 228.48,
+        "cy": 502.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 257.28,
+        "y": 502.56,
+        "w": 33.96,
+        "h": 0.48,
+        "cx": 274.26,
+        "cy": 502.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r4",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Urinary Control",
+      "pass": {
+        "x": 210.72,
+        "y": 487.68,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 228.12,
+        "cy": 487.92,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 256.56,
+        "y": 487.68,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 273.9,
+        "cy": 487.92,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r5",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "ECG & Defibrillation Snaps OK",
+      "pass": {
+        "x": 496.08,
+        "y": 547.32,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 513.12,
+        "cy": 547.5600000000001,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.92,
+        "y": 547.32,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 558.9599999999999,
+        "cy": 547.5600000000001,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r6",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Tracheo s tomy insert",
+      "pass": {
+        "x": 496.08,
+        "y": 532.44,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 513.12,
+        "cy": 532.6800000000001,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.92,
+        "y": 532.44,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 558.9599999999999,
+        "cy": 532.6800000000001,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r7",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Bilateral IV arms(Air Test)",
+      "pass": {
+        "x": 496.08,
+        "y": 517.44,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 513.12,
+        "cy": 517.6800000000001,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.92,
+        "y": 517.44,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 558.9599999999999,
+        "cy": 517.6800000000001,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r8",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Right I/O access (correct position)",
+      "pass": {
+        "x": 496.08,
+        "y": 502.56,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 513.12,
+        "cy": 502.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.92,
+        "y": 502.56,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 558.9599999999999,
+        "cy": 502.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s0-r9",
+      "page": 1,
+      "section": 0,
+      "kind": "pair",
+      "label": "Glucose Finger",
+      "pass": {
+        "x": 495.36,
+        "y": 487.68,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 512.76,
+        "cy": 487.92,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.2,
+        "y": 487.68,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 558.6,
+        "cy": 487.92,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s1-r10",
+      "page": 1,
+      "section": 1,
+      "kind": "pair",
+      "label": "Battery Level without charger",
+      "pass": {
+        "x": 210.72,
+        "y": 373.44,
+        "w": 33.96,
+        "h": 0.48,
+        "cx": 227.7,
+        "cy": 373.68,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 257.16,
+        "y": 373.44,
+        "w": 33.84,
+        "h": 0.48,
+        "cx": 274.08000000000004,
+        "cy": 373.68,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s1-r11",
+      "page": 1,
+      "section": 1,
+      "kind": "pair",
+      "label": "Face Mov ement & Tracking Test",
+      "pass": {
+        "x": 210,
+        "y": 358.56,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 227.34,
+        "cy": 358.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 256.44,
+        "y": 358.56,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 273.72,
+        "cy": 358.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s1-r12",
+      "page": 1,
+      "section": 1,
+      "kind": "pair",
+      "label": "Battery Level with Charger",
+      "pass": {
+        "x": 495.24,
+        "y": 373.44,
+        "w": 33.96,
+        "h": 0.48,
+        "cx": 512.22,
+        "cy": 373.68,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.68,
+        "y": 373.44,
+        "w": 33.96,
+        "h": 0.48,
+        "cx": 558.66,
+        "cy": 373.68,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s1-r13",
+      "page": 1,
+      "section": 1,
+      "kind": "pair",
+      "label": "",
+      "pass": {
+        "x": 494.52,
+        "y": 358.56,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 511.85999999999996,
+        "cy": 358.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 540.96,
+        "y": 358.56,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 558.3000000000001,
+        "cy": 358.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r14",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Mouth movement",
+      "pass": {
+        "x": 213.48,
+        "y": 246.72,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 246.96,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 246.72,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 246.96,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r15",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "a Mouth Open",
+      "pass": {
+        "x": 213.48,
+        "y": 231.72,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 231.96,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 231.72,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 231.96,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r16",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "b Mouth Closed",
+      "pass": {
+        "x": 213.48,
+        "y": 216.84,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 217.08,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 216.84,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 217.08,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r17",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "c Teeth Chattering",
+      "pass": {
+        "x": 213.48,
+        "y": 201.96,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 202.20000000000002,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 201.96,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 202.20000000000002,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r18",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Skin appearance Calibration",
+      "pass": {
+        "x": 213.48,
+        "y": 187.08,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 187.32000000000002,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 187.08,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 187.32000000000002,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r19",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Skin appearance white (paleness)",
+      "pass": {
+        "x": 212.76,
+        "y": 172.2,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 230.33999999999997,
+        "cy": 172.44,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 258.96,
+        "y": 172.2,
+        "w": 35.04,
+        "h": 0.48,
+        "cx": 276.47999999999996,
+        "cy": 172.44,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r20",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Skin appearance red (redness)",
+      "pass": {
+        "x": 495.36,
+        "y": 246.72,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 246.96,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 246.72,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 246.96,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r21",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Skin appearance yellow (jaundice)",
+      "pass": {
+        "x": 495.36,
+        "y": 231.72,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 231.96,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 231.72,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 231.96,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r22",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Skin appearance Cyanosis(central)",
+      "pass": {
+        "x": 495.36,
+        "y": 216.84,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 217.08,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 216.84,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 217.08,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r23",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Programmable Tears Left",
+      "pass": {
+        "x": 495.36,
+        "y": 201.96,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 202.20000000000002,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 201.96,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 202.20000000000002,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r24",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Programmable Tears Right",
+      "pass": {
+        "x": 495.36,
+        "y": 187.08,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 187.32000000000002,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 187.08,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 187.32000000000002,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r25",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Seizures",
+      "pass": {
+        "x": 494.64,
+        "y": 172.2,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 512.22,
+        "cy": 172.44,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 540.84,
+        "y": 172.2,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 558.4200000000001,
+        "cy": 172.44,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r0",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Carotid Right Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 658.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 658.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 658.56,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 658.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r1",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Carotid Left Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 643.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 643.92,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 643.68,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 643.92,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r2",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Brachial Right Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 628.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 629.04,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 628.8,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 629.04,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r3",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Brachial Left Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 613.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 614.16,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 613.92,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 614.16,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r4",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Radial Right Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 599.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 599.28,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 599.04,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 599.28,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r5",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Radial Left Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 584.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 584.4,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 584.16,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 584.4,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r6",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Femoral Right Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 569.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 569.4,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 569.16,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 569.4,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r7",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Fem oral Left Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 554.28,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 554.52,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 554.28,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 554.52,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r8",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Pedal Right Pulse",
+      "pass": {
+        "x": 495.36,
+        "y": 658.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 658.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 658.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 658.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r9",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Pedal Left Pulse",
+      "pass": {
+        "x": 495.36,
+        "y": 643.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 643.92,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 643.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 643.92,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r10",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Tongue Edema",
+      "pass": {
+        "x": 495.36,
+        "y": 628.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 629.04,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 628.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 629.04,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r11",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Laryngospasms",
+      "pass": {
+        "x": 495.36,
+        "y": 613.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 614.16,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 613.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 614.16,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r12",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Manual CRT 5 sec (Right Knee)",
+      "pass": {
+        "x": 495.36,
+        "y": 599.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 599.28,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 599.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 599.28,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r13",
+      "page": 2,
+      "section": 0,
+      "kind": "pair",
+      "label": "Osat Left Index Finger (Calib)",
+      "pass": {
+        "x": 495.36,
+        "y": 584.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 584.4,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 584.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 584.4,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r14",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Lung Right Front",
+      "pass": {
+        "x": 198,
+        "y": 279.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 279.72,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 279.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 279.72,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r15",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Lung Left Front",
+      "pass": {
+        "x": 198,
+        "y": 267.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 267.72,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 267.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 267.72,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r16",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Lung Right Upper Back",
+      "pass": {
+        "x": 198,
+        "y": 255.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 255.72,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 255.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 255.72,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r17",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Lung Left Upper Back",
+      "pass": {
+        "x": 198,
+        "y": 243.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 243.72,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 243.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 243.72,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r18",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Lung Right Lower B ack",
+      "pass": {
+        "x": 198,
+        "y": 231.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 231.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 231.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 231.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r19",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Lung Left Lower Back",
+      "pass": {
+        "x": 198,
+        "y": 219.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 219.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 219.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 219.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r20",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Bowel Sound Upper Left",
+      "pass": {
+        "x": 198,
+        "y": 207.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 207.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 207.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 207.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r21",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Bowel Sound Upper Right",
+      "pass": {
+        "x": 198,
+        "y": 195.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 195.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 195.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 195.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r22",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Bowel Sound Lower Left",
+      "pass": {
+        "x": 198,
+        "y": 183.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 183.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198,
+        "y": 183.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 223.62,
+        "cy": 183.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r23",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Bowel Sound Lower Right",
+      "pass": {
+        "x": 486,
+        "y": 279.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 279.72,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 279.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 279.72,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r24",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Crying",
+      "pass": {
+        "x": 486,
+        "y": 267.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 267.72,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 267.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 267.72,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r25",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Aortic Heart Sound",
+      "pass": {
+        "x": 486,
+        "y": 255.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 255.72,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 255.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 255.72,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r26",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Pulmonic Heart Sound",
+      "pass": {
+        "x": 486,
+        "y": 243.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 243.72,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 243.48,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 243.72,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r27",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Mitral Heart Sound",
+      "pass": {
+        "x": 486,
+        "y": 231.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 231.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 231.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 231.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r28",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Throat Sound",
+      "pass": {
+        "x": 486,
+        "y": 219.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 219.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 219.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 219.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r29",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Speech",
+      "pass": {
+        "x": 486,
+        "y": 207.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 207.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 207.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 207.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r30",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Streaming Voice Spkr",
+      "pass": {
+        "x": 486,
+        "y": 195.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 195.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 195.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 195.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r31",
+      "page": 2,
+      "section": 1,
+      "kind": "single",
+      "label": "Streaming Voice M - phone",
+      "pass": {
+        "x": 486,
+        "y": 183.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 183.84,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486,
+        "y": 183.6,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.62,
+        "cy": 183.84,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r0",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Lung Compliance",
+      "pass": {
+        "x": 213.48,
+        "y": 658.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 658.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 658.56,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 658.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r1",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Lung Resistance",
+      "pass": {
+        "x": 213.48,
+        "y": 643.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 643.92,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 643.68,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 643.92,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r2",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Esophageal intubation detection",
+      "pass": {
+        "x": 213.48,
+        "y": 628.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 629.04,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 628.8,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 629.04,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r3",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "CO 2",
+      "pass": {
+        "x": 213.48,
+        "y": 613.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 614.16,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 613.92,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 614.16,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r4",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Chest Rise",
+      "pass": {
+        "x": 213.48,
+        "y": 599.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 599.28,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 599.04,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 599.28,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r5",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Respiration Rate (14/20/30/ b min",
+      "pass": {
+        "x": 213.48,
+        "y": 584.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 584.4,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 584.16,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 584.4,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r6",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Needle decompression",
+      "pass": {
+        "x": 213.48,
+        "y": 569.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 569.4,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 569.16,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 569.4,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r7",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Chest tube detection",
+      "pass": {
+        "x": 212.76,
+        "y": 554.28,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 230.33999999999997,
+        "cy": 554.52,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 258.96,
+        "y": 554.28,
+        "w": 35.04,
+        "h": 0.48,
+        "cx": 276.47999999999996,
+        "cy": 554.52,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r8",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Right Lung Disable",
+      "pass": {
+        "x": 495.36,
+        "y": 658.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 658.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 658.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 658.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r9",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Left Lung Disable",
+      "pass": {
+        "x": 495.36,
+        "y": 643.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 643.92,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 643.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 643.92,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r10",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "ET Tube Position 3 (Too Deep)",
+      "pass": {
+        "x": 495.36,
+        "y": 628.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 629.04,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 628.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 629.04,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r11",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Position 3 Ventilation Right Lung",
+      "pass": {
+        "x": 495.36,
+        "y": 613.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 614.16,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 613.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 614.16,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r12",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Right Mainstem Intubation",
+      "pass": {
+        "x": 495.36,
+        "y": 599.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 599.28,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 599.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 599.28,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r13",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "ET Tube Position 1 (Normal)",
+      "pass": {
+        "x": 495.36,
+        "y": 584.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 584.4,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 584.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 584.4,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r14",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Position 1 Ventilation Both Lungs",
+      "pass": {
+        "x": 495.36,
+        "y": 569.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 569.4,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 569.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 569.4,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r15",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Artificial Ventilation with Mask",
+      "pass": {
+        "x": 213.48,
+        "y": 451.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 451.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 451.56,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 451.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r16",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Simultaneous compressions/ventilat",
+      "pass": {
+        "x": 213.48,
+        "y": 436.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 436.92,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 436.68,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 436.92,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r17",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Auto Lung Sound",
+      "pass": {
+        "x": 213.48,
+        "y": 421.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 422.04,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 421.8,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 422.04,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r18",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Chest Compression",
+      "pass": {
+        "x": 213.48,
+        "y": 406.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 407.16,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 406.92,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 407.16,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r19",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Auto Carotid Pulse",
+      "pass": {
+        "x": 213.48,
+        "y": 391.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 392.16,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 391.92,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 392.16,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r20",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "AP Pacing",
+      "pass": {
+        "x": 213.48,
+        "y": 377.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 377.28000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 377.04,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 377.28000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r21",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "ECG defibrillation snaps",
+      "pass": {
+        "x": 213.48,
+        "y": 362.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 362.40000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 362.16,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 362.40000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r22",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "ECG Rhythm at ECG site",
+      "pass": {
+        "x": 213.48,
+        "y": 347.28,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 347.52,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 347.28,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 347.52,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r23",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "ECG at Shock Sites",
+      "pass": {
+        "x": 213.48,
+        "y": 332.4,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 332.64,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 332.4,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 332.64,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r24",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Pacing Detection",
+      "pass": {
+        "x": 213.48,
+        "y": 317.52,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.7,
+        "cy": 317.76,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.68,
+        "y": 317.52,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.84000000000003,
+        "cy": 317.76,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r25",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Pacing Capture",
+      "pass": {
+        "x": 212.76,
+        "y": 302.52,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 230.33999999999997,
+        "cy": 302.76,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 258.96,
+        "y": 302.52,
+        "w": 35.04,
+        "h": 0.48,
+        "cx": 276.47999999999996,
+        "cy": 302.76,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r26",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "2 Rhythms and HR’s OK",
+      "pass": {
+        "x": 495.36,
+        "y": 451.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 451.8,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 451.56,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 451.8,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r27",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Respiratory Graph",
+      "pass": {
+        "x": 495.36,
+        "y": 436.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 436.92,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 436.68,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 436.92,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r28",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Change HAL 5 Year to Channel 4",
+      "pass": {
+        "x": 495.36,
+        "y": 421.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 422.04,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 421.8,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 422.04,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r29",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Bluetooth Connection testing",
+      "pass": {
+        "x": 495.36,
+        "y": 406.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 407.16,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 406.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 407.16,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r30",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Labels",
+      "pass": {
+        "x": 495.36,
+        "y": 391.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 392.16,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 391.92,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 392.16,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r31",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "a USB “Connect to Tablet USB Port”",
+      "pass": {
+        "x": 495.36,
+        "y": 377.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 377.28000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 377.04,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 377.28000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r32",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "b Tablet, Desktop “This is a dedica…”",
+      "pass": {
+        "x": 495.36,
+        "y": 362.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 362.40000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 362.16,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 362.40000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r33",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "c “Pediatric Hal Five Years” Charger Label",
+      "pass": {
+        "x": 495.36,
+        "y": 347.28,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 347.52,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 347.28,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 347.52,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r34",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "d “CE” Label",
+      "pass": {
+        "x": 495.36,
+        "y": 332.4,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 332.64,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 332.4,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 332.64,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r35",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "e “ Patented; other…” Label",
+      "pass": {
+        "x": 495.36,
+        "y": 317.52,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.58,
+        "cy": 317.76,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.56,
+        "y": 317.52,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.78,
+        "cy": 317.76,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r36",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Check S/N back",
+      "pass": {
+        "x": 494.64,
+        "y": 302.52,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 512.22,
+        "cy": 302.76,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 540.84,
+        "y": 302.52,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 558.4200000000001,
+        "cy": 302.76,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "pulse-r0-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 0,
+      "label": "Carotid @ BP 54/40",
+      "pass": {
+        "x": 233.97,
+        "y": 482.51,
+        "w": 31.59,
+        "h": 0,
+        "cx": 249.765,
+        "cy": 482.51
+      },
+      "fail": {
+        "x": 233.97,
+        "y": 482.51,
+        "w": 31.59,
+        "h": 0,
+        "cx": 249.765,
+        "cy": 482.51
+      }
+    },
+    {
+      "id": "pulse-r0-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 1,
+      "label": "Femoral @ BP 54/40",
+      "pass": {
+        "x": 270.07,
+        "y": 482.51,
+        "w": 31.59,
+        "h": 0,
+        "cx": 285.865,
+        "cy": 482.51
+      },
+      "fail": {
+        "x": 270.07,
+        "y": 482.51,
+        "w": 31.59,
+        "h": 0,
+        "cx": 285.865,
+        "cy": 482.51
+      }
+    },
+    {
+      "id": "pulse-r0-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 2,
+      "label": "Radial @ BP 54/40",
+      "pass": {
+        "x": 306.18,
+        "y": 482.51,
+        "w": 31.59,
+        "h": 0,
+        "cx": 321.975,
+        "cy": 482.51
+      },
+      "fail": {
+        "x": 306.18,
+        "y": 482.51,
+        "w": 31.59,
+        "h": 0,
+        "cx": 321.975,
+        "cy": 482.51
+      }
+    },
+    {
+      "id": "pulse-r0-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 3,
+      "label": "Pedal @ BP 54/40",
+      "pass": {
+        "x": 342.28,
+        "y": 482.51,
+        "w": 31.59,
+        "h": 0,
+        "cx": 358.075,
+        "cy": 482.51
+      },
+      "fail": {
+        "x": 342.28,
+        "y": 482.51,
+        "w": 31.59,
+        "h": 0,
+        "cx": 358.075,
+        "cy": 482.51
+      }
+    },
+    {
+      "id": "pulse-r1-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 0,
+      "label": "Carotid @ BP 59/40",
+      "pass": {
+        "x": 233.97,
+        "y": 470.99,
+        "w": 31.59,
+        "h": 0,
+        "cx": 249.765,
+        "cy": 470.99
+      },
+      "fail": {
+        "x": 233.97,
+        "y": 470.99,
+        "w": 31.59,
+        "h": 0,
+        "cx": 249.765,
+        "cy": 470.99
+      }
+    },
+    {
+      "id": "pulse-r1-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 1,
+      "label": "Femoral @ BP 59/40",
+      "pass": {
+        "x": 270.07,
+        "y": 470.99,
+        "w": 31.59,
+        "h": 0,
+        "cx": 285.865,
+        "cy": 470.99
+      },
+      "fail": {
+        "x": 270.07,
+        "y": 470.99,
+        "w": 31.59,
+        "h": 0,
+        "cx": 285.865,
+        "cy": 470.99
+      }
+    },
+    {
+      "id": "pulse-r1-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 2,
+      "label": "Radial @ BP 59/40",
+      "pass": {
+        "x": 306.18,
+        "y": 470.99,
+        "w": 31.59,
+        "h": 0,
+        "cx": 321.975,
+        "cy": 470.99
+      },
+      "fail": {
+        "x": 306.18,
+        "y": 470.99,
+        "w": 31.59,
+        "h": 0,
+        "cx": 321.975,
+        "cy": 470.99
+      }
+    },
+    {
+      "id": "pulse-r1-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 3,
+      "label": "Pedal @ BP 59/40",
+      "pass": {
+        "x": 342.28,
+        "y": 470.99,
+        "w": 31.59,
+        "h": 0,
+        "cx": 358.075,
+        "cy": 470.99
+      },
+      "fail": {
+        "x": 342.28,
+        "y": 470.99,
+        "w": 31.59,
+        "h": 0,
+        "cx": 358.075,
+        "cy": 470.99
+      }
+    },
+    {
+      "id": "pulse-r2-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 0,
+      "label": "Carotid @ BP 100/70",
+      "pass": {
+        "x": 233.97,
+        "y": 459.58,
+        "w": 31.59,
+        "h": 0,
+        "cx": 249.765,
+        "cy": 459.58
+      },
+      "fail": {
+        "x": 233.97,
+        "y": 459.58,
+        "w": 31.59,
+        "h": 0,
+        "cx": 249.765,
+        "cy": 459.58
+      }
+    },
+    {
+      "id": "pulse-r2-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 1,
+      "label": "Femoral @ BP 100/70",
+      "pass": {
+        "x": 270.07,
+        "y": 459.58,
+        "w": 31.59,
+        "h": 0,
+        "cx": 285.865,
+        "cy": 459.58
+      },
+      "fail": {
+        "x": 270.07,
+        "y": 459.58,
+        "w": 31.59,
+        "h": 0,
+        "cx": 285.865,
+        "cy": 459.58
+      }
+    },
+    {
+      "id": "pulse-r2-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 2,
+      "label": "Radial @ BP 100/70",
+      "pass": {
+        "x": 306.18,
+        "y": 459.58,
+        "w": 31.59,
+        "h": 0,
+        "cx": 321.975,
+        "cy": 459.58
+      },
+      "fail": {
+        "x": 306.18,
+        "y": 459.58,
+        "w": 31.59,
+        "h": 0,
+        "cx": 321.975,
+        "cy": 459.58
+      }
+    },
+    {
+      "id": "pulse-r2-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 3,
+      "label": "Pedal @ BP 100/70",
+      "pass": {
+        "x": 342.28,
+        "y": 459.58,
+        "w": 31.59,
+        "h": 0,
+        "cx": 358.075,
+        "cy": 459.58
+      },
+      "fail": {
+        "x": 342.28,
+        "y": 459.58,
+        "w": 31.59,
+        "h": 0,
+        "cx": 358.075,
+        "cy": 459.58
+      }
+    }
+  ],
+  "textFields": [
+    {
+      "id": "p1-t17",
+      "page": 1,
+      "label": "Serial # :",
+      "x": 105.03,
+      "y": 648.24,
+      "w": 168.4
+    },
+    {
+      "id": "p1-t19",
+      "page": 1,
+      "label": "Voltage:",
+      "x": 397.32,
+      "y": 648.24,
+      "w": 169.75
+    },
+    {
+      "id": "p1-t20",
+      "page": 1,
+      "label": "Customer:",
+      "x": 107.14,
+      "y": 634.44,
+      "w": 164.73
+    },
+    {
+      "id": "p1-t31",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 90,
+      "y": 606.84,
+      "w": 104.11
+    },
+    {
+      "id": "p1-t32",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 210.36,
+      "y": 606.84,
+      "w": 109.51
+    },
+    {
+      "id": "p1-t33",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 336.24,
+      "y": 606.84,
+      "w": 109.51
+    },
+    {
+      "id": "p1-t34",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 462.12,
+      "y": 606.84,
+      "w": 109.39
+    },
+    {
+      "id": "p1-t71",
+      "page": 1,
+      "label": "Notes:",
+      "x": 81.18,
+      "y": 467.04,
+      "w": 493.79
+    },
+    {
+      "id": "p1-t72",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54,
+      "y": 455.51,
+      "w": 520.01
+    },
+    {
+      "id": "p1-t73",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54,
+      "y": 443.99,
+      "w": 520.01
+    },
+    {
+      "id": "p1-t74",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54,
+      "y": 432.58,
+      "w": 520.01
+    },
+    {
+      "id": "p1-t90",
+      "page": 1,
+      "label": "Notes:",
+      "x": 81.18,
+      "y": 337.92,
+      "w": 493.79
+    },
+    {
+      "id": "p1-t91",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 326.39,
+      "w": 520.01
+    },
+    {
+      "id": "p1-t92",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 314.99,
+      "w": 520.01
+    },
+    {
+      "id": "p1-t93",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 303.46,
+      "w": 520.01
+    },
+    {
+      "id": "p1-t124",
+      "page": 1,
+      "label": "Notes:",
+      "x": 81.18,
+      "y": 151.44,
+      "w": 493.79
+    },
+    {
+      "id": "p1-t125",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 140.03,
+      "w": 520.01
+    },
+    {
+      "id": "p1-t126",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 128.51,
+      "w": 520.01
+    },
+    {
+      "id": "p1-t127",
+      "page": 1,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 116.98,
+      "w": 520.01
+    },
+    {
+      "id": "p2-t47",
+      "page": 2,
+      "label": "18 Pulse Strength Check",
+      "x": 62.36,
+      "y": 516.96,
+      "w": 121.15
+    },
+    {
+      "id": "p2-t56",
+      "page": 2,
+      "label": "BP = 49/40",
+      "x": 233.98,
+      "y": 493.92,
+      "w": 103.9
+    },
+    {
+      "id": "p2-t57",
+      "page": 2,
+      "label": "BP = 49/40",
+      "x": 344.25,
+      "y": 493.92,
+      "w": 31.91
+    },
+    {
+      "id": "p2-t64",
+      "page": 2,
+      "label": "19 Bp = 120/80",
+      "x": 62.54,
+      "y": 436.56,
+      "w": 76.89
+    },
+    {
+      "id": "p2-t68",
+      "page": 2,
+      "label": "20 NIBP left arm (calibration required using calibration kit)",
+      "x": 350.24,
+      "y": 436.56,
+      "w": 224.21
+    },
+    {
+      "id": "p2-t71",
+      "page": 2,
+      "label": "(+/- 10)",
+      "x": 428.89,
+      "y": 413.64,
+      "w": 52.19
+    },
+    {
+      "id": "p2-t75",
+      "page": 2,
+      "label": "(+/- 10)",
+      "x": 424.87,
+      "y": 402.11,
+      "w": 53.19
+    },
+    {
+      "id": "p2-t76",
+      "page": 2,
+      "label": "Left Arm",
+      "x": 164.17,
+      "y": 390.71,
+      "w": 29.71
+    },
+    {
+      "id": "p2-t77",
+      "page": 2,
+      "label": "Left Arm",
+      "x": 209.37,
+      "y": 390.71,
+      "w": 31.91
+    },
+    {
+      "id": "p2-t79",
+      "page": 2,
+      "label": "(+/- 10)",
+      "x": 424.87,
+      "y": 390.71,
+      "w": 53.18
+    },
+    {
+      "id": "p2-t81",
+      "page": 2,
+      "label": "(+/- 10)",
+      "x": 424.13,
+      "y": 379.18,
+      "w": 53.19
+    },
+    {
+      "id": "p2-t82",
+      "page": 2,
+      "label": "Notes:",
+      "x": 81.15,
+      "y": 367.78,
+      "w": 493.79
+    },
+    {
+      "id": "p2-t83",
+      "page": 2,
+      "label": "Notes:",
+      "x": 53.98,
+      "y": 356.26,
+      "w": 520.01
+    },
+    {
+      "id": "p2-t84",
+      "page": 2,
+      "label": "Notes:",
+      "x": 53.98,
+      "y": 344.73,
+      "w": 520.01
+    },
+    {
+      "id": "p2-t85",
+      "page": 2,
+      "label": "Notes:",
+      "x": 53.98,
+      "y": 333.33,
+      "w": 520.01
+    },
+    {
+      "id": "p2-t138",
+      "page": 2,
+      "label": "Notes:",
+      "x": 81.18,
+      "y": 160.08,
+      "w": 493.78
+    },
+    {
+      "id": "p2-t139",
+      "page": 2,
+      "label": "Notes:",
+      "x": 54,
+      "y": 148.56,
+      "w": 520.01
+    },
+    {
+      "id": "p2-t140",
+      "page": 2,
+      "label": "Notes:",
+      "x": 54,
+      "y": 137.03,
+      "w": 520.01
+    },
+    {
+      "id": "p2-t141",
+      "page": 2,
+      "label": "Notes:",
+      "x": 54,
+      "y": 125.63,
+      "w": 520.01
+    },
+    {
+      "id": "p3-t49",
+      "page": 3,
+      "label": "Notes:",
+      "x": 81.18,
+      "y": 545.04,
+      "w": 493.79
+    },
+    {
+      "id": "p3-t50",
+      "page": 3,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 533.64,
+      "w": 520.01
+    },
+    {
+      "id": "p3-t51",
+      "page": 3,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 522.11,
+      "w": 520.01
+    },
+    {
+      "id": "p3-t52",
+      "page": 3,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 510.71,
+      "w": 520.01
+    },
+    {
+      "id": "p3-t111",
+      "page": 3,
+      "label": "Notes:",
+      "x": 81.18,
+      "y": 281.88,
+      "w": 493.79
+    },
+    {
+      "id": "p3-t112",
+      "page": 3,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 270.35,
+      "w": 520.01
+    },
+    {
+      "id": "p3-t113",
+      "page": 3,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 258.95,
+      "w": 520.01
+    },
+    {
+      "id": "p3-t114",
+      "page": 3,
+      "label": "Notes:",
+      "x": 54.01,
+      "y": 247.42,
+      "w": 520.01
+    },
+    {
+      "id": "p3-t115",
+      "page": 3,
+      "label": "Inspected by:",
+      "x": 122.42,
+      "y": 223.44,
+      "w": 288.34
+    },
+    {
+      "id": "p3-t116",
+      "page": 3,
+      "label": "Date:",
+      "x": 459.7,
+      "y": 223.44,
+      "w": 106.44
+    }
+  ],
+  "grids": [
+    {
+      "id": "pulse",
+      "page": 2,
+      "title": "Pulse Strength Check",
+      "mode": "tick",
+      "rowLabels": [
+        "54/40",
+        "59/40",
+        "100/70"
+      ],
+      "colLabels": [
+        "Carotid",
+        "Femoral",
+        "Radial",
+        "Pedal"
+      ]
+    }
+  ]
+}
