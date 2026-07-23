@@ -112,9 +112,13 @@ function drawPhotoPage(doc, font, img, caption) {
 }
 
 function drawGlyph(page, strokesFor, cell) {
+  const isBox = (cell.h ?? 0) >= 4;   // checkbox annotation vs a hairline rule
   const cx = cell.x + cell.w / 2;
-  const cy = cell.y + GLYPH_LIFT + GLYPH_SIZE / 2;
-  for (const line of strokesFor(cx, cy, GLYPH_SIZE)) {
+  // A box gets a mark centred inside it, sized to fit; a rule gets a mark
+  // resting just above the line.
+  const size = isBox ? Math.min(cell.w, cell.h) * 0.95 : GLYPH_SIZE;
+  const cy = isBox ? cell.y + cell.h / 2 : cell.y + GLYPH_LIFT + GLYPH_SIZE / 2;
+  for (const line of strokesFor(cx, cy, size)) {
     page.drawLine({ ...line, thickness: STROKE, color: INK });
   }
 }

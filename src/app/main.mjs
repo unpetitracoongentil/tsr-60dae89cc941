@@ -13,6 +13,7 @@ const FORMS = [
   { id: 's3009-premie', name: 'S3009 Premie HAL', subtitle: 'Final Inspection Form' },
   { id: 's3201-hal', name: 'S3201 HAL', subtitle: 'Final Inspection Form' },
   { id: 's2225-hal', name: 'S2225 Pediatric HAL', subtitle: 'Five Year Old — Final Inspection' },
+  { id: 's2400-susie', name: 'S2400 Susie', subtitle: 'Final Inspection Form' },
 ];
 
 const app = {

@@ -1,5 +1,5 @@
 // sw.js — cache-first for the app shell so inspections work with no signal.
-const CACHE = 'tsr-v6';
+const CACHE = 'tsr-v7';
 
 const SHELL = [
   './', './index.html', './styles.css', './manifest.webmanifest',
@@ -16,6 +16,7 @@ const SHELL = [
   './fields/s3009-premie.json', './templates/s3009-premie.pdf',
   './fields/s3201-hal.json', './templates/s3201-hal.pdf',
   './fields/s2225-hal.json', './templates/s2225-hal.pdf',
+  './fields/s2400-susie.json', './templates/s2400-susie.pdf',
 ];
 
 self.addEventListener('install', (e) => {
