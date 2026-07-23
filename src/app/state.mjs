@@ -29,6 +29,20 @@ export function toggleRow(report, rowId) {
   };
 }
 
+/**
+ * Two-state tick for grid cells: blank <-> ticked. Unlike toggleRow's
+ * pass/fail/na cycle, a Pulse/BP grid cell is only ever ticked or clear.
+ * A tick is stored as MARK.PASS so the existing stamping draws a checkmark.
+ */
+export function tickCell(report, cellId) {
+  const ticked = report.marks[cellId] === MARK.PASS;
+  return {
+    ...report,
+    marks: { ...report.marks, [cellId]: ticked ? MARK.BLANK : MARK.PASS },
+    updatedAt: Date.now(),
+  };
+}
+
 /** Merge header fields. The serial is normalized on the way in. */
 export function setHeader(report, patch) {
   const next = { ...report, ...patch, updatedAt: Date.now() };
@@ -45,10 +59,16 @@ export function setText(report, fieldId, value) {
   };
 }
 
-/** How many checklist rows carry a mark, out of how many exist. */
+/**
+ * How many checklist rows carry a mark, out of how many exist.
+ * Grid cells (pulse/BP tables) are excluded — they are optional ticks that are
+ * mostly left blank by design, so counting them would make the unmarked warning
+ * fire on every report.
+ */
 export function progress(report, fieldMap) {
-  const marked = fieldMap.rows.filter((r) => isMarked(report.marks[r.id])).length;
-  return { marked, total: fieldMap.rows.length };
+  const counted = fieldMap.rows.filter((r) => r.kind !== 'grid');
+  const marked = counted.filter((r) => isMarked(report.marks[r.id])).length;
+  return { marked, total: counted.length };
 }
 
 /** A report cannot be exported without a serial — the filename depends on it. */

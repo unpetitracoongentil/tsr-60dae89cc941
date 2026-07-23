@@ -64,6 +64,26 @@ input, textarea {
 }
 .muted { color: var(--muted); }
 
+.grid-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.grid-table { border-collapse: collapse; width: 100%; font-size: .8rem; }
+.grid-table th, .grid-table td {
+  border: 1px solid var(--line); padding: 0; text-align: center; white-space: nowrap;
+}
+.grid-table thead th {
+  background: #f1f5f9; color: var(--muted); font-weight: 600;
+  padding: .35rem .3rem; font-size: .72rem;
+}
+.grid-table th.rowlabel {
+  background: #f8fafc; padding: .3rem .5rem; text-align: right;
+  font-weight: 600; position: sticky; left: 0;
+}
+.grid-table td { min-width: 44px; }
+.grid-table .tick {
+  width: 100%; min-height: 40px; border: 0; border-radius: 0; background: transparent;
+  font-size: 1.1rem; color: var(--pass); font-weight: 700;
+}
+.grid-table .tick[data-ticked="1"] { background: color-mix(in srgb, var(--pass) 15%, #fff); }
+
 .photo-item {
   display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem;
   background: #fff; border: 1px solid var(--line); border-radius: .6rem; padding: .5rem;

@@ -2182,6 +2182,1025 @@
         "cy": 141.96,
         "source": "rect"
       }
+    },
+    {
+      "id": "pulse-r0-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 0,
+      "label": "Carotid @ BP 60/40",
+      "pass": {
+        "x": 126,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 655.68
+      },
+      "fail": {
+        "x": 126,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 655.68
+      }
+    },
+    {
+      "id": "pulse-r0-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 1,
+      "label": "Femoral @ BP 60/40",
+      "pass": {
+        "x": 162.1,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 655.68
+      },
+      "fail": {
+        "x": 162.1,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 655.68
+      }
+    },
+    {
+      "id": "pulse-r0-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 2,
+      "label": "Radial @ BP 60/40",
+      "pass": {
+        "x": 198.2,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 655.68
+      },
+      "fail": {
+        "x": 198.2,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 655.68
+      }
+    },
+    {
+      "id": "pulse-r0-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 3,
+      "label": "Pedal @ BP 60/40",
+      "pass": {
+        "x": 234.2,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 655.68
+      },
+      "fail": {
+        "x": 234.2,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 655.68
+      }
+    },
+    {
+      "id": "pulse-r0-c4",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 0,
+      "gridCol": 4,
+      "label": "Posterior Tibia @ BP 60/40",
+      "pass": {
+        "x": 270.3,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 655.68
+      },
+      "fail": {
+        "x": 270.3,
+        "y": 655.68,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 655.68
+      }
+    },
+    {
+      "id": "pulse-r1-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 0,
+      "label": "Carotid @ BP 70/40",
+      "pass": {
+        "x": 126,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 644.16
+      },
+      "fail": {
+        "x": 126,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 644.16
+      }
+    },
+    {
+      "id": "pulse-r1-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 1,
+      "label": "Femoral @ BP 70/40",
+      "pass": {
+        "x": 162.1,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 644.16
+      },
+      "fail": {
+        "x": 162.1,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 644.16
+      }
+    },
+    {
+      "id": "pulse-r1-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 2,
+      "label": "Radial @ BP 70/40",
+      "pass": {
+        "x": 198.2,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 644.16
+      },
+      "fail": {
+        "x": 198.2,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 644.16
+      }
+    },
+    {
+      "id": "pulse-r1-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 3,
+      "label": "Pedal @ BP 70/40",
+      "pass": {
+        "x": 234.2,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 644.16
+      },
+      "fail": {
+        "x": 234.2,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 644.16
+      }
+    },
+    {
+      "id": "pulse-r1-c4",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 1,
+      "gridCol": 4,
+      "label": "Posterior Tibia @ BP 70/40",
+      "pass": {
+        "x": 270.3,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 644.16
+      },
+      "fail": {
+        "x": 270.3,
+        "y": 644.16,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 644.16
+      }
+    },
+    {
+      "id": "pulse-r2-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 0,
+      "label": "Carotid @ BP 80/40",
+      "pass": {
+        "x": 126,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 632.64
+      },
+      "fail": {
+        "x": 126,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 632.64
+      }
+    },
+    {
+      "id": "pulse-r2-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 1,
+      "label": "Femoral @ BP 80/40",
+      "pass": {
+        "x": 162.1,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 632.64
+      },
+      "fail": {
+        "x": 162.1,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 632.64
+      }
+    },
+    {
+      "id": "pulse-r2-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 2,
+      "label": "Radial @ BP 80/40",
+      "pass": {
+        "x": 198.2,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 632.64
+      },
+      "fail": {
+        "x": 198.2,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 632.64
+      }
+    },
+    {
+      "id": "pulse-r2-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 3,
+      "label": "Pedal @ BP 80/40",
+      "pass": {
+        "x": 234.2,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 632.64
+      },
+      "fail": {
+        "x": 234.2,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 632.64
+      }
+    },
+    {
+      "id": "pulse-r2-c4",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 2,
+      "gridCol": 4,
+      "label": "Posterior Tibia @ BP 80/40",
+      "pass": {
+        "x": 270.3,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 632.64
+      },
+      "fail": {
+        "x": 270.3,
+        "y": 632.64,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 632.64
+      }
+    },
+    {
+      "id": "pulse-r3-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 3,
+      "gridCol": 0,
+      "label": "Carotid @ BP 100/40",
+      "pass": {
+        "x": 126,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 621.24
+      },
+      "fail": {
+        "x": 126,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 621.24
+      }
+    },
+    {
+      "id": "pulse-r3-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 3,
+      "gridCol": 1,
+      "label": "Femoral @ BP 100/40",
+      "pass": {
+        "x": 162.1,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 621.24
+      },
+      "fail": {
+        "x": 162.1,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 621.24
+      }
+    },
+    {
+      "id": "pulse-r3-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 3,
+      "gridCol": 2,
+      "label": "Radial @ BP 100/40",
+      "pass": {
+        "x": 198.2,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 621.24
+      },
+      "fail": {
+        "x": 198.2,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 621.24
+      }
+    },
+    {
+      "id": "pulse-r3-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 3,
+      "gridCol": 3,
+      "label": "Pedal @ BP 100/40",
+      "pass": {
+        "x": 234.2,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 621.24
+      },
+      "fail": {
+        "x": 234.2,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 621.24
+      }
+    },
+    {
+      "id": "pulse-r3-c4",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 3,
+      "gridCol": 4,
+      "label": "Posterior Tibia @ BP 100/40",
+      "pass": {
+        "x": 270.3,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 621.24
+      },
+      "fail": {
+        "x": 270.3,
+        "y": 621.24,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 621.24
+      }
+    },
+    {
+      "id": "pulse-r4-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 4,
+      "gridCol": 0,
+      "label": "Carotid @ BP 200/120",
+      "pass": {
+        "x": 126,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 609.72
+      },
+      "fail": {
+        "x": 126,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 609.72
+      }
+    },
+    {
+      "id": "pulse-r4-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 4,
+      "gridCol": 1,
+      "label": "Femoral @ BP 200/120",
+      "pass": {
+        "x": 162.1,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 609.72
+      },
+      "fail": {
+        "x": 162.1,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 609.72
+      }
+    },
+    {
+      "id": "pulse-r4-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 4,
+      "gridCol": 2,
+      "label": "Radial @ BP 200/120",
+      "pass": {
+        "x": 198.2,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 609.72
+      },
+      "fail": {
+        "x": 198.2,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 609.72
+      }
+    },
+    {
+      "id": "pulse-r4-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 4,
+      "gridCol": 3,
+      "label": "Pedal @ BP 200/120",
+      "pass": {
+        "x": 234.2,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 609.72
+      },
+      "fail": {
+        "x": 234.2,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 609.72
+      }
+    },
+    {
+      "id": "pulse-r4-c4",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 4,
+      "gridCol": 4,
+      "label": "Posterior Tibia @ BP 200/120",
+      "pass": {
+        "x": 270.3,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 609.72
+      },
+      "fail": {
+        "x": 270.3,
+        "y": 609.72,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 609.72
+      }
+    },
+    {
+      "id": "pulse-r5-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 5,
+      "gridCol": 0,
+      "label": "Carotid @ BP 300/200",
+      "pass": {
+        "x": 126,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 598.2
+      },
+      "fail": {
+        "x": 126,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 598.2
+      }
+    },
+    {
+      "id": "pulse-r5-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 5,
+      "gridCol": 1,
+      "label": "Femoral @ BP 300/200",
+      "pass": {
+        "x": 162.1,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 598.2
+      },
+      "fail": {
+        "x": 162.1,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 598.2
+      }
+    },
+    {
+      "id": "pulse-r5-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 5,
+      "gridCol": 2,
+      "label": "Radial @ BP 300/200",
+      "pass": {
+        "x": 198.2,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 598.2
+      },
+      "fail": {
+        "x": 198.2,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 598.2
+      }
+    },
+    {
+      "id": "pulse-r5-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 5,
+      "gridCol": 3,
+      "label": "Pedal @ BP 300/200",
+      "pass": {
+        "x": 234.2,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 598.2
+      },
+      "fail": {
+        "x": 234.2,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 598.2
+      }
+    },
+    {
+      "id": "pulse-r5-c4",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 5,
+      "gridCol": 4,
+      "label": "Posterior Tibia @ BP 300/200",
+      "pass": {
+        "x": 270.3,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 598.2
+      },
+      "fail": {
+        "x": 270.3,
+        "y": 598.2,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 598.2
+      }
+    },
+    {
+      "id": "pulse-r6-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 6,
+      "gridCol": 0,
+      "label": "Carotid @ BP 120/80",
+      "pass": {
+        "x": 126,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 586.8
+      },
+      "fail": {
+        "x": 126,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 141.8,
+        "cy": 586.8
+      }
+    },
+    {
+      "id": "pulse-r6-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 6,
+      "gridCol": 1,
+      "label": "Femoral @ BP 120/80",
+      "pass": {
+        "x": 162.1,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 586.8
+      },
+      "fail": {
+        "x": 162.1,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 177.9,
+        "cy": 586.8
+      }
+    },
+    {
+      "id": "pulse-r6-c2",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 6,
+      "gridCol": 2,
+      "label": "Radial @ BP 120/80",
+      "pass": {
+        "x": 198.2,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 586.8
+      },
+      "fail": {
+        "x": 198.2,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 214,
+        "cy": 586.8
+      }
+    },
+    {
+      "id": "pulse-r6-c3",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 6,
+      "gridCol": 3,
+      "label": "Pedal @ BP 120/80",
+      "pass": {
+        "x": 234.2,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 586.8
+      },
+      "fail": {
+        "x": 234.2,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 250,
+        "cy": 586.8
+      }
+    },
+    {
+      "id": "pulse-r6-c4",
+      "page": 2,
+      "kind": "grid",
+      "grid": "pulse",
+      "gridRow": 6,
+      "gridCol": 4,
+      "label": "Posterior Tibia @ BP 120/80",
+      "pass": {
+        "x": 270.3,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 586.8
+      },
+      "fail": {
+        "x": 270.3,
+        "y": 586.8,
+        "w": 31.6,
+        "h": 0,
+        "cx": 286.1,
+        "cy": 586.8
+      }
+    },
+    {
+      "id": "ko-r0-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 0,
+      "label": "Right Arm Systolic (115-120)",
+      "pass": {
+        "x": 416,
+        "y": 655.68,
+        "w": 31,
+        "h": 0,
+        "cx": 431.5,
+        "cy": 655.68
+      },
+      "fail": {
+        "x": 416,
+        "y": 655.68,
+        "w": 31,
+        "h": 0,
+        "cx": 431.5,
+        "cy": 655.68
+      }
+    },
+    {
+      "id": "ko-r0-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 1,
+      "label": "Right Arm Diastolic (75-80)",
+      "pass": {
+        "x": 522,
+        "y": 655.68,
+        "w": 31,
+        "h": 0,
+        "cx": 537.5,
+        "cy": 655.68
+      },
+      "fail": {
+        "x": 522,
+        "y": 655.68,
+        "w": 31,
+        "h": 0,
+        "cx": 537.5,
+        "cy": 655.68
+      }
+    },
+    {
+      "id": "ko-r1-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 1,
+      "gridCol": 0,
+      "label": "Left Arm Systolic (115-120)",
+      "pass": {
+        "x": 416,
+        "y": 644.16,
+        "w": 31,
+        "h": 0,
+        "cx": 431.5,
+        "cy": 644.16
+      },
+      "fail": {
+        "x": 416,
+        "y": 644.16,
+        "w": 31,
+        "h": 0,
+        "cx": 431.5,
+        "cy": 644.16
+      }
+    },
+    {
+      "id": "ko-r1-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 1,
+      "gridCol": 1,
+      "label": "Left Arm Diastolic (75-80)",
+      "pass": {
+        "x": 522,
+        "y": 644.16,
+        "w": 31,
+        "h": 0,
+        "cx": 537.5,
+        "cy": 644.16
+      },
+      "fail": {
+        "x": 522,
+        "y": 644.16,
+        "w": 31,
+        "h": 0,
+        "cx": 537.5,
+        "cy": 644.16
+      }
+    },
+    {
+      "id": "verify-pulse",
+      "page": 2,
+      "kind": "single",
+      "label": "Pulse Strength Check (Verify √)",
+      "pass": {
+        "x": 54,
+        "y": 690,
+        "w": 36,
+        "h": 0,
+        "cx": 72,
+        "cy": 690
+      },
+      "fail": {
+        "x": 54,
+        "y": 690,
+        "w": 36,
+        "h": 0,
+        "cx": 72,
+        "cy": 690
+      }
+    },
+    {
+      "id": "verify-bp",
+      "page": 2,
+      "kind": "single",
+      "label": "Bp = 120/80 (Verify √)",
+      "pass": {
+        "x": 308,
+        "y": 690,
+        "w": 36,
+        "h": 0,
+        "cx": 326,
+        "cy": 690
+      },
+      "fail": {
+        "x": 308,
+        "y": 690,
+        "w": 36,
+        "h": 0,
+        "cx": 326,
+        "cy": 690
+      }
     }
   ],
   "textFields": [
@@ -2306,110 +3325,6 @@
       "w": 506.13
     },
     {
-      "id": "p2-t14",
-      "page": 2,
-      "label": "Pulse Strength Check",
-      "x": 54,
-      "y": 690,
-      "w": 120.24
-    },
-    {
-      "id": "p2-t18",
-      "page": 2,
-      "label": "Bp = 120/80",
-      "x": 308.28,
-      "y": 690,
-      "w": 85.41
-    },
-    {
-      "id": "p2-t32",
-      "page": 2,
-      "label": "60/40",
-      "x": 126,
-      "y": 655.68,
-      "w": 175.89
-    },
-    {
-      "id": "p2-t33",
-      "page": 2,
-      "label": "Right Arm",
-      "x": 416.39,
-      "y": 655.68,
-      "w": 29.86
-    },
-    {
-      "id": "p2-t34",
-      "page": 2,
-      "label": "60/40",
-      "x": 522,
-      "y": 655.68,
-      "w": 31.89
-    },
-    {
-      "id": "p2-t37",
-      "page": 2,
-      "label": "70/40",
-      "x": 126,
-      "y": 644.16,
-      "w": 175.89
-    },
-    {
-      "id": "p2-t39",
-      "page": 2,
-      "label": "Left Arm",
-      "x": 415.8,
-      "y": 644.16,
-      "w": 31.89
-    },
-    {
-      "id": "p2-t40",
-      "page": 2,
-      "label": "Left Arm",
-      "x": 522,
-      "y": 644.16,
-      "w": 31.89
-    },
-    {
-      "id": "p2-t43",
-      "page": 2,
-      "label": "80/40",
-      "x": 126,
-      "y": 632.64,
-      "w": 175.89
-    },
-    {
-      "id": "p2-t45",
-      "page": 2,
-      "label": "BP = 100/40",
-      "x": 126,
-      "y": 621.24,
-      "w": 175.89
-    },
-    {
-      "id": "p2-t47",
-      "page": 2,
-      "label": "BP = 200/120",
-      "x": 126,
-      "y": 609.72,
-      "w": 175.89
-    },
-    {
-      "id": "p2-t49",
-      "page": 2,
-      "label": "BP = 300/200",
-      "x": 126,
-      "y": 598.2,
-      "w": 175.89
-    },
-    {
-      "id": "p2-t51",
-      "page": 2,
-      "label": "BP = 120/80",
-      "x": 126,
-      "y": 586.8,
-      "w": 175.89
-    },
-    {
       "id": "p2-t52",
       "page": 2,
       "label": "Notes:",
@@ -2472,6 +3387,42 @@
       "x": 459.71,
       "y": 84.48,
       "w": 106.43
+    }
+  ],
+  "grids": [
+    {
+      "id": "pulse",
+      "page": 2,
+      "title": "Pulse Strength Check",
+      "rowLabels": [
+        "60/40",
+        "70/40",
+        "80/40",
+        "100/40",
+        "200/120",
+        "300/200",
+        "120/80"
+      ],
+      "colLabels": [
+        "Carotid",
+        "Femoral",
+        "Radial",
+        "Pedal",
+        "Posterior Tibia"
+      ]
+    },
+    {
+      "id": "korotkoff",
+      "page": 2,
+      "title": "BP = 120/80 (Korotkoff Sound)",
+      "rowLabels": [
+        "Right Arm",
+        "Left Arm"
+      ],
+      "colLabels": [
+        "Systolic (115-120)",
+        "Diastolic (75-80)"
+      ]
     }
   ]
 }
