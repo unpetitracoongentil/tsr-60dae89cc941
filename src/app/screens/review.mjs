@@ -22,11 +22,14 @@ export async function reviewScreen(app) {
     const res = await fetch(`./${app.fieldMap.template}`);
     const template = new Uint8Array(await res.arrayBuffer());
 
-    // Autofilled sign-off values are merged in at export, not stored per-keystroke.
+    // Autofilled sign-off values are merged in at export, not stored per
+    // keystroke. Fill EVERY matching field — some forms repeat the sign-off on
+    // more than one page (Victoria signs off on page 2 and page 3).
     const textValues = { ...app.report.textValues };
     for (const [key, re] of Object.entries(SIGN_OFF)) {
-      const field = app.fieldMap.textFields.find((f) => re.test(f.label));
-      if (field) textValues[field.id] = app.report[key];
+      for (const field of app.fieldMap.textFields.filter((f) => re.test(f.label))) {
+        textValues[field.id] = app.report[key];
+      }
     }
 
     return stampReport(template, app.fieldMap, {
