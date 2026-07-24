@@ -3382,6 +3382,160 @@
         "cx": 505.5,
         "cy": 66.25399999999999
       }
+    },
+    {
+      "id": "rec-p3-0",
+      "page": 3,
+      "kind": "pair",
+      "label": "Lower Right Lung",
+      "pass": {
+        "x": 244.25,
+        "y": 406.51,
+        "w": 10,
+        "h": 7.42,
+        "cx": 249.25,
+        "cy": 410.22
+      },
+      "fail": {
+        "x": 284.33,
+        "y": 406.51,
+        "w": 10,
+        "h": 7.42,
+        "cx": 289.33,
+        "cy": 410.22
+      }
+    },
+    {
+      "id": "rec-p3-1",
+      "page": 3,
+      "kind": "pair",
+      "label": "Duplex Streaming Audio",
+      "pass": {
+        "x": 505.06,
+        "y": 370.51,
+        "w": 10,
+        "h": 7.42,
+        "cx": 510.05999999999995,
+        "cy": 374.22
+      },
+      "fail": {
+        "x": 545.14,
+        "y": 370.51,
+        "w": 10,
+        "h": 7.42,
+        "cx": 550.14,
+        "cy": 374.22
+      }
+    },
+    {
+      "id": "rec-p3-2",
+      "page": 3,
+      "kind": "pair",
+      "label": "ET Tube Position 0 (ET Tube Removed)",
+      "pass": {
+        "x": 505.06,
+        "y": 123.26,
+        "w": 10,
+        "h": 7.42,
+        "cx": 510.05999999999995,
+        "cy": 126.97
+      },
+      "fail": {
+        "x": 545.14,
+        "y": 123.26,
+        "w": 10,
+        "h": 7.42,
+        "cx": 550.14,
+        "cy": 126.97
+      }
+    },
+    {
+      "id": "rec-p3-3",
+      "page": 3,
+      "kind": "pair",
+      "label": "Nasal Intubation size #6",
+      "pass": {
+        "x": 505.06,
+        "y": 110.3,
+        "w": 10,
+        "h": 7.42,
+        "cx": 510.05999999999995,
+        "cy": 114.00999999999999
+      },
+      "fail": {
+        "x": 545.14,
+        "y": 110.3,
+        "w": 10,
+        "h": 7.42,
+        "cx": 550.14,
+        "cy": 114.00999999999999
+      }
+    },
+    {
+      "id": "rec-p3-4",
+      "page": 3,
+      "kind": "pair",
+      "label": "Esophageal Intubation",
+      "pass": {
+        "x": 505.06,
+        "y": 97.22,
+        "w": 10,
+        "h": 7.42,
+        "cx": 510.05999999999995,
+        "cy": 100.934
+      },
+      "fail": {
+        "x": 545.14,
+        "y": 97.22,
+        "w": 10,
+        "h": 7.42,
+        "cx": 550.14,
+        "cy": 100.934
+      }
+    },
+    {
+      "id": "rec-p4-5",
+      "page": 4,
+      "kind": "pair",
+      "label": "Neck",
+      "pass": {
+        "x": 244.25,
+        "y": 424.99,
+        "w": 10,
+        "h": 7.42,
+        "cx": 249.25,
+        "cy": 428.70000000000005
+      },
+      "fail": {
+        "x": 284.33,
+        "y": 424.99,
+        "w": 10,
+        "h": 7.42,
+        "cx": 289.33,
+        "cy": 428.70000000000005
+      }
+    },
+    {
+      "id": "rec-p4-6",
+      "page": 4,
+      "kind": "pair",
+      "label": "S2400 serial number (posterior insert",
+      "pass": {
+        "x": 505.06,
+        "y": 388.27,
+        "w": 10,
+        "h": 7.42,
+        "cx": 510.05999999999995,
+        "cy": 391.98
+      },
+      "fail": {
+        "x": 545.14,
+        "y": 388.27,
+        "w": 10,
+        "h": 7.42,
+        "cx": 550.14,
+        "cy": 391.98
+      }
     }
   ],
   "textFields": [
@@ -4088,10 +4242,11 @@
       "groupLabel": "Job type",
       "label": "New",
       "page": 1,
-      "x": 377,
+      "x": 373.27,
       "y": 641.74,
-      "w": 8,
-      "h": 0
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
     },
     {
       "id": "opt-condition-repair",
@@ -4099,10 +4254,11 @@
       "groupLabel": "Job type",
       "label": "Repair",
       "page": 1,
-      "x": 420.27,
+      "x": 416.59,
       "y": 641.74,
-      "w": 8,
-      "h": 0
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
     },
     {
       "id": "opt-condition-upgrade",
@@ -4110,10 +4266,11 @@
       "groupLabel": "Job type",
       "label": "Upgrade",
       "page": 1,
-      "x": 470.91,
+      "x": 467.26,
       "y": 641.74,
-      "w": 8,
-      "h": 0
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
     },
     {
       "id": "opt-colour-light",
@@ -4121,10 +4278,11 @@
       "groupLabel": "Colour",
       "label": "Light",
       "page": 1,
-      "x": 379.68,
+      "x": 376.03,
       "y": 626.5,
-      "w": 8,
-      "h": 0
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
     },
     {
       "id": "opt-colour-medium",
@@ -4132,10 +4290,11 @@
       "groupLabel": "Colour",
       "label": "Medium",
       "page": 1,
-      "x": 428.05,
+      "x": 424.39,
       "y": 626.5,
-      "w": 8,
-      "h": 0
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
     },
     {
       "id": "opt-colour-dark",
@@ -4143,10 +4302,11 @@
       "groupLabel": "Colour",
       "label": "Dark",
       "page": 1,
-      "x": 464.46,
+      "x": 460.75,
       "y": 626.5,
-      "w": 8,
-      "h": 0
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
     },
     {
       "id": "opt-purpose-show",
@@ -4154,10 +4314,11 @@
       "groupLabel": "Show / Loaner",
       "label": "Show",
       "page": 1,
-      "x": 510.59,
+      "x": 506.86,
       "y": 641.74,
-      "w": 8,
-      "h": 0
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
     },
     {
       "id": "opt-purpose-loaner",
@@ -4165,10 +4326,11 @@
       "groupLabel": "Show / Loaner",
       "label": "Loaner",
       "page": 1,
-      "x": 555.27,
+      "x": 551.62,
       "y": 641.74,
-      "w": 8,
-      "h": 0
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
     }
   ]
 }
