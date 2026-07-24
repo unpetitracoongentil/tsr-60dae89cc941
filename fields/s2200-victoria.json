@@ -1,0 +1,7624 @@
+{
+  "form": "s2200-victoria",
+  "template": "templates/s2200-victoria.pdf",
+  "pageCount": 4,
+  "pageSize": {
+    "width": 612,
+    "height": 792
+  },
+  "generatedBy": "tools/extract-cli.mjs",
+  "rows": [
+    {
+      "id": "p1-s1-r0",
+      "page": 1,
+      "section": 1,
+      "kind": "pair",
+      "label": "Battery Level when charging test",
+      "pass": {
+        "x": 229.61,
+        "y": 444.43,
+        "w": 31.44,
+        "h": 0.48,
+        "cx": 245.33,
+        "cy": 444.67,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 274.61,
+        "y": 444.43,
+        "w": 31.44,
+        "h": 0.48,
+        "cx": 290.33000000000004,
+        "cy": 444.67,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s1-r1",
+      "page": 1,
+      "section": 1,
+      "kind": "pair",
+      "label": "Compressor Press ure up to 180 mmHg",
+      "pass": {
+        "x": 228.89,
+        "y": 427.63,
+        "w": 32.16,
+        "h": 0.48,
+        "cx": 244.96999999999997,
+        "cy": 427.87,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 273.89,
+        "y": 427.63,
+        "w": 32.16,
+        "h": 0.48,
+        "cx": 289.96999999999997,
+        "cy": 427.87,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s1-r2",
+      "page": 1,
+      "section": 1,
+      "kind": "pair",
+      "label": "Power Supply",
+      "pass": {
+        "x": 496.18,
+        "y": 444.43,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 513.22,
+        "cy": 444.67,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 542.02,
+        "y": 444.43,
+        "w": 34.08,
+        "h": 0.48,
+        "cx": 559.06,
+        "cy": 444.67,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s1-r3",
+      "page": 1,
+      "section": 1,
+      "kind": "pair",
+      "label": "Epidural (too deep)",
+      "pass": {
+        "x": 495.46,
+        "y": 427.63,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 512.86,
+        "cy": 427.87,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.3,
+        "y": 427.63,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 558.6999999999999,
+        "cy": 427.87,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r4",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Left Eye Dilation “Light”",
+      "pass": {
+        "x": 213.53,
+        "y": 327.17,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 327.41,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 327.17,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 327.41,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r5",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Right Eye Dilation “Light”",
+      "pass": {
+        "x": 213.53,
+        "y": 312.29,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 312.53000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 312.29,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 312.53000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r6",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Eye s Blinking",
+      "pass": {
+        "x": 213.53,
+        "y": 297.41,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 297.65000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 297.41,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 297.65000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r7",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Carotid Right Pulse",
+      "pass": {
+        "x": 213.53,
+        "y": 282.53,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 282.77,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 282.53,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 282.77,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r8",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Carotid Left Pulse",
+      "pass": {
+        "x": 213.53,
+        "y": 267.65,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 267.89,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 267.65,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 267.89,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r9",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Brachial Right Pulse",
+      "pass": {
+        "x": 213.53,
+        "y": 252.65,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 252.89000000000001,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 252.65,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 252.89000000000001,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r10",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Brachial Left Pulse",
+      "pass": {
+        "x": 213.53,
+        "y": 237.77,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 238.01000000000002,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 237.77,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 238.01000000000002,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r11",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Radial Right Pulse",
+      "pass": {
+        "x": 213.53,
+        "y": 222.89,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 223.13,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 222.89,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 223.13,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r12",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Radial Left Pulse",
+      "pass": {
+        "x": 213.53,
+        "y": 208.01,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 208.25,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 208.01,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 208.25,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r13",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Right Radial Pulse D isabled",
+      "pass": {
+        "x": 213.53,
+        "y": 193.13,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 193.37,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 193.13,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 193.37,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r14",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Left Radial Pulse Disabled",
+      "pass": {
+        "x": 213.53,
+        "y": 178.22,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 178.46,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 178.22,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 178.46,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r15",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Chest Rise",
+      "pass": {
+        "x": 213.53,
+        "y": 163.34,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 163.58,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 163.34,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 163.58,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r16",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "",
+      "pass": {
+        "x": 213.53,
+        "y": 139.82,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 140.06,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 139.82,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 140.06,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r17",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "4 Seizures ( Mild )",
+      "pass": {
+        "x": 495.46,
+        "y": 327.17,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 327.41,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 327.17,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 327.41,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r18",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "5 Seizures (Severe)",
+      "pass": {
+        "x": 495.46,
+        "y": 312.29,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 312.53000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 312.29,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 312.53000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r19",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "6 Laryngospasm",
+      "pass": {
+        "x": 495.46,
+        "y": 297.41,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 297.65000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 297.41,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 297.65000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r20",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "7 Tongue Edema",
+      "pass": {
+        "x": 495.46,
+        "y": 282.53,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 282.77,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 282.53,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 282.77,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r21",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "8 Pharyngea l swelling",
+      "pass": {
+        "x": 495.46,
+        "y": 267.65,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 267.89,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 267.65,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 267.89,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r22",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "O 2 SAT Index Left (70, 80, 95)",
+      "pass": {
+        "x": 495.46,
+        "y": 252.65,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 252.89000000000001,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 252.65,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 252.89000000000001,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r23",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "Left IV Arm test",
+      "pass": {
+        "x": 495.46,
+        "y": 237.77,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 238.01000000000002,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 237.77,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 238.01000000000002,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r24",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "a Identify tag",
+      "pass": {
+        "x": 495.46,
+        "y": 208.01,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 208.25,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 208.01,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 208.25,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r25",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "b Programming tab",
+      "pass": {
+        "x": 495.46,
+        "y": 193.13,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 193.37,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 193.13,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 193.37,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r26",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "c Detection 10 ml drug",
+      "pass": {
+        "x": 495.46,
+        "y": 178.22,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 178.46,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 178.22,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 178.46,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r27",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "d Delete drugs",
+      "pass": {
+        "x": 495.46,
+        "y": 163.34,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 163.58,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 163.34,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 163.58,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r28",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "right side, power connection box )",
+      "pass": {
+        "x": 495.46,
+        "y": 139.82,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 140.06,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 139.82,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 140.06,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p1-s2-r29",
+      "page": 1,
+      "section": 2,
+      "kind": "pair",
+      "label": "CO 2 (Optional)",
+      "pass": {
+        "x": 494.74,
+        "y": 124.94,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 512.32,
+        "cy": 125.17999999999999,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 540.94,
+        "y": 124.94,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 558.5200000000001,
+        "cy": 125.17999999999999,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r0",
+      "page": 2,
+      "section": 0,
+      "kind": "single",
+      "label": "Lung Right Upper Front",
+      "pass": {
+        "x": 198.02,
+        "y": 555.34,
+        "w": 51.26,
+        "h": 0.48,
+        "cx": 223.65,
+        "cy": 555.58,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198.02,
+        "y": 555.34,
+        "w": 51.26,
+        "h": 0.48,
+        "cx": 223.65,
+        "cy": 555.58,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r1",
+      "page": 2,
+      "section": 0,
+      "kind": "single",
+      "label": "Lung Left Upper Front",
+      "pass": {
+        "x": 198.02,
+        "y": 540.46,
+        "w": 51.26,
+        "h": 0.48,
+        "cx": 223.65,
+        "cy": 540.7,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198.02,
+        "y": 540.46,
+        "w": 51.26,
+        "h": 0.48,
+        "cx": 223.65,
+        "cy": 540.7,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r2",
+      "page": 2,
+      "section": 0,
+      "kind": "single",
+      "label": "Heart Sound",
+      "pass": {
+        "x": 198.02,
+        "y": 525.43,
+        "w": 51.26,
+        "h": 0.48,
+        "cx": 223.65,
+        "cy": 525.67,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 198.02,
+        "y": 525.43,
+        "w": 51.26,
+        "h": 0.48,
+        "cx": 223.65,
+        "cy": 525.67,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r3",
+      "page": 2,
+      "section": 0,
+      "kind": "single",
+      "label": "Throat Sound",
+      "pass": {
+        "x": 486.1,
+        "y": 555.34,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.72,
+        "cy": 555.58,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486.1,
+        "y": 555.34,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.72,
+        "cy": 555.58,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r4",
+      "page": 2,
+      "section": 0,
+      "kind": "single",
+      "label": "Speech",
+      "pass": {
+        "x": 486.1,
+        "y": 540.46,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.72,
+        "cy": 540.7,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486.1,
+        "y": 540.46,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.72,
+        "cy": 540.7,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r5",
+      "page": 2,
+      "section": 0,
+      "kind": "single",
+      "label": "Streaming Voice Spkr",
+      "pass": {
+        "x": 486.1,
+        "y": 525.43,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.72,
+        "cy": 525.67,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 486.1,
+        "y": 525.43,
+        "w": 51.24,
+        "h": 0.48,
+        "cx": 511.72,
+        "cy": 525.67,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s0-r6",
+      "page": 2,
+      "section": 0,
+      "kind": "single",
+      "label": "Streaming Voice M - phone",
+      "pass": {
+        "x": 485.38,
+        "y": 510.55,
+        "w": 51.96,
+        "h": 0.48,
+        "cx": 511.36,
+        "cy": 510.79,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 485.38,
+        "y": 510.55,
+        "w": 51.96,
+        "h": 0.48,
+        "cx": 511.36,
+        "cy": 510.79,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r7",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "ET Tube Position 3 (Too Deep)",
+      "pass": {
+        "x": 213.53,
+        "y": 444.55,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 444.79,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 444.55,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 444.79,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r8",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "ET Tube Position 1 (Normal)",
+      "pass": {
+        "x": 213.53,
+        "y": 429.67,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 429.91,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 429.67,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 429.91,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r9",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Nose Intubation",
+      "pass": {
+        "x": 213.53,
+        "y": 414.79,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 415.03000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 414.79,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 415.03000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r10",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Artificial Ventilation with Mask",
+      "pass": {
+        "x": 213.53,
+        "y": 399.91,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 400.15000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 399.91,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 400.15000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r11",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Auto Lung Sound",
+      "pass": {
+        "x": 213.53,
+        "y": 384.91,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 385.15000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 384.91,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 385.15000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r12",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Chest Compression",
+      "pass": {
+        "x": 213.53,
+        "y": 370.03,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 370.27,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 370.03,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 370.27,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r13",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Auto Carotid Pulse",
+      "pass": {
+        "x": 213.53,
+        "y": 355.13,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 355.37,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 355.13,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 355.37,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r14",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Simultaneous compressions/ventilat.",
+      "pass": {
+        "x": 213.53,
+        "y": 340.25,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 340.49,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 340.25,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 340.49,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r15",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "ECG at ECG snaps",
+      "pass": {
+        "x": 213.53,
+        "y": 325.37,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 325.61,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 325.37,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 325.61,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r16",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Rhythms and HR’s OK",
+      "pass": {
+        "x": 213.53,
+        "y": 310.49,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 230.75,
+        "cy": 310.73,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.73,
+        "y": 310.49,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 276.89000000000004,
+        "cy": 310.73,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r17",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "ECG at defib snaps s ites",
+      "pass": {
+        "x": 212.81,
+        "y": 295.49,
+        "w": 35.16,
+        "h": 0.48,
+        "cx": 230.39,
+        "cy": 295.73,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.01,
+        "y": 295.49,
+        "w": 35.04,
+        "h": 0.48,
+        "cx": 276.53,
+        "cy": 295.73,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r18",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "2 Pacing detection",
+      "pass": {
+        "x": 495.46,
+        "y": 444.55,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 444.79,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 444.55,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 444.79,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r19",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "3 Pacing capture",
+      "pass": {
+        "x": 495.46,
+        "y": 429.67,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 429.91,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 429.67,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 429.91,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r20",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "a Si mulator S/N Label",
+      "pass": {
+        "x": 495.46,
+        "y": 399.91,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 400.15000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 399.91,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 400.15000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r21",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "b URINE 200 ml max",
+      "pass": {
+        "x": 495.46,
+        "y": 384.91,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 385.15000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 384.91,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 385.15000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r22",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "c BLOOD 200ml max",
+      "pass": {
+        "x": 495.46,
+        "y": 370.03,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 370.27,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 370.03,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 370.27,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r23",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "d LUBE 10 ml max",
+      "pass": {
+        "x": 495.46,
+        "y": 355.13,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 355.37,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 355.13,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 355.37,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r24",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "e DRAIN after delivery",
+      "pass": {
+        "x": 495.46,
+        "y": 340.25,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 340.49,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 340.25,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 340.49,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r25",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Ri ght leg rotation sensor",
+      "pass": {
+        "x": 495.46,
+        "y": 325.37,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 325.61,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 325.37,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 325.61,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s1-r26",
+      "page": 2,
+      "section": 1,
+      "kind": "pair",
+      "label": "Left leg rotation sensor",
+      "pass": {
+        "x": 495.46,
+        "y": 310.49,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 512.68,
+        "cy": 310.73,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 541.66,
+        "y": 310.49,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 558.88,
+        "cy": 310.73,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r27",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "Rotation Motor Encoder",
+      "pass": {
+        "x": 213.65,
+        "y": 235.37,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 230.93,
+        "cy": 235.61,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 260.09,
+        "y": 235.37,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 277.25,
+        "cy": 235.61,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r28",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "Translation Motor",
+      "pass": {
+        "x": 213.65,
+        "y": 223.37,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 230.93,
+        "cy": 223.61,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 260.09,
+        "y": 223.37,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 277.25,
+        "cy": 223.61,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r29",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "Lu brication",
+      "pass": {
+        "x": 213.65,
+        "y": 211.37,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 230.93,
+        "cy": 211.61,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 260.09,
+        "y": 211.37,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 277.25,
+        "cy": 211.61,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r30",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "",
+      "pass": {
+        "x": 213.65,
+        "y": 187.97,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 230.93,
+        "cy": 188.21,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 260.09,
+        "y": 187.97,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 277.25,
+        "cy": 188.21,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r31",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "",
+      "pass": {
+        "x": 213.65,
+        "y": 168.5,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 230.93,
+        "cy": 168.74,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 260.09,
+        "y": 168.5,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 277.25,
+        "cy": 168.74,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r32",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "Check Victoria cervices",
+      "pass": {
+        "x": 213.65,
+        "y": 151.7,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 230.93,
+        "cy": 151.94,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 260.09,
+        "y": 151.7,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 277.25,
+        "cy": 151.94,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r33",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "Chec k Drain",
+      "pass": {
+        "x": 213.65,
+        "y": 139.7,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 230.93,
+        "cy": 139.94,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 260.09,
+        "y": 139.7,
+        "w": 34.32,
+        "h": 0.48,
+        "cx": 277.25,
+        "cy": 139.94,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r34",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "Hemorrhage",
+      "pass": {
+        "x": 212.93,
+        "y": 127.7,
+        "w": 35.28,
+        "h": 0.48,
+        "cx": 230.57,
+        "cy": 127.94,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 259.37,
+        "y": 127.7,
+        "w": 35.04,
+        "h": 0.48,
+        "cx": 276.89,
+        "cy": 127.94,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r35",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "VDB S/N ___________________",
+      "pass": {
+        "x": 496.06,
+        "y": 223.37,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 513.34,
+        "cy": 223.61,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 542.5,
+        "y": 223.37,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 559.72,
+        "cy": 223.61,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r36",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "Perform one full delivery",
+      "pass": {
+        "x": 496.06,
+        "y": 211.37,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 513.34,
+        "cy": 211.61,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 542.5,
+        "y": 211.37,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 559.72,
+        "cy": 211.61,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r37",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "leaking",
+      "pass": {
+        "x": 496.06,
+        "y": 187.97,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 513.34,
+        "cy": 188.21,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 542.5,
+        "y": 187.97,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 559.72,
+        "cy": 188.21,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r38",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "",
+      "pass": {
+        "x": 496.06,
+        "y": 168.5,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 513.34,
+        "cy": 168.74,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 542.5,
+        "y": 168.5,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 559.72,
+        "cy": 168.74,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p2-s2-r39",
+      "page": 2,
+      "section": 2,
+      "kind": "pair",
+      "label": "",
+      "pass": {
+        "x": 496.06,
+        "y": 151.7,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 513.34,
+        "cy": 151.94,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 542.5,
+        "y": 151.7,
+        "w": 34.44,
+        "h": 0.48,
+        "cx": 559.72,
+        "cy": 151.94,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r0",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Check contraction intensity w/monitor",
+      "pass": {
+        "x": 229.61,
+        "y": 607.54,
+        "w": 36,
+        "h": 0.48,
+        "cx": 247.61,
+        "cy": 607.78,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 279.05,
+        "y": 607.54,
+        "w": 31.56,
+        "h": 0.48,
+        "cx": 294.83,
+        "cy": 607.78,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r1",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Upper Fetal TOCO Sound",
+      "pass": {
+        "x": 229.61,
+        "y": 591.1,
+        "w": 36,
+        "h": 0.48,
+        "cx": 247.61,
+        "cy": 591.34,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 279.05,
+        "y": 591.1,
+        "w": 31.56,
+        "h": 0.48,
+        "cx": 294.83,
+        "cy": 591.34,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r2",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Lower Fetal TOCO Sound",
+      "pass": {
+        "x": 229.61,
+        "y": 574.78,
+        "w": 36,
+        "h": 0.48,
+        "cx": 247.61,
+        "cy": 575.02,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 279.05,
+        "y": 574.78,
+        "w": 31.56,
+        "h": 0.48,
+        "cx": 294.83,
+        "cy": 575.02,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r3",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Bowel Sound Left/Right",
+      "pass": {
+        "x": 229.61,
+        "y": 558.46,
+        "w": 36,
+        "h": 0.48,
+        "cx": 247.61,
+        "cy": 558.7,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 279.05,
+        "y": 558.46,
+        "w": 31.56,
+        "h": 0.48,
+        "cx": 294.83,
+        "cy": 558.7,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r4",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Suprapubic Pressure",
+      "pass": {
+        "x": 229.61,
+        "y": 542.14,
+        "w": 36,
+        "h": 0.48,
+        "cx": 247.61,
+        "cy": 542.38,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 279.05,
+        "y": 542.14,
+        "w": 31.56,
+        "h": 0.48,
+        "cx": 294.83,
+        "cy": 542.38,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r5",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Overall condition, fits and latch to torso",
+      "pass": {
+        "x": 229.61,
+        "y": 525.67,
+        "w": 36,
+        "h": 0.48,
+        "cx": 247.61,
+        "cy": 525.91,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 279.05,
+        "y": 525.67,
+        "w": 31.56,
+        "h": 0.48,
+        "cx": 294.83,
+        "cy": 525.91,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r6",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Urinary Catheterization",
+      "pass": {
+        "x": 498.94,
+        "y": 607.54,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 607.78,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 607.54,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 607.78,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r7",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Uterine Hemorrhage",
+      "pass": {
+        "x": 498.94,
+        "y": 591.1,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 591.34,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 591.1,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 591.34,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r8",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Vaginal Hemorrhage",
+      "pass": {
+        "x": 498.94,
+        "y": 574.78,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 575.02,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 574.78,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 575.02,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r9",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Suppository",
+      "pass": {
+        "x": 498.94,
+        "y": 558.46,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 558.7,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 558.46,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 558.7,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r10",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Switch position",
+      "pass": {
+        "x": 498.94,
+        "y": 542.14,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 542.38,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 542.14,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 542.38,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r11",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Overall condition and fits in torso",
+      "pass": {
+        "x": 498.94,
+        "y": 525.67,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 525.91,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 525.67,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 525.91,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r12",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Uterine pressure",
+      "pass": {
+        "x": 498.94,
+        "y": 509.35,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 509.59000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 509.35,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 509.59000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s0-r13",
+      "page": 3,
+      "section": 0,
+      "kind": "pair",
+      "label": "Vic toria and the PPH cover",
+      "pass": {
+        "x": 498.22,
+        "y": 485.83,
+        "w": 35.4,
+        "h": 0.48,
+        "cx": 515.9200000000001,
+        "cy": 486.07,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.02,
+        "y": 485.83,
+        "w": 35.52,
+        "h": 0.48,
+        "cx": 562.78,
+        "cy": 486.07,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r14",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Overall condition and fits in torso",
+      "pass": {
+        "x": 214.85,
+        "y": 430.75,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 232.19,
+        "cy": 430.99,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 261.41,
+        "y": 430.75,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 278.69000000000005,
+        "cy": 430.99,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r15",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "",
+      "pass": {
+        "x": 214.85,
+        "y": 407.35,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 232.19,
+        "cy": 407.59000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 261.41,
+        "y": 407.35,
+        "w": 34.56,
+        "h": 0.48,
+        "cx": 278.69000000000005,
+        "cy": 407.59000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r16",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "Overall condition, fits and latch to torso",
+      "pass": {
+        "x": 499.18,
+        "y": 430.75,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.52,
+        "cy": 430.99,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 430.75,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 430.99,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r17",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "f its to belly",
+      "pass": {
+        "x": 499.18,
+        "y": 407.35,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.52,
+        "cy": 407.59000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 407.35,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 407.59000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s1-r18",
+      "page": 3,
+      "section": 1,
+      "kind": "pair",
+      "label": "C - Section insert snaps inspection",
+      "pass": {
+        "x": 498.46,
+        "y": 390.91,
+        "w": 35.4,
+        "h": 0.48,
+        "cx": 516.16,
+        "cy": 391.15000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.02,
+        "y": 390.91,
+        "w": 35.52,
+        "h": 0.48,
+        "cx": 562.78,
+        "cy": 391.15000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s2-r19",
+      "page": 3,
+      "section": 2,
+      "kind": "pair",
+      "label": "Snaps position and orientation",
+      "pass": {
+        "x": 229.61,
+        "y": 324.29,
+        "w": 36,
+        "h": 0.48,
+        "cx": 247.61,
+        "cy": 324.53000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 279.05,
+        "y": 324.29,
+        "w": 31.56,
+        "h": 0.48,
+        "cx": 294.83,
+        "cy": 324.53000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s2-r20",
+      "page": 3,
+      "section": 2,
+      "kind": "pair",
+      "label": "Overall condition",
+      "pass": {
+        "x": 229.61,
+        "y": 307.97,
+        "w": 36,
+        "h": 0.48,
+        "cx": 247.61,
+        "cy": 308.21000000000004,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 279.05,
+        "y": 307.97,
+        "w": 31.56,
+        "h": 0.48,
+        "cx": 294.83,
+        "cy": 308.21000000000004,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s2-r21",
+      "page": 3,
+      "section": 2,
+      "kind": "pair",
+      "label": "Urinary Catheterization",
+      "pass": {
+        "x": 498.94,
+        "y": 324.29,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 324.53000000000003,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 324.29,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 324.53000000000003,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s2-r22",
+      "page": 3,
+      "section": 2,
+      "kind": "pair",
+      "label": "Uterine Hemorrhage",
+      "pass": {
+        "x": 498.94,
+        "y": 307.97,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 308.21000000000004,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 307.97,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 308.21000000000004,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s2-r23",
+      "page": 3,
+      "section": 2,
+      "kind": "pair",
+      "label": "Vagi nal Hemorrhage",
+      "pass": {
+        "x": 498.94,
+        "y": 295.97,
+        "w": 34.68,
+        "h": 0.48,
+        "cx": 516.28,
+        "cy": 296.21000000000004,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.74,
+        "y": 295.97,
+        "w": 34.8,
+        "h": 0.48,
+        "cx": 563.14,
+        "cy": 296.21000000000004,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p3-s2-r24",
+      "page": 3,
+      "section": 2,
+      "kind": "pair",
+      "label": "Snaps position and orientation",
+      "pass": {
+        "x": 498.22,
+        "y": 283.97,
+        "w": 35.4,
+        "h": 0.48,
+        "cx": 515.9200000000001,
+        "cy": 284.21000000000004,
+        "source": "rect"
+      },
+      "fail": {
+        "x": 545.02,
+        "y": 283.97,
+        "w": 35.52,
+        "h": 0.48,
+        "cx": 562.78,
+        "cy": 284.21000000000004,
+        "source": "rect"
+      }
+    },
+    {
+      "id": "p4-s0-r0",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Blinking Function",
+      "pass": {
+        "x": 189.2,
+        "y": 664.75,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 664.75,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 664.75,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 664.75,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r1",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "blinks per min (60 secs)",
+      "pass": {
+        "x": 189.28,
+        "y": 646.92,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 646.92,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 646.92,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 646.92,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r2",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "blinks per min (60 secs)",
+      "pass": {
+        "x": 189.2,
+        "y": 646.75,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 646.75,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 646.75,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 646.75,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r3",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "blinks per min (60 secs)",
+      "pass": {
+        "x": 189.28,
+        "y": 646.58,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 646.58,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 646.58,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 646.58,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r4",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "blinks per min (60 secs)",
+      "pass": {
+        "x": 189.28,
+        "y": 627.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 627.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 627.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 627.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r5",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "blinks per min (60 secs)",
+      "pass": {
+        "x": 189.2,
+        "y": 627.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 627.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 627.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 627.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r6",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.28,
+        "y": 627.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 627.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 627.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 627.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r7",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "blinks per min (60 secs)",
+      "pass": {
+        "x": 189.28,
+        "y": 609.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 609.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 609.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 609.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r8",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "blinks per min (60 secs)",
+      "pass": {
+        "x": 189.2,
+        "y": 609.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 609.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 609.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 609.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r9",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "blinks per min (60 secs)",
+      "pass": {
+        "x": 189.28,
+        "y": 609.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 609.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 609.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 609.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r10",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Pupil Reaction",
+      "pass": {
+        "x": 468.8,
+        "y": 664.75,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 664.75,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 664.75,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 664.75,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r11",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Consensual reaction to light ON/OFF",
+      "pass": {
+        "x": 468.88,
+        "y": 646.92,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 646.92,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 646.92,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 646.92,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r12",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Consensual reaction to light ON/OFF",
+      "pass": {
+        "x": 468.8,
+        "y": 646.75,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 646.75,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 646.75,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 646.75,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r13",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Consensual reaction to light ON/OFF",
+      "pass": {
+        "x": 468.88,
+        "y": 646.58,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 646.58,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 646.58,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 646.58,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r14",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Right eye reaction ON/OFF",
+      "pass": {
+        "x": 468.88,
+        "y": 627.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 627.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 627.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 627.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r15",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Right eye reaction ON/OFF",
+      "pass": {
+        "x": 468.8,
+        "y": 627.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 627.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 627.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 627.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r16",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.88,
+        "y": 627.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 627.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 627.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 627.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r17",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Left eye reaction ON/ OFF",
+      "pass": {
+        "x": 468.88,
+        "y": 609.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 609.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 609.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 609.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r18",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Left eye reaction ON/ OFF",
+      "pass": {
+        "x": 468.8,
+        "y": 609.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 609.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 609.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 609.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s0-r19",
+      "page": 4,
+      "section": 0,
+      "kind": "single",
+      "label": "Left eye reaction ON/ OFF",
+      "pass": {
+        "x": 468.88,
+        "y": 609.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 609.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 609.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 609.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r20",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Eye Strabismus",
+      "pass": {
+        "x": 189.28,
+        "y": 591.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 591.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 591.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 591.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r21",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Eye Strabismus",
+      "pass": {
+        "x": 189.2,
+        "y": 591.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 591.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 591.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 591.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r22",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Eye Strabismus",
+      "pass": {
+        "x": 189.28,
+        "y": 591.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 591.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 591.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 591.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r23",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Crossed eyes",
+      "pass": {
+        "x": 189.28,
+        "y": 573.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 573.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 573.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 573.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r24",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Crossed eyes",
+      "pass": {
+        "x": 189.2,
+        "y": 573.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 573.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 573.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 573.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r25",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Crossed eyes",
+      "pass": {
+        "x": 189.28,
+        "y": 573.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 573.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 573.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 573.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r26",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left esotropia",
+      "pass": {
+        "x": 189.28,
+        "y": 555.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 555.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 555.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 555.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r27",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left esotropia",
+      "pass": {
+        "x": 189.2,
+        "y": 555.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 555.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 555.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 555.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r28",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left esotropia",
+      "pass": {
+        "x": 189.28,
+        "y": 555.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 555.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 555.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 555.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r29",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left exotropia",
+      "pass": {
+        "x": 189.28,
+        "y": 537.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 537.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 537.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 537.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r30",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left exotropia",
+      "pass": {
+        "x": 189.2,
+        "y": 537.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 537.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 537.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 537.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r31",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left exotropia",
+      "pass": {
+        "x": 189.28,
+        "y": 537.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 537.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 537.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 537.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r32",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right esotropia",
+      "pass": {
+        "x": 189.28,
+        "y": 519.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 519.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 519.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 519.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r33",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right esotropia",
+      "pass": {
+        "x": 189.2,
+        "y": 519.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 519.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 519.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 519.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r34",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right esotropia",
+      "pass": {
+        "x": 189.28,
+        "y": 519.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 519.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 519.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 519.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r35",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right exotropia",
+      "pass": {
+        "x": 189.28,
+        "y": 501.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 501.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 501.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 501.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r36",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right exotropia",
+      "pass": {
+        "x": 189.2,
+        "y": 501.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 501.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 501.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 501.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r37",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right exotropia",
+      "pass": {
+        "x": 189.28,
+        "y": 501.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 501.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 501.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 501.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r38",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Pupil Dilation",
+      "pass": {
+        "x": 468.88,
+        "y": 591.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 591.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 591.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 591.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r39",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Pupil Dilation",
+      "pass": {
+        "x": 468.8,
+        "y": 591.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 591.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 591.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 591.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r40",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Pupil Dilation",
+      "pass": {
+        "x": 468.88,
+        "y": 591.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 591.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 591.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 591.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r41",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left pupil dilation",
+      "pass": {
+        "x": 468.88,
+        "y": 573.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 573.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 573.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 573.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r42",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left pupil dilation",
+      "pass": {
+        "x": 468.8,
+        "y": 573.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 573.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 573.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 573.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r43",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Left pupil dilation",
+      "pass": {
+        "x": 468.88,
+        "y": 573.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 573.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 573.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 573.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r44",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right pupil dilation",
+      "pass": {
+        "x": 468.88,
+        "y": 555.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 555.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 555.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 555.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r45",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right pupil dilation",
+      "pass": {
+        "x": 468.8,
+        "y": 555.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 555.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 555.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 555.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r46",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Right pupil dilation",
+      "pass": {
+        "x": 468.88,
+        "y": 555.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 555.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 555.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 555.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r47",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Mydriasis right 9/left 9 pupils",
+      "pass": {
+        "x": 468.88,
+        "y": 537.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 537.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 537.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 537.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r48",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Mydriasis right 9/left 9 pupils",
+      "pass": {
+        "x": 468.8,
+        "y": 537.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 537.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 537.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 537.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r49",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Mydriasis right 9/left 9 pupils",
+      "pass": {
+        "x": 468.88,
+        "y": 537.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 537.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 537.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 537.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r50",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Anisocoria right 7/left 2 pupils",
+      "pass": {
+        "x": 468.88,
+        "y": 519.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 519.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 519.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 519.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r51",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Anisocoria right 7/left 2 pupils",
+      "pass": {
+        "x": 468.8,
+        "y": 519.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 519.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 519.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 519.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r52",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "Anisocoria right 7/left 2 pupils",
+      "pass": {
+        "x": 468.88,
+        "y": 519.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 519.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 519.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 519.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r53",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.88,
+        "y": 501.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 501.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 501.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 501.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r54",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.8,
+        "y": 501.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 501.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 501.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 501.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s1-r55",
+      "page": 4,
+      "section": 1,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.88,
+        "y": 501.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 501.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 501.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 501.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r56",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Eye Auto Tracking",
+      "pass": {
+        "x": 189.28,
+        "y": 483.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 483.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 483.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 483.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r57",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Eye Auto Tracking",
+      "pass": {
+        "x": 189.2,
+        "y": 483.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 483.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 483.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 483.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r58",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Eye Auto Tracking",
+      "pass": {
+        "x": 189.28,
+        "y": 483.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 483.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 483.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 483.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r59",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Both eyes",
+      "pass": {
+        "x": 189.28,
+        "y": 466.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 466.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 466.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 466.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r60",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Both eyes",
+      "pass": {
+        "x": 189.2,
+        "y": 466.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 466.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 466.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 466.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r61",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Both eyes",
+      "pass": {
+        "x": 189.28,
+        "y": 466.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 466.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 466.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 466.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r62",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right eye only",
+      "pass": {
+        "x": 189.28,
+        "y": 449.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 449.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 449.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 449.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r63",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right eye only",
+      "pass": {
+        "x": 189.2,
+        "y": 449.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 449.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 449.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 449.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r64",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right eye only",
+      "pass": {
+        "x": 189.28,
+        "y": 449.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 449.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 449.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 449.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r65",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left eye only",
+      "pass": {
+        "x": 189.28,
+        "y": 432.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 432.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 432.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 432.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r66",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left eye only",
+      "pass": {
+        "x": 189.2,
+        "y": 432.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 432.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 432.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 432.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r67",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left eye only",
+      "pass": {
+        "x": 189.28,
+        "y": 432.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 432.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 432.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 432.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r68",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Horizontal nystagmus",
+      "pass": {
+        "x": 189.28,
+        "y": 414.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 414.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 414.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 414.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r69",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Horizontal nystagmus",
+      "pass": {
+        "x": 189.2,
+        "y": 414.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 414.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 414.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 414.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r70",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Horizontal nystagmus",
+      "pass": {
+        "x": 189.28,
+        "y": 414.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 414.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 414.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 414.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r71",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right nystagmus",
+      "pass": {
+        "x": 189.28,
+        "y": 396.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 396.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 396.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 396.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r72",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right nystagmus",
+      "pass": {
+        "x": 189.2,
+        "y": 396.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 396.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 396.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 396.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r73",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right nystagmus",
+      "pass": {
+        "x": 189.28,
+        "y": 396.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 396.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 396.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 396.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r74",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left nystagmus",
+      "pass": {
+        "x": 189.28,
+        "y": 378.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 378.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 378.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 378.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r75",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left nystagmus",
+      "pass": {
+        "x": 189.2,
+        "y": 378.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 378.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 378.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 378.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r76",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left nystagmus",
+      "pass": {
+        "x": 189.28,
+        "y": 378.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 378.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 378.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 378.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r77",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Vertical nystagmus",
+      "pass": {
+        "x": 189.28,
+        "y": 360.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 360.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 360.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 360.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r78",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Vertical nystagmus",
+      "pass": {
+        "x": 189.2,
+        "y": 360.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 360.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 360.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 360.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r79",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Vertical nystagmus",
+      "pass": {
+        "x": 189.28,
+        "y": 360.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 360.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 360.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 360.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r80",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Eye/Idle Movement",
+      "pass": {
+        "x": 468.88,
+        "y": 483.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 483.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 483.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 483.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r81",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Eye/Idle Movement",
+      "pass": {
+        "x": 468.8,
+        "y": 483.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 483.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 483.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 483.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r82",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Eye/Idle Movement",
+      "pass": {
+        "x": 468.88,
+        "y": 483.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 483.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 483.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 483.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r83",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle- Normal",
+      "pass": {
+        "x": 468.88,
+        "y": 466.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 466.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 466.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 466.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r84",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle- Normal",
+      "pass": {
+        "x": 468.8,
+        "y": 466.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 466.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 466.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 466.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r85",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle- Normal",
+      "pass": {
+        "x": 468.88,
+        "y": 466.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 466.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 466.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 466.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r86",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle-Worried",
+      "pass": {
+        "x": 468.88,
+        "y": 449.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 449.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 449.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 449.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r87",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle-Worried",
+      "pass": {
+        "x": 468.8,
+        "y": 449.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 449.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 449.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 449.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r88",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle-Worried",
+      "pass": {
+        "x": 468.88,
+        "y": 449.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 449.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 449.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 449.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r89",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle-Anxious",
+      "pass": {
+        "x": 468.88,
+        "y": 432.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 432.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 432.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 432.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r90",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle-Anxious",
+      "pass": {
+        "x": 468.8,
+        "y": 432.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 432.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 432.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 432.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r91",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Idle-Anxious",
+      "pass": {
+        "x": 468.88,
+        "y": 432.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 432.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 432.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 432.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r92",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left",
+      "pass": {
+        "x": 468.88,
+        "y": 414.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 414.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 414.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 414.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r93",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left",
+      "pass": {
+        "x": 468.8,
+        "y": 414.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 414.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 414.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 414.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r94",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Left",
+      "pass": {
+        "x": 468.88,
+        "y": 414.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 414.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 414.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 414.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r95",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right",
+      "pass": {
+        "x": 468.88,
+        "y": 396.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 396.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 396.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 396.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r96",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right",
+      "pass": {
+        "x": 468.8,
+        "y": 396.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 396.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 396.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 396.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r97",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Right",
+      "pass": {
+        "x": 468.88,
+        "y": 396.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 396.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 396.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 396.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r98",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Up",
+      "pass": {
+        "x": 468.88,
+        "y": 378.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 378.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 378.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 378.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r99",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Up",
+      "pass": {
+        "x": 468.8,
+        "y": 378.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 378.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 378.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 378.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r100",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Up",
+      "pass": {
+        "x": 468.88,
+        "y": 378.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 378.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 378.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 378.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r101",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Down",
+      "pass": {
+        "x": 468.88,
+        "y": 360.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 360.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 360.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 360.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r102",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Down",
+      "pass": {
+        "x": 468.8,
+        "y": 360.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 360.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 360.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 360.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s2-r103",
+      "page": 4,
+      "section": 2,
+      "kind": "single",
+      "label": "Down",
+      "pass": {
+        "x": 468.88,
+        "y": 360.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 360.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 360.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 360.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r104",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Blepharospasm Severity",
+      "pass": {
+        "x": 189.28,
+        "y": 342.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 342.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 342.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 342.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r105",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Blepharospasm Severity",
+      "pass": {
+        "x": 189.2,
+        "y": 342.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 342.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 342.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 342.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r106",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Blepharospasm Severity",
+      "pass": {
+        "x": 189.28,
+        "y": 342.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 342.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 342.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 342.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r107",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 2",
+      "pass": {
+        "x": 189.28,
+        "y": 324.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 324.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 324.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 324.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r108",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 2",
+      "pass": {
+        "x": 189.2,
+        "y": 324.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 324.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 324.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 324.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r109",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 2",
+      "pass": {
+        "x": 189.28,
+        "y": 324.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 324.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 324.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 324.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r110",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 3",
+      "pass": {
+        "x": 189.28,
+        "y": 306.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 306.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 306.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 306.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r111",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 3",
+      "pass": {
+        "x": 189.2,
+        "y": 306.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 306.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 306.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 306.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r112",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 3",
+      "pass": {
+        "x": 189.28,
+        "y": 306.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 306.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 306.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 306.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r113",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 4",
+      "pass": {
+        "x": 189.28,
+        "y": 288.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 288.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 288.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 288.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r114",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 4",
+      "pass": {
+        "x": 189.2,
+        "y": 288.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 288.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 288.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 288.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r115",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 4",
+      "pass": {
+        "x": 189.28,
+        "y": 288.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 288.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 288.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 288.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r116",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 5",
+      "pass": {
+        "x": 189.28,
+        "y": 270.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 270.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 270.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 270.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r117",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 5",
+      "pass": {
+        "x": 189.2,
+        "y": 270.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 270.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 270.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 270.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r118",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Severity 5",
+      "pass": {
+        "x": 189.28,
+        "y": 270.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 270.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 270.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 270.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r119",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Joystick Control",
+      "pass": {
+        "x": 468.88,
+        "y": 342.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 342.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 342.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 342.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r120",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Joystick Control",
+      "pass": {
+        "x": 468.8,
+        "y": 342.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 342.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 342.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 342.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r121",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Joystick Control",
+      "pass": {
+        "x": 468.88,
+        "y": 342.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 342.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 342.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 342.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r122",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Horizontal/Vertical",
+      "pass": {
+        "x": 468.88,
+        "y": 324.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 324.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 324.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 324.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r123",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Horizontal/Vertical",
+      "pass": {
+        "x": 468.8,
+        "y": 324.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 324.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 324.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 324.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r124",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Horizontal/Vertical",
+      "pass": {
+        "x": 468.88,
+        "y": 324.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 324.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 324.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 324.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r125",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Horizontal",
+      "pass": {
+        "x": 468.88,
+        "y": 306.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 306.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 306.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 306.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r126",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Horizontal",
+      "pass": {
+        "x": 468.8,
+        "y": 306.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 306.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 306.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 306.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r127",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Horizontal",
+      "pass": {
+        "x": 468.88,
+        "y": 306.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 306.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 306.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 306.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r128",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Vertical",
+      "pass": {
+        "x": 468.88,
+        "y": 288.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 288.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 288.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 288.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r129",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Vertical",
+      "pass": {
+        "x": 468.8,
+        "y": 288.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 288.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 288.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 288.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r130",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "Vertical",
+      "pass": {
+        "x": 468.88,
+        "y": 288.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 288.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 288.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 288.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r131",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.88,
+        "y": 270.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 270.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 270.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 270.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r132",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.8,
+        "y": 270.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 270.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 270.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 270.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s3-r133",
+      "page": 4,
+      "section": 3,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.88,
+        "y": 270.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 270.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 270.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 270.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r134",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.28,
+        "y": 249.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 249.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 249.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 249.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r135",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.2,
+        "y": 249.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 249.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 249.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 249.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r136",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.28,
+        "y": 249.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 249.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 249.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 249.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r137",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 2",
+      "pass": {
+        "x": 189.28,
+        "y": 231.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 231.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 231.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 231.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r138",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 2",
+      "pass": {
+        "x": 189.2,
+        "y": 231.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 231.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 231.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 231.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r139",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 2",
+      "pass": {
+        "x": 189.28,
+        "y": 231.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 231.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 231.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 231.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r140",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 3",
+      "pass": {
+        "x": 189.28,
+        "y": 213.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 213.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 213.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 213.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r141",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 3",
+      "pass": {
+        "x": 189.2,
+        "y": 213.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 213.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 213.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 213.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r142",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 3",
+      "pass": {
+        "x": 189.28,
+        "y": 213.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 213.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 213.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 213.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r143",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 4",
+      "pass": {
+        "x": 189.28,
+        "y": 195.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 195.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 195.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 195.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r144",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 4",
+      "pass": {
+        "x": 189.2,
+        "y": 195.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 195.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 195.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 195.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r145",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 4",
+      "pass": {
+        "x": 189.28,
+        "y": 195.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 195.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 195.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 195.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r146",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 5",
+      "pass": {
+        "x": 189.28,
+        "y": 177.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 177.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 177.79,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 177.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r147",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 5",
+      "pass": {
+        "x": 189.2,
+        "y": 177.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 177.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 177.63,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 177.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r148",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Severity 5",
+      "pass": {
+        "x": 189.28,
+        "y": 177.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 177.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 177.46,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 177.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r149",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.28,
+        "y": 162.17,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 162.17,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 162.17,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 162.17,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r150",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.2,
+        "y": 162,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 162,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 162,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 162,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r151",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.28,
+        "y": 161.83,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 161.83,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 161.83,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 161.83,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r152",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.28,
+        "y": 147.17,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 147.17,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 147.17,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 147.17,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r153",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.2,
+        "y": 147,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 147,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 147,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 147,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r154",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.28,
+        "y": 146.83,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 146.83,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 146.83,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 146.83,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r155",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.28,
+        "y": 132.42,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 132.42,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.28,
+        "y": 132.42,
+        "w": 77.36999999999998,
+        "h": 0,
+        "cx": 227.96499999999997,
+        "cy": 132.42,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r156",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.2,
+        "y": 132.25,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 132.25,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 132.25,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 132.25,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r157",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 189.2,
+        "y": 132.08,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 132.08,
+        "source": "line"
+      },
+      "fail": {
+        "x": 189.2,
+        "y": 132.08,
+        "w": 77.53000000000003,
+        "h": 0,
+        "cx": 227.965,
+        "cy": 132.08,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r158",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.88,
+        "y": 249.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 249.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 249.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 249.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r159",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.8,
+        "y": 249.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 249.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 249.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 249.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r160",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "",
+      "pass": {
+        "x": 468.88,
+        "y": 249.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 249.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 249.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 249.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r161",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Horizontal",
+      "pass": {
+        "x": 468.88,
+        "y": 231.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 231.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 231.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 231.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r162",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Horizontal",
+      "pass": {
+        "x": 468.8,
+        "y": 231.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 231.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 231.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 231.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r163",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Horizontal",
+      "pass": {
+        "x": 468.88,
+        "y": 231.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 231.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 231.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 231.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r164",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Right beat",
+      "pass": {
+        "x": 468.88,
+        "y": 213.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 213.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 213.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 213.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r165",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Right beat",
+      "pass": {
+        "x": 468.8,
+        "y": 213.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 213.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 213.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 213.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r166",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Right beat",
+      "pass": {
+        "x": 468.88,
+        "y": 213.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 213.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 213.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 213.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r167",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Left beat",
+      "pass": {
+        "x": 468.88,
+        "y": 195.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 195.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 195.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 195.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r168",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Left beat",
+      "pass": {
+        "x": 468.8,
+        "y": 195.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 195.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 195.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 195.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r169",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Left beat",
+      "pass": {
+        "x": 468.88,
+        "y": 195.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 195.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 195.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 195.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r170",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Vertical",
+      "pass": {
+        "x": 468.88,
+        "y": 177.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 177.79,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 177.79,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 177.79,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r171",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Vertical",
+      "pass": {
+        "x": 468.8,
+        "y": 177.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 177.63,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 177.63,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 177.63,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r172",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Vertical",
+      "pass": {
+        "x": 468.88,
+        "y": 177.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 177.46,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 177.46,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 177.46,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r173",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Downbeat",
+      "pass": {
+        "x": 468.88,
+        "y": 162.17,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 162.17,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 162.17,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 162.17,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r174",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Downbeat",
+      "pass": {
+        "x": 468.8,
+        "y": 162,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 162,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 162,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 162,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r175",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Downbeat",
+      "pass": {
+        "x": 468.88,
+        "y": 161.83,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 161.83,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 161.83,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 161.83,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r176",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Upbeat",
+      "pass": {
+        "x": 468.88,
+        "y": 147.17,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 147.17,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 147.17,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 147.17,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r177",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Upbeat",
+      "pass": {
+        "x": 468.8,
+        "y": 147,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 147,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 147,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 147,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r178",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Upbeat",
+      "pass": {
+        "x": 468.88,
+        "y": 146.83,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 146.83,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 146.83,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 146.83,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r179",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Pendular",
+      "pass": {
+        "x": 468.88,
+        "y": 132.42,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 132.42,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.88,
+        "y": 132.42,
+        "w": 74.78999999999996,
+        "h": 0,
+        "cx": 506.275,
+        "cy": 132.42,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r180",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Pendular",
+      "pass": {
+        "x": 468.8,
+        "y": 132.25,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 132.25,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 132.25,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 132.25,
+        "source": "line"
+      }
+    },
+    {
+      "id": "p4-s4-r181",
+      "page": 4,
+      "section": 4,
+      "kind": "single",
+      "label": "Pendular",
+      "pass": {
+        "x": 468.8,
+        "y": 132.08,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 132.08,
+        "source": "line"
+      },
+      "fail": {
+        "x": 468.8,
+        "y": 132.08,
+        "w": 75.19999999999999,
+        "h": 0,
+        "cx": 506.4,
+        "cy": 132.08,
+        "source": "line"
+      }
+    }
+  ],
+  "textFields": [
+    {
+      "id": "p1-t25",
+      "page": 1,
+      "label": "Serial #",
+      "x": 130.49,
+      "y": 660.1,
+      "w": 107.17
+    },
+    {
+      "id": "p1-t26",
+      "page": 1,
+      "label": "Voltage:",
+      "x": 388.71,
+      "y": 660.1,
+      "w": 177.54
+    },
+    {
+      "id": "p1-t29",
+      "page": 1,
+      "label": "o be shipped with simulator",
+      "x": 380.24,
+      "y": 648.1,
+      "w": 182.36
+    },
+    {
+      "id": "p1-t32",
+      "page": 1,
+      "label": "Customer:",
+      "x": 105.14,
+      "y": 634.78,
+      "w": 158.51
+    },
+    {
+      "id": "p1-t45",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 90.02,
+      "y": 607.3,
+      "w": 103.97
+    },
+    {
+      "id": "p1-t46",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 210.22,
+      "y": 607.3,
+      "w": 109.37
+    },
+    {
+      "id": "p1-t47",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 335.92,
+      "y": 607.3,
+      "w": 109.37
+    },
+    {
+      "id": "p1-t48",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 461.62,
+      "y": 607.3,
+      "w": 109.26
+    },
+    {
+      "id": "p1-t49",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 90.02,
+      "y": 593.5,
+      "w": 103.97
+    },
+    {
+      "id": "p1-t50",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 210.22,
+      "y": 593.5,
+      "w": 109.37
+    },
+    {
+      "id": "p1-t51",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 335.92,
+      "y": 593.5,
+      "w": 109.37
+    },
+    {
+      "id": "p1-t52",
+      "page": 1,
+      "label": "Options: (Special Orders):",
+      "x": 461.62,
+      "y": 593.5,
+      "w": 109.26
+    },
+    {
+      "id": "p1-t74",
+      "page": 1,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 514.99,
+      "w": 328.41
+    },
+    {
+      "id": "p1-t75",
+      "page": 1,
+      "label": "Notes",
+      "x": 412.99,
+      "y": 514.99,
+      "w": 27.34
+    },
+    {
+      "id": "p1-t76",
+      "page": 1,
+      "label": "Notes",
+      "x": 440.35,
+      "y": 514.99,
+      "w": 50.14
+    },
+    {
+      "id": "p1-t77",
+      "page": 1,
+      "label": "Notes",
+      "x": 490.54,
+      "y": 514.99,
+      "w": 72.94
+    },
+    {
+      "id": "p1-t78",
+      "page": 1,
+      "label": "Notes",
+      "x": 54,
+      "y": 503.47,
+      "w": 360.22
+    },
+    {
+      "id": "p1-t79",
+      "page": 1,
+      "label": "Notes",
+      "x": 414.31,
+      "y": 503.47,
+      "w": 77.5
+    },
+    {
+      "id": "p1-t80",
+      "page": 1,
+      "label": "Notes",
+      "x": 491.86,
+      "y": 503.47,
+      "w": 68.38
+    },
+    {
+      "id": "p1-t101",
+      "page": 1,
+      "label": "Battery Level without charger",
+      "x": 228.65,
+      "y": 418.51,
+      "w": 31.9
+    },
+    {
+      "id": "p1-t102",
+      "page": 1,
+      "label": "Battery Level without charger",
+      "x": 274.26,
+      "y": 418.51,
+      "w": 31.9
+    },
+    {
+      "id": "p1-t105",
+      "page": 1,
+      "label": "Tracking Eyes Test",
+      "x": 497.26,
+      "y": 418.51,
+      "w": 31.9
+    },
+    {
+      "id": "p1-t106",
+      "page": 1,
+      "label": "Tracking Eyes Test",
+      "x": 542.87,
+      "y": 418.51,
+      "w": 31.9
+    },
+    {
+      "id": "p1-t109",
+      "page": 1,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 395.47,
+      "w": 474.33
+    },
+    {
+      "id": "p1-t110",
+      "page": 1,
+      "label": "Notes",
+      "x": 54,
+      "y": 384.07,
+      "w": 506.14
+    },
+    {
+      "id": "p2-t21",
+      "page": 2,
+      "label": "",
+      "x": 54,
+      "y": 669.46,
+      "w": 31.9
+    },
+    {
+      "id": "p2-t28",
+      "page": 2,
+      "label": "NIBP left arm (prior calibration required using calibration kit)",
+      "x": 328.37,
+      "y": 669.46,
+      "w": 241.81
+    },
+    {
+      "id": "p2-t36",
+      "page": 2,
+      "label": "10)",
+      "x": 427.48,
+      "y": 658.06,
+      "w": 16.17
+    },
+    {
+      "id": "p2-t37",
+      "page": 2,
+      "label": "120",
+      "x": 443.71,
+      "y": 658.06,
+      "w": 40.87
+    },
+    {
+      "id": "p2-t53",
+      "page": 2,
+      "label": "10)",
+      "x": 425.46,
+      "y": 646.54,
+      "w": 57.65
+    },
+    {
+      "id": "p2-t56",
+      "page": 2,
+      "label": "eft Arm",
+      "x": 198.02,
+      "y": 635.02,
+      "w": 31.9
+    },
+    {
+      "id": "p2-t57",
+      "page": 2,
+      "label": "eft Arm",
+      "x": 245.45,
+      "y": 635.02,
+      "w": 31.9
+    },
+    {
+      "id": "p2-t61",
+      "page": 2,
+      "label": "10)",
+      "x": 425.46,
+      "y": 635.02,
+      "w": 57.65
+    },
+    {
+      "id": "p2-t65",
+      "page": 2,
+      "label": "10)",
+      "x": 424.28,
+      "y": 623.62,
+      "w": 57.75
+    },
+    {
+      "id": "p2-t68",
+      "page": 2,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 612.1,
+      "w": 323.85
+    },
+    {
+      "id": "p2-t69",
+      "page": 2,
+      "label": "Notes",
+      "x": 408.43,
+      "y": 612.1,
+      "w": 77.5
+    },
+    {
+      "id": "p2-t70",
+      "page": 2,
+      "label": "Notes",
+      "x": 485.98,
+      "y": 612.1,
+      "w": 72.94
+    },
+    {
+      "id": "p2-t71",
+      "page": 2,
+      "label": "Notes",
+      "x": 54,
+      "y": 600.58,
+      "w": 141.34
+    },
+    {
+      "id": "p2-t72",
+      "page": 2,
+      "label": "Notes",
+      "x": 195.38,
+      "y": 600.58,
+      "w": 218.86
+    },
+    {
+      "id": "p2-t73",
+      "page": 2,
+      "label": "Notes",
+      "x": 414.31,
+      "y": 600.58,
+      "w": 77.5
+    },
+    {
+      "id": "p2-t74",
+      "page": 2,
+      "label": "Notes",
+      "x": 491.86,
+      "y": 600.58,
+      "w": 68.38
+    },
+    {
+      "id": "p2-t97",
+      "page": 2,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 501.31,
+      "w": 323.85
+    },
+    {
+      "id": "p2-t98",
+      "page": 2,
+      "label": "Notes",
+      "x": 408.43,
+      "y": 501.31,
+      "w": 77.5
+    },
+    {
+      "id": "p2-t99",
+      "page": 2,
+      "label": "Notes",
+      "x": 485.98,
+      "y": 501.31,
+      "w": 72.94
+    },
+    {
+      "id": "p2-t100",
+      "page": 2,
+      "label": "Notes",
+      "x": 54,
+      "y": 489.91,
+      "w": 360.22
+    },
+    {
+      "id": "p2-t101",
+      "page": 2,
+      "label": "Notes",
+      "x": 414.31,
+      "y": 489.91,
+      "w": 77.5
+    },
+    {
+      "id": "p2-t102",
+      "page": 2,
+      "label": "Notes",
+      "x": 491.86,
+      "y": 489.91,
+      "w": 59.26
+    },
+    {
+      "id": "p2-t164",
+      "page": 2,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 286.37,
+      "w": 328.41
+    },
+    {
+      "id": "p2-t165",
+      "page": 2,
+      "label": "Notes",
+      "x": 412.99,
+      "y": 286.37,
+      "w": 72.94
+    },
+    {
+      "id": "p2-t166",
+      "page": 2,
+      "label": "Notes",
+      "x": 485.98,
+      "y": 286.37,
+      "w": 72.94
+    },
+    {
+      "id": "p2-t167",
+      "page": 2,
+      "label": "Notes",
+      "x": 54,
+      "y": 274.85,
+      "w": 72.94
+    },
+    {
+      "id": "p2-t168",
+      "page": 2,
+      "label": "Notes",
+      "x": 126.98,
+      "y": 274.85,
+      "w": 287.26
+    },
+    {
+      "id": "p2-t169",
+      "page": 2,
+      "label": "Notes",
+      "x": 414.31,
+      "y": 274.85,
+      "w": 77.5
+    },
+    {
+      "id": "p2-t170",
+      "page": 2,
+      "label": "Notes",
+      "x": 491.86,
+      "y": 274.85,
+      "w": 68.38
+    },
+    {
+      "id": "p2-t183",
+      "page": 2,
+      "label": "VDB S/N",
+      "x": 398.61,
+      "y": 226.13,
+      "w": 85.55
+    },
+    {
+      "id": "p2-t207",
+      "page": 2,
+      "label": "Inspected by:",
+      "x": 121.57,
+      "y": 106.1,
+      "w": 173.74
+    },
+    {
+      "id": "p2-t208",
+      "page": 2,
+      "label": "Inspected by:",
+      "x": 295.25,
+      "y": 106.1,
+      "w": 115.52
+    },
+    {
+      "id": "p2-t209",
+      "page": 2,
+      "label": "Date:",
+      "x": 459.77,
+      "y": 106.1,
+      "w": 106.42
+    },
+    {
+      "id": "p3-t111",
+      "page": 3,
+      "label": "Pass",
+      "x": 212.69,
+      "y": 251.21,
+      "w": 27.34
+    },
+    {
+      "id": "p3-t113",
+      "page": 3,
+      "label": "N/A",
+      "x": 262.37,
+      "y": 251.21,
+      "w": 75.21
+    },
+    {
+      "id": "p3-t119",
+      "page": 3,
+      "label": "Pass",
+      "x": 366.19,
+      "y": 239.09,
+      "w": 22.78
+    },
+    {
+      "id": "p3-t121",
+      "page": 3,
+      "label": "N/A",
+      "x": 411.43,
+      "y": 239.09,
+      "w": 66.09
+    },
+    {
+      "id": "p3-t130",
+      "page": 3,
+      "label": "(digital) Yes",
+      "x": 364.07,
+      "y": 226.85,
+      "w": 18.58
+    },
+    {
+      "id": "p3-t131",
+      "page": 3,
+      "label": "No",
+      "x": 405.1,
+      "y": 226.85,
+      "w": 22.18
+    },
+    {
+      "id": "p3-t132",
+      "page": 3,
+      "label": "N/A",
+      "x": 456.04,
+      "y": 226.85,
+      "w": 21.57
+    },
+    {
+      "id": "p3-t133",
+      "page": 3,
+      "label": "Date",
+      "x": 504.03,
+      "y": 226.85,
+      "w": 47.89
+    },
+    {
+      "id": "p3-t134",
+      "page": 3,
+      "label": "Notes:",
+      "x": 85.38,
+      "y": 215.33,
+      "w": 327.25
+    },
+    {
+      "id": "p3-t135",
+      "page": 3,
+      "label": "bent properly:",
+      "x": 412.99,
+      "y": 215.33,
+      "w": 72.94
+    },
+    {
+      "id": "p3-t136",
+      "page": 3,
+      "label": "bent properly:",
+      "x": 485.98,
+      "y": 215.33,
+      "w": 72.94
+    },
+    {
+      "id": "p3-t137",
+      "page": 3,
+      "label": "bent properly:",
+      "x": 54,
+      "y": 202.85,
+      "w": 100.42
+    },
+    {
+      "id": "p3-t138",
+      "page": 3,
+      "label": "bent properly:",
+      "x": 154.46,
+      "y": 202.85,
+      "w": 411.21
+    },
+    {
+      "id": "p3-t139",
+      "page": 3,
+      "label": "bent properly:",
+      "x": 54,
+      "y": 190.25,
+      "w": 521.62
+    },
+    {
+      "id": "p3-t140",
+      "page": 3,
+      "label": "bent properly:",
+      "x": 54,
+      "y": 177.62,
+      "w": 346.17
+    },
+    {
+      "id": "p3-t141",
+      "page": 3,
+      "label": "bent properly:",
+      "x": 400.27,
+      "y": 177.62,
+      "w": 175.43
+    },
+    {
+      "id": "p3-t142",
+      "page": 3,
+      "label": "Inspected by:",
+      "x": 121.57,
+      "y": 139.7,
+      "w": 173.74
+    },
+    {
+      "id": "p3-t143",
+      "page": 3,
+      "label": "Inspected by:",
+      "x": 295.25,
+      "y": 139.7,
+      "w": 115.52
+    },
+    {
+      "id": "p3-t144",
+      "page": 3,
+      "label": "Date:",
+      "x": 459.77,
+      "y": 139.7,
+      "w": 106.42
+    }
+  ],
+  "grids": [],
+  "options": [
+    {
+      "id": "opt-condition-new",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "New",
+      "page": 1,
+      "x": 332.07,
+      "y": 634.78,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-repair",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "Repair",
+      "page": 1,
+      "x": 364.95,
+      "y": 634.78,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-upgrade",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "Upgrade",
+      "page": 1,
+      "x": 408.27,
+      "y": 634.78,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-light",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Light",
+      "page": 1,
+      "x": 126.58,
+      "y": 331.49,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-medium",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Medium",
+      "page": 1,
+      "x": 445.71,
+      "y": 620.98,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-dark",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Dark",
+      "page": 1,
+      "x": 518.7,
+      "y": 620.98,
+      "w": 8,
+      "h": 0
+    }
+  ]
+}
