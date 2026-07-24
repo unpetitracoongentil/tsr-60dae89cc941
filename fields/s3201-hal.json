@@ -2315,7 +2315,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 1,
-      "label": "(Verify @ BP 60/40",
+      "label": "Femoral @ BP 60/40",
       "pass": {
         "x": 162.1,
         "y": 658.08,
@@ -2340,7 +2340,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 2,
-      "label": ") @ BP 60/40",
+      "label": "Radial @ BP 60/40",
       "pass": {
         "x": 198.2,
         "y": 658.08,
@@ -2415,7 +2415,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 1,
-      "label": "(Verify @ BP 70/40",
+      "label": "Femoral @ BP 70/40",
       "pass": {
         "x": 162.1,
         "y": 646.68,
@@ -2440,7 +2440,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 2,
-      "label": ") @ BP 70/40",
+      "label": "Radial @ BP 70/40",
       "pass": {
         "x": 198.2,
         "y": 646.68,
@@ -2515,7 +2515,7 @@
       "grid": "pulse",
       "gridRow": 2,
       "gridCol": 1,
-      "label": "(Verify @ BP 80/40",
+      "label": "Femoral @ BP 80/40",
       "pass": {
         "x": 162.1,
         "y": 635.16,
@@ -2540,7 +2540,7 @@
       "grid": "pulse",
       "gridRow": 2,
       "gridCol": 2,
-      "label": ") @ BP 80/40",
+      "label": "Radial @ BP 80/40",
       "pass": {
         "x": 198.2,
         "y": 635.16,
@@ -2615,7 +2615,7 @@
       "grid": "pulse",
       "gridRow": 3,
       "gridCol": 1,
-      "label": "(Verify @ BP 100/40",
+      "label": "Femoral @ BP 100/40",
       "pass": {
         "x": 162.1,
         "y": 623.64,
@@ -2640,7 +2640,7 @@
       "grid": "pulse",
       "gridRow": 3,
       "gridCol": 2,
-      "label": ") @ BP 100/40",
+      "label": "Radial @ BP 100/40",
       "pass": {
         "x": 198.2,
         "y": 623.64,
@@ -2715,7 +2715,7 @@
       "grid": "pulse",
       "gridRow": 4,
       "gridCol": 1,
-      "label": "(Verify @ BP 300/200",
+      "label": "Femoral @ BP 300/200",
       "pass": {
         "x": 162.1,
         "y": 612.24,
@@ -2740,7 +2740,7 @@
       "grid": "pulse",
       "gridRow": 4,
       "gridCol": 2,
-      "label": ") @ BP 300/200",
+      "label": "Radial @ BP 300/200",
       "pass": {
         "x": 198.2,
         "y": 612.24,
@@ -2815,7 +2815,7 @@
       "grid": "pulse",
       "gridRow": 5,
       "gridCol": 1,
-      "label": "(Verify @ BP 120/80",
+      "label": "Femoral @ BP 120/80",
       "pass": {
         "x": 162.1,
         "y": 600.72,
@@ -2840,7 +2840,7 @@
       "grid": "pulse",
       "gridRow": 5,
       "gridCol": 2,
-      "label": ") @ BP 120/80",
+      "label": "Radial @ BP 120/80",
       "pass": {
         "x": 198.2,
         "y": 600.72,
@@ -2881,6 +2881,106 @@
         "h": 0,
         "cx": 250.095,
         "cy": 600.72
+      }
+    },
+    {
+      "id": "ko-r0-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 0,
+      "label": "Right Arm Systolic",
+      "pass": {
+        "x": 401.96,
+        "y": 658.08,
+        "w": 31,
+        "h": 0,
+        "cx": 417.46,
+        "cy": 658.08
+      },
+      "fail": {
+        "x": 401.96,
+        "y": 658.08,
+        "w": 31,
+        "h": 0,
+        "cx": 417.46,
+        "cy": 658.08
+      }
+    },
+    {
+      "id": "ko-r0-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 1,
+      "label": "Right Arm Diastolic",
+      "pass": {
+        "x": 505.4,
+        "y": 658.08,
+        "w": 31,
+        "h": 0,
+        "cx": 520.9,
+        "cy": 658.08
+      },
+      "fail": {
+        "x": 505.4,
+        "y": 658.08,
+        "w": 31,
+        "h": 0,
+        "cx": 520.9,
+        "cy": 658.08
+      }
+    },
+    {
+      "id": "ko-r1-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 1,
+      "gridCol": 0,
+      "label": "Left Arm Systolic",
+      "pass": {
+        "x": 401.96,
+        "y": 646.68,
+        "w": 31,
+        "h": 0,
+        "cx": 417.46,
+        "cy": 646.68
+      },
+      "fail": {
+        "x": 401.96,
+        "y": 646.68,
+        "w": 31,
+        "h": 0,
+        "cx": 417.46,
+        "cy": 646.68
+      }
+    },
+    {
+      "id": "ko-r1-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 1,
+      "gridCol": 1,
+      "label": "Left Arm Diastolic",
+      "pass": {
+        "x": 505.4,
+        "y": 646.68,
+        "w": 31,
+        "h": 0,
+        "cx": 520.9,
+        "cy": 646.68
+      },
+      "fail": {
+        "x": 505.4,
+        "y": 646.68,
+        "w": 31,
+        "h": 0,
+        "cx": 520.9,
+        "cy": 646.68
       }
     },
     {
@@ -2925,6 +3025,102 @@
         "h": 0,
         "cx": 324,
         "cy": 681
+      }
+    },
+    {
+      "id": "recu-p1-0",
+      "page": 1,
+      "kind": "single",
+      "label": "CO2 U (1)",
+      "pass": {
+        "x": 389.4,
+        "y": 432.72,
+        "w": 16.439999999999998,
+        "h": 0,
+        "cx": 397.62,
+        "cy": 432.72,
+        "source": "line"
+      },
+      "fail": {
+        "x": 389.4,
+        "y": 432.72,
+        "w": 16.439999999999998,
+        "h": 0,
+        "cx": 397.62,
+        "cy": 432.72,
+        "source": "line"
+      }
+    },
+    {
+      "id": "recu-p1-1",
+      "page": 1,
+      "kind": "single",
+      "label": "CO2 U (2)",
+      "pass": {
+        "x": 426.36,
+        "y": 432.72,
+        "w": 28.80000000000001,
+        "h": 0,
+        "cx": 440.76,
+        "cy": 432.72,
+        "source": "line"
+      },
+      "fail": {
+        "x": 426.36,
+        "y": 432.72,
+        "w": 28.80000000000001,
+        "h": 0,
+        "cx": 440.76,
+        "cy": 432.72,
+        "source": "line"
+      }
+    },
+    {
+      "id": "recu-p1-2",
+      "page": 1,
+      "kind": "single",
+      "label": "CO2 U (3)",
+      "pass": {
+        "x": 461.04,
+        "y": 432.72,
+        "w": 28.799999999999955,
+        "h": 0,
+        "cx": 475.44,
+        "cy": 432.72,
+        "source": "line"
+      },
+      "fail": {
+        "x": 461.04,
+        "y": 432.72,
+        "w": 28.799999999999955,
+        "h": 0,
+        "cx": 475.44,
+        "cy": 432.72,
+        "source": "line"
+      }
+    },
+    {
+      "id": "recu-p1-3",
+      "page": 1,
+      "kind": "pair",
+      "label": "Date",
+      "pass": {
+        "x": 67.32,
+        "y": 36.48,
+        "w": 29.16000000000001,
+        "h": 0,
+        "cx": 81.9,
+        "cy": 36.48,
+        "source": "line"
+      },
+      "fail": {
+        "x": 53.4,
+        "y": 36.36,
+        "w": 28.800000000000004,
+        "h": 0,
+        "cx": 67.8,
+        "cy": 36.36,
+        "source": "line"
       }
     }
   ],
@@ -3109,9 +3305,23 @@
       ],
       "colLabels": [
         "Carotid",
-        "(Verify",
-        ")",
+        "Femoral",
+        "Radial",
         "Pedal"
+      ]
+    },
+    {
+      "id": "korotkoff",
+      "page": 2,
+      "title": "BP Korotkoff Sound",
+      "mode": "cycle",
+      "rowLabels": [
+        "Right Arm",
+        "Left Arm"
+      ],
+      "colLabels": [
+        "Systolic",
+        "Diastolic"
       ]
     }
   ],

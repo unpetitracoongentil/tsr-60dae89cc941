@@ -1640,7 +1640,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 1,
-      "label": "Femoral Radial @ BP 50/40",
+      "label": "Femoral @ BP 50/40",
       "pass": {
         "x": 270.14,
         "y": 669.6,
@@ -1665,7 +1665,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 2,
-      "label": "Femoral Radial @ BP 50/40",
+      "label": "Radial @ BP 50/40",
       "pass": {
         "x": 306.27,
         "y": 669.6,
@@ -1715,7 +1715,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 1,
-      "label": "Femoral Radial @ BP 55/40",
+      "label": "Femoral @ BP 55/40",
       "pass": {
         "x": 270.14,
         "y": 658.08,
@@ -1740,7 +1740,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 2,
-      "label": "Femoral Radial @ BP 55/40",
+      "label": "Radial @ BP 55/40",
       "pass": {
         "x": 306.27,
         "y": 658.08,
@@ -1790,7 +1790,7 @@
       "grid": "pulse",
       "gridRow": 2,
       "gridCol": 1,
-      "label": "Femoral Radial @ BP 60/40",
+      "label": "Femoral @ BP 60/40",
       "pass": {
         "x": 270.14,
         "y": 646.68,
@@ -1815,7 +1815,7 @@
       "grid": "pulse",
       "gridRow": 2,
       "gridCol": 2,
-      "label": "Femoral Radial @ BP 60/40",
+      "label": "Radial @ BP 60/40",
       "pass": {
         "x": 306.27,
         "y": 646.68,
@@ -1865,7 +1865,7 @@
       "grid": "pulse",
       "gridRow": 3,
       "gridCol": 1,
-      "label": "Femoral Radial @ BP 100/70",
+      "label": "Femoral @ BP 100/70",
       "pass": {
         "x": 270.14,
         "y": 635.16,
@@ -1890,7 +1890,7 @@
       "grid": "pulse",
       "gridRow": 3,
       "gridCol": 2,
-      "label": "Femoral Radial @ BP 100/70",
+      "label": "Radial @ BP 100/70",
       "pass": {
         "x": 306.27,
         "y": 635.16,
@@ -1917,19 +1917,19 @@
       "gridCol": 0,
       "label": "Right Arm Systolic",
       "pass": {
-        "x": 236,
+        "x": 231.08,
         "y": 577.8,
         "w": 31,
         "h": 0,
-        "cx": 251.5,
+        "cx": 246.58,
         "cy": 577.8
       },
       "fail": {
-        "x": 236,
+        "x": 231.08,
         "y": 577.8,
         "w": 31,
         "h": 0,
-        "cx": 251.5,
+        "cx": 246.58,
         "cy": 577.8
       }
     },
@@ -1942,19 +1942,19 @@
       "gridCol": 1,
       "label": "Right Arm Diastolic",
       "pass": {
-        "x": 342,
+        "x": 339.08,
         "y": 577.8,
         "w": 31,
         "h": 0,
-        "cx": 357.5,
+        "cx": 354.58,
         "cy": 577.8
       },
       "fail": {
-        "x": 342,
+        "x": 339.08,
         "y": 577.8,
         "w": 31,
         "h": 0,
-        "cx": 357.5,
+        "cx": 354.58,
         "cy": 577.8
       }
     },
@@ -1967,19 +1967,19 @@
       "gridCol": 0,
       "label": "Left Arm Systolic",
       "pass": {
-        "x": 236,
+        "x": 231.08,
         "y": 566.28,
         "w": 31,
         "h": 0,
-        "cx": 251.5,
+        "cx": 246.58,
         "cy": 566.28
       },
       "fail": {
-        "x": 236,
+        "x": 231.08,
         "y": 566.28,
         "w": 31,
         "h": 0,
-        "cx": 251.5,
+        "cx": 246.58,
         "cy": 566.28
       }
     },
@@ -1992,19 +1992,19 @@
       "gridCol": 1,
       "label": "Left Arm Diastolic",
       "pass": {
-        "x": 342,
+        "x": 339.08,
         "y": 566.28,
         "w": 31,
         "h": 0,
-        "cx": 357.5,
+        "cx": 354.58,
         "cy": 566.28
       },
       "fail": {
-        "x": 342,
+        "x": 339.08,
         "y": 566.28,
         "w": 31,
         "h": 0,
-        "cx": 357.5,
+        "cx": 354.58,
         "cy": 566.28
       }
     },
@@ -2277,8 +2277,8 @@
       ],
       "colLabels": [
         "Carotid",
-        "Femoral Radial",
-        "Femoral Radial"
+        "Femoral",
+        "Radial"
       ]
     },
     {

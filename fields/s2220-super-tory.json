@@ -1965,7 +1965,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 0,
-      "label": "Fontanel @ BP 34/25",
+      "label": "Carotid @ BP 34/25",
       "pass": {
         "x": 126.02,
         "y": 588.94,
@@ -1990,7 +1990,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 1,
-      "label": "Brachial @ BP 34/25",
+      "label": "Femoral @ BP 34/25",
       "pass": {
         "x": 162.02,
         "y": 588.94,
@@ -2015,7 +2015,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 2,
-      "label": "Femoral @ BP 34/25",
+      "label": "Radial @ BP 34/25",
       "pass": {
         "x": 198.05,
         "y": 588.94,
@@ -2040,7 +2040,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 3,
-      "label": "Umbilical @ BP 34/25",
+      "label": "Pedal @ BP 34/25",
       "pass": {
         "x": 234.05,
         "y": 588.94,
@@ -2065,7 +2065,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 0,
-      "label": "Fontanel @ BP 60/40",
+      "label": "Carotid @ BP 60/40",
       "pass": {
         "x": 126.02,
         "y": 577.54,
@@ -2090,7 +2090,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 1,
-      "label": "Brachial @ BP 60/40",
+      "label": "Femoral @ BP 60/40",
       "pass": {
         "x": 162.02,
         "y": 577.54,
@@ -2115,7 +2115,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 2,
-      "label": "Femoral @ BP 60/40",
+      "label": "Radial @ BP 60/40",
       "pass": {
         "x": 198.05,
         "y": 577.54,
@@ -2140,7 +2140,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 3,
-      "label": "Umbilical @ BP 60/40",
+      "label": "Pedal @ BP 60/40",
       "pass": {
         "x": 234.05,
         "y": 577.54,
@@ -2506,14 +2506,13 @@
       "mode": "tick",
       "rowLabels": [
         "34/25",
-        "60/40",
-        "Notes:________________________________________________________________________"
+        "60/40"
       ],
       "colLabels": [
-        "Fontanel",
-        "Brachial",
+        "Carotid",
         "Femoral",
-        "Umbilical"
+        "Radial",
+        "Pedal"
       ]
     }
   ],
