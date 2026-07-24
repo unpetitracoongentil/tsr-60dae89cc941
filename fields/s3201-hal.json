@@ -2315,7 +2315,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 1,
-      "label": "Femoral @ BP 60/40",
+      "label": "(Verify @ BP 60/40",
       "pass": {
         "x": 162.1,
         "y": 658.08,
@@ -2340,7 +2340,7 @@
       "grid": "pulse",
       "gridRow": 0,
       "gridCol": 2,
-      "label": "Radial @ BP 60/40",
+      "label": ") @ BP 60/40",
       "pass": {
         "x": 198.2,
         "y": 658.08,
@@ -2415,7 +2415,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 1,
-      "label": "Femoral @ BP 70/40",
+      "label": "(Verify @ BP 70/40",
       "pass": {
         "x": 162.1,
         "y": 646.68,
@@ -2440,7 +2440,7 @@
       "grid": "pulse",
       "gridRow": 1,
       "gridCol": 2,
-      "label": "Radial @ BP 70/40",
+      "label": ") @ BP 70/40",
       "pass": {
         "x": 198.2,
         "y": 646.68,
@@ -2515,7 +2515,7 @@
       "grid": "pulse",
       "gridRow": 2,
       "gridCol": 1,
-      "label": "Femoral @ BP 80/40",
+      "label": "(Verify @ BP 80/40",
       "pass": {
         "x": 162.1,
         "y": 635.16,
@@ -2540,7 +2540,7 @@
       "grid": "pulse",
       "gridRow": 2,
       "gridCol": 2,
-      "label": "Radial @ BP 80/40",
+      "label": ") @ BP 80/40",
       "pass": {
         "x": 198.2,
         "y": 635.16,
@@ -2615,7 +2615,7 @@
       "grid": "pulse",
       "gridRow": 3,
       "gridCol": 1,
-      "label": "Femoral @ BP 100/40",
+      "label": "(Verify @ BP 100/40",
       "pass": {
         "x": 162.1,
         "y": 623.64,
@@ -2640,7 +2640,7 @@
       "grid": "pulse",
       "gridRow": 3,
       "gridCol": 2,
-      "label": "Radial @ BP 100/40",
+      "label": ") @ BP 100/40",
       "pass": {
         "x": 198.2,
         "y": 623.64,
@@ -2715,7 +2715,7 @@
       "grid": "pulse",
       "gridRow": 4,
       "gridCol": 1,
-      "label": "Femoral @ BP 300/200",
+      "label": "(Verify @ BP 300/200",
       "pass": {
         "x": 162.1,
         "y": 612.24,
@@ -2740,7 +2740,7 @@
       "grid": "pulse",
       "gridRow": 4,
       "gridCol": 2,
-      "label": "Radial @ BP 300/200",
+      "label": ") @ BP 300/200",
       "pass": {
         "x": 198.2,
         "y": 612.24,
@@ -2815,7 +2815,7 @@
       "grid": "pulse",
       "gridRow": 5,
       "gridCol": 1,
-      "label": "Femoral @ BP 120/80",
+      "label": "(Verify @ BP 120/80",
       "pass": {
         "x": 162.1,
         "y": 600.72,
@@ -2840,7 +2840,7 @@
       "grid": "pulse",
       "gridRow": 5,
       "gridCol": 2,
-      "label": "Radial @ BP 120/80",
+      "label": ") @ BP 120/80",
       "pass": {
         "x": 198.2,
         "y": 600.72,
@@ -3010,14 +3010,6 @@
       "w": 120.24
     },
     {
-      "id": "p2-t19",
-      "page": 2,
-      "label": "Bp = 120/80",
-      "x": 306,
-      "y": 681,
-      "w": 85.41
-    },
-    {
       "id": "p2-t46",
       "page": 2,
       "label": "Notes:",
@@ -3074,8 +3066,8 @@
       ],
       "colLabels": [
         "Carotid",
-        "Femoral",
-        "Radial",
+        "(Verify",
+        ")",
         "Pedal"
       ]
     }
