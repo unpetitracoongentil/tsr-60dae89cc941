@@ -64,6 +64,12 @@ input, textarea {
 }
 .muted { color: var(--muted); }
 
+.choices { display: flex; gap: .5rem; flex-wrap: wrap; }
+.choices .choice { flex: 1 1 auto; min-width: 5.5rem; }
+.choices .choice[data-chosen="1"] {
+  background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600;
+}
+
 .grid-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .grid-table { border-collapse: collapse; width: 100%; font-size: .8rem; }
 .grid-table th, .grid-table td {

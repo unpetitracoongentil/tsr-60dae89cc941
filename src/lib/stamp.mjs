@@ -65,6 +65,14 @@ export async function stampReport(templateBytes, fieldMap, values) {
     });
   }
 
+  // --- pick-one header options (job type / colour): tick beside the chosen word ---
+  for (const [group, label] of Object.entries(values.options ?? {})) {
+    const opt = (fieldMap.options ?? []).find((o) => o.group === group && o.label === label);
+    if (!opt) continue;
+    const page = doc.getPage(opt.page - 1);
+    if (page) drawGlyph(page, checkStrokes, opt);
+  }
+
   // --- appended photo pages ---
   for (const photo of values.photos ?? []) {
     try {

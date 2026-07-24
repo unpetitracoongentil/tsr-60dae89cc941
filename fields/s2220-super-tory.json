@@ -2383,5 +2383,73 @@
       "w": 106.42
     }
   ],
-  "grids": []
+  "grids": [],
+  "options": [
+    {
+      "id": "opt-condition-new",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "New",
+      "page": 1,
+      "x": 332.07,
+      "y": 623.14,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-repair",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "Repair",
+      "page": 1,
+      "x": 364.95,
+      "y": 623.14,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-upgrade",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "Upgrade",
+      "page": 1,
+      "x": 408.3,
+      "y": 623.14,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-light",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Light",
+      "page": 1,
+      "x": 384.66,
+      "y": 609.34,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-medium",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Medium",
+      "page": 1,
+      "x": 445.74,
+      "y": 609.34,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-dark",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Dark",
+      "page": 1,
+      "x": 518.72,
+      "y": 609.34,
+      "w": 8,
+      "h": 0
+    }
+  ]
 }

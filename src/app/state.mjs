@@ -16,8 +16,20 @@ export function createReport(form) {
     marks: {},
     textValues: {},
     photos: [],
+    options: {},          // pick-one header choices, e.g. { condition:'New', colour:'Light' }
     updatedAt: Date.now(),
   };
+}
+
+/**
+ * Choose one option within a group (job type / colour). Selecting the value that
+ * is already chosen clears it, so a mis-tap can be undone.
+ */
+export function setOption(report, group, label) {
+  const next = { ...report.options };
+  if (next[group] === label) delete next[group];
+  else next[group] = label;
+  return { ...report, options: next, updatedAt: Date.now() };
 }
 
 /** Advance one row around the tap cycle. */

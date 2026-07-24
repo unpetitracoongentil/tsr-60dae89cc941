@@ -3426,5 +3426,73 @@
         "Diastolic (75-80)"
       ]
     }
+  ],
+  "options": [
+    {
+      "id": "opt-condition-new",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "New",
+      "page": 1,
+      "x": 332,
+      "y": 657.24,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-repair",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "Repair",
+      "page": 1,
+      "x": 386.36,
+      "y": 657.24,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-upgrade",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "Upgrade",
+      "page": 1,
+      "x": 446.12,
+      "y": 657.24,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-light",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Light",
+      "page": 1,
+      "x": 384.08,
+      "y": 645.36,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-medium",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Medium",
+      "page": 1,
+      "x": 445.64,
+      "y": 645.36,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-dark",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Dark",
+      "page": 1,
+      "x": 518.6,
+      "y": 645.36,
+      "w": 8,
+      "h": 0
+    }
   ]
 }

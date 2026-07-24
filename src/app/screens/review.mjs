@@ -32,6 +32,7 @@ export async function reviewScreen(app) {
     return stampReport(template, app.fieldMap, {
       marks: app.report.marks,
       textValues,
+      options: app.report.options,
       photos: app.report.photos,
     });
   };

@@ -3079,5 +3079,73 @@
         "Pedal"
       ]
     }
+  ],
+  "options": [
+    {
+      "id": "opt-condition-new",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "New",
+      "page": 1,
+      "x": 296,
+      "y": 658.08,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-repair",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "Repair",
+      "page": 1,
+      "x": 344.24,
+      "y": 658.08,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-upgrade",
+      "group": "condition",
+      "groupLabel": "Job type",
+      "label": "Upgrade",
+      "page": 1,
+      "x": 391.16,
+      "y": 658.08,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-light",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Light",
+      "page": 1,
+      "x": 333.8,
+      "y": 646.68,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-medium",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Medium",
+      "page": 1,
+      "x": 383.48,
+      "y": 646.68,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-colour-dark",
+      "group": "colour",
+      "groupLabel": "Colour",
+      "label": "Dark",
+      "page": 1,
+      "x": 449.24,
+      "y": 646.68,
+      "w": 8,
+      "h": 0
+    }
   ]
 }

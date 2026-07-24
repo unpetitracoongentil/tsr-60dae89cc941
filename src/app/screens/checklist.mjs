@@ -47,14 +47,44 @@ export async function checklistScreen(app) {
     return node;
   };
 
-  const notesFor = (page, section) =>
-    app.fieldMap.textFields.filter((f) => f.page === page && /^notes/i.test(f.label))
-      .slice(section, section + 1);
+  /**
+   * Map each Notes blank to the section it actually sits under, by position.
+   * Notes print directly below their section's rows, and a section's notes area
+   * is usually several blank lines. Indexing notes by section number (the old
+   * approach) mismatched them whenever a section had more than one notes line.
+   */
+  const notesBySection = new Map();
+  {
+    const lowestRowY = new Map();   // "page-section" -> lowest row y in it
+    for (const r of linearRows) {
+      if (r.section === undefined) continue;   // standalone rows own no notes area
+      const key = `${r.page}-${r.section}`;
+      const y = r.pass.y;
+      if (!lowestRowY.has(key) || y < lowestRowY.get(key)) lowestRowY.set(key, y);
+    }
+    const notes = app.fieldMap.textFields.filter((f) => /^notes/i.test(f.label));
+    for (const f of notes) {
+      // Owning section = the one on this page whose rows sit closest above it.
+      let best = null, bestY = Infinity;
+      for (const [key, y] of lowestRowY) {
+        const [p] = key.split('-').map(Number);
+        if (p !== f.page || y <= f.y) continue;      // must be above this note
+        if (y < bestY) { bestY = y; best = key; }
+      }
+      if (!best) continue;
+      if (!notesBySection.has(best)) notesBySection.set(best, []);
+      notesBySection.get(best).push(f);
+    }
+  }
+  const notesFor = (page, section) => notesBySection.get(`${page}-${section}`) ?? [];
 
   const sections = [...groups.entries()].map(([key, rows]) => {
     const [page, section] = key.split('-').map(Number);
+    const heading = Number.isFinite(section)
+      ? `Page ${page} — section ${section + 1}`
+      : `Page ${page} — additional checks`;
     return el('div.section', {},
-      el('h2', {}, `Page ${page} — section ${section + 1}`),
+      el('h2', {}, heading),
       ...rows.map(rowButton),
       ...notesFor(page, section).map((f) =>
         el('label', {},

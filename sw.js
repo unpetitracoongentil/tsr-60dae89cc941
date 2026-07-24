@@ -1,5 +1,5 @@
 // sw.js — cache-first for the app shell so inspections work with no signal.
-const CACHE = 'tsr-v8';
+const CACHE = 'tsr-v9';
 
 const SHELL = [
   './', './index.html', './styles.css', './manifest.webmanifest',
