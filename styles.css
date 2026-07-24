@@ -64,6 +64,10 @@ input, textarea {
 }
 .muted { color: var(--muted); }
 
+.section-head { display: flex; align-items: baseline; gap: .75rem; margin-bottom: .4rem; }
+.section-head h2 { margin: 0; }
+button.small { min-height: 34px; padding: 0 .6rem; font-size: .8rem; margin-left: auto; }
+
 .choices { display: flex; gap: .5rem; flex-wrap: wrap; }
 .choices .choice { flex: 1 1 auto; min-width: 5.5rem; }
 .choices .choice[data-chosen="1"] {

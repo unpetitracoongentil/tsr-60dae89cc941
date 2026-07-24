@@ -1138,7 +1138,7 @@
       "page": 1,
       "section": 3,
       "kind": "pair",
-      "label": "O 2 SAT Index Left (70, 80, 95)",
+      "label": "O2SAT Index Left (70, 80, 95)",
       "pass": {
         "x": 495.36,
         "y": 163.2,
@@ -2038,7 +2038,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "Attach Right I/O Leg with CO 2",
+      "label": "Attach Right I/O Leg with CO2",
       "pass": {
         "x": 495.36,
         "y": 326.52,
@@ -2986,22 +2986,6 @@
       "w": 91.17
     },
     {
-      "id": "p1-t51",
-      "page": 1,
-      "label": "Notes:",
-      "x": 85.55,
-      "y": 573.84,
-      "w": 473.26
-    },
-    {
-      "id": "p1-t60",
-      "page": 1,
-      "label": "Notes:",
-      "x": 92.39,
-      "y": 495.24,
-      "w": 473.26
-    },
-    {
       "id": "p2-t15",
       "page": 2,
       "label": "Pulse Strength Check",
@@ -3010,28 +2994,12 @@
       "w": 120.24
     },
     {
-      "id": "p2-t46",
+      "id": "p2-t19",
       "page": 2,
-      "label": "Notes:",
-      "x": 85.55,
-      "y": 589.2,
-      "w": 473.26
-    },
-    {
-      "id": "p2-t86",
-      "page": 2,
-      "label": "Notes:",
-      "x": 85.55,
-      "y": 408.6,
-      "w": 473.26
-    },
-    {
-      "id": "p2-t145",
-      "page": 2,
-      "label": "Notes:",
-      "x": 85.55,
-      "y": 168.36,
-      "w": 473.26
+      "label": "Bp = 120/80",
+      "x": 306,
+      "y": 681,
+      "w": 85.41
     },
     {
       "id": "p2-t146",
@@ -3048,6 +3016,81 @@
       "x": 459.71,
       "y": 130.56,
       "w": 106.43
+    },
+    {
+      "id": "notes-1-0",
+      "page": 1,
+      "label": "Notes",
+      "x": 85.55,
+      "y": 573.84,
+      "w": 473.26,
+      "lines": [
+        {
+          "x": 85.55,
+          "y": 573.84,
+          "w": 473.26
+        }
+      ]
+    },
+    {
+      "id": "notes-1-1",
+      "page": 1,
+      "label": "Notes",
+      "x": 92.39,
+      "y": 495.24,
+      "w": 473.26,
+      "lines": [
+        {
+          "x": 92.39,
+          "y": 495.24,
+          "w": 473.26
+        }
+      ]
+    },
+    {
+      "id": "notes-2-2",
+      "page": 2,
+      "label": "Notes",
+      "x": 85.55,
+      "y": 589.2,
+      "w": 473.26,
+      "lines": [
+        {
+          "x": 85.55,
+          "y": 589.2,
+          "w": 473.26
+        }
+      ]
+    },
+    {
+      "id": "notes-2-3",
+      "page": 2,
+      "label": "Notes",
+      "x": 85.55,
+      "y": 408.6,
+      "w": 473.26,
+      "lines": [
+        {
+          "x": 85.55,
+          "y": 408.6,
+          "w": 473.26
+        }
+      ]
+    },
+    {
+      "id": "notes-2-4",
+      "page": 2,
+      "label": "Notes",
+      "x": 85.55,
+      "y": 168.36,
+      "w": 473.26,
+      "lines": [
+        {
+          "x": 85.55,
+          "y": 168.36,
+          "w": 473.26
+        }
+      ]
     }
   ],
   "grids": [
@@ -3079,10 +3122,11 @@
       "groupLabel": "Job type",
       "label": "New",
       "page": 1,
-      "x": 296,
-      "y": 658.08,
-      "w": 8,
-      "h": 0
+      "x": 329.28,
+      "y": 655.44,
+      "w": 8.64,
+      "h": 8.64,
+      "inCircle": true
     },
     {
       "id": "opt-condition-repair",
@@ -3090,10 +3134,11 @@
       "groupLabel": "Job type",
       "label": "Repair",
       "page": 1,
-      "x": 344.24,
-      "y": 658.08,
-      "w": 8,
-      "h": 0
+      "x": 382.44,
+      "y": 655.44,
+      "w": 8.76,
+      "h": 8.64,
+      "inCircle": true
     },
     {
       "id": "opt-condition-upgrade",
@@ -3101,10 +3146,11 @@
       "groupLabel": "Job type",
       "label": "Upgrade",
       "page": 1,
-      "x": 391.16,
-      "y": 658.08,
-      "w": 8,
-      "h": 0
+      "x": 436.8,
+      "y": 655.44,
+      "w": 8.64,
+      "h": 8.64,
+      "inCircle": true
     },
     {
       "id": "opt-colour-light",
@@ -3112,10 +3158,11 @@
       "groupLabel": "Colour",
       "label": "Light",
       "page": 1,
-      "x": 333.8,
-      "y": 646.68,
-      "w": 8,
-      "h": 0
+      "x": 367.08,
+      "y": 645.12,
+      "w": 8.64,
+      "h": 8.64,
+      "inCircle": true
     },
     {
       "id": "opt-colour-medium",
@@ -3123,10 +3170,11 @@
       "groupLabel": "Colour",
       "label": "Medium",
       "page": 1,
-      "x": 383.48,
-      "y": 646.68,
-      "w": 8,
-      "h": 0
+      "x": 428.16,
+      "y": 645.12,
+      "w": 8.64,
+      "h": 8.64,
+      "inCircle": true
     },
     {
       "id": "opt-colour-dark",
@@ -3134,10 +3182,11 @@
       "groupLabel": "Colour",
       "label": "Dark",
       "page": 1,
-      "x": 449.24,
-      "y": 646.68,
-      "w": 8,
-      "h": 0
+      "x": 485.28,
+      "y": 645.12,
+      "w": 8.64,
+      "h": 8.64,
+      "inCircle": true
     }
   ]
 }

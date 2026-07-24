@@ -1,6 +1,6 @@
 // src/app/screens/checklist.mjs
 import { el, render } from '../ui.mjs';
-import { toggleRow, tickCell, setText, progress } from '../state.mjs';
+import { toggleRow, tickCell, setMark, setText, progress } from '../state.mjs';
 import { saveDraft } from '../storage.mjs';
 import { MARK } from '../../lib/marks.mjs';
 
@@ -30,6 +30,9 @@ export async function checklistScreen(app) {
     groups.get(key).push(row);
   }
 
+  // Every row button registers a repaint so "check all" can update the display.
+  const repaint = new Map();
+
   // A pass/fail/na/single checklist row.
   const rowButton = (row) => {
     const mark = el('span.mark', {}, GLYPH[app.report.marks[row.id] ?? MARK.BLANK]);
@@ -44,7 +47,20 @@ export async function checklistScreen(app) {
       },
     }, el('span.label', {}, row.label), mark);
     node.dataset.mark = app.report.marks[row.id] ?? MARK.BLANK;
+    repaint.set(row.id, () => {
+      const m = app.report.marks[row.id] ?? MARK.BLANK;
+      node.dataset.mark = m;
+      mark.textContent = GLYPH[m];
+    });
     return node;
+  };
+
+  /** Mark a set of rows Pass in one go (the common case at the end of a job). */
+  const checkAll = (rows) => {
+    for (const r of rows) app.report = setMark(app.report, r.id, MARK.PASS);
+    for (const r of rows) repaint.get(r.id)?.();
+    refreshCount();
+    save();
   };
 
   /**
@@ -84,7 +100,9 @@ export async function checklistScreen(app) {
       ? `Page ${page} — section ${section + 1}`
       : `Page ${page} — additional checks`;
     return el('div.section', {},
-      el('h2', {}, heading),
+      el('div.section-head', {},
+        el('h2', {}, heading),
+        el('button.small', { onclick: () => checkAll(rows) }, 'Check all')),
       ...rows.map(rowButton),
       ...notesFor(page, section).map((f) =>
         el('label', {},
@@ -98,7 +116,19 @@ export async function checklistScreen(app) {
           }, app.report.textValues[f.id] ?? ''))));
   });
 
-  render(app.root, ...sections, ...(app.fieldMap.grids ?? []).map(gridTable));
+  const checkEverything = el('button', {
+    onclick: () => {
+      if (!confirm(`Mark all ${linearRows.length} checks as Pass?`)) return;
+      checkAll(linearRows);
+    },
+  }, `Check all ${linearRows.length}`);
+
+  render(app.root,
+    el('div.section', {},
+      el('p.muted', {}, 'Mark everything as Pass, then change only what failed.'),
+      checkEverything),
+    ...sections,
+    ...(app.fieldMap.grids ?? []).map(gridTable));
 
   render(app.actionbar,
     el('button', { onclick: () => app.go('#/header') }, 'Back'),

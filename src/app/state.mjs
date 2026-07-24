@@ -32,6 +32,11 @@ export function setOption(report, group, label) {
   return { ...report, options: next, updatedAt: Date.now() };
 }
 
+/** Set one row's mark outright (used by the "check all" buttons). */
+export function setMark(report, rowId, mark) {
+  return { ...report, marks: { ...report.marks, [rowId]: mark }, updatedAt: Date.now() };
+}
+
 /** Advance one row around the tap cycle. */
 export function toggleRow(report, rowId) {
   return {

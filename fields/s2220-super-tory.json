@@ -238,7 +238,7 @@
       "page": 1,
       "section": 0,
       "kind": "pair",
-      "label": "Umbilical cord ( alcohol test)",
+      "label": "Umbilical cord (alcohol test)",
       "pass": {
         "x": 491.74,
         "y": 491.35,
@@ -263,7 +263,7 @@
       "page": 1,
       "section": 0,
       "kind": "pair",
-      "label": "1 Scalp IV test (air test)",
+      "label": "Scalp IV test (air test)",
       "pass": {
         "x": 491.74,
         "y": 476.35,
@@ -338,7 +338,7 @@
       "page": 1,
       "section": 1,
       "kind": "pair",
-      "label": "Battery Level without charger ( 10 V)",
+      "label": "Battery Level without charger (10V)",
       "pass": {
         "x": 495.46,
         "y": 385.75,
@@ -413,7 +413,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "Eye s Blinking (10 b/m)",
+      "label": "Eyes Blinking (10 b/m)",
       "pass": {
         "x": 216.77,
         "y": 274.25,
@@ -488,7 +488,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "Mu scle Tone (Jittery)",
+      "label": "Muscle Tone (Jittery)",
       "pass": {
         "x": 216.77,
         "y": 221.09,
@@ -588,7 +588,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "Skin appearance yellow (jaund ice)",
+      "label": "Skin appearance yellow (jaundice)",
       "pass": {
         "x": 216.77,
         "y": 161.42,
@@ -638,7 +638,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "3 Fontanel le (s unken)",
+      "label": "Fontanelle (sunken)",
       "pass": {
         "x": 498.72,
         "y": 304.13,
@@ -663,7 +663,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "4 Fontanel le (bulging)",
+      "label": "Fontanelle (bulging)",
       "pass": {
         "x": 498.72,
         "y": 289.25,
@@ -688,7 +688,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "5 Fontanel le (normal)",
+      "label": "Fontanelle (normal)",
       "pass": {
         "x": 498.72,
         "y": 274.25,
@@ -963,7 +963,7 @@
       "page": 2,
       "section": 0,
       "kind": "single",
-      "label": "Lun g Left Upper Front",
+      "label": "Lung Left Upper Front",
       "pass": {
         "x": 198.05,
         "y": 505.75,
@@ -1138,7 +1138,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "Respiration Rate ( 60 /20/ 40 / bp / min)",
+      "label": "Respiration Rate (60/20/40/ bp/min)",
       "pass": {
         "x": 213.53,
         "y": 386.47,
@@ -1288,7 +1288,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "Retractions - (Severe w/ hunger)",
+      "label": "Retractions- (Severe w/ hunger)",
       "pass": {
         "x": 213.53,
         "y": 280.01,
@@ -1313,7 +1313,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "Retractions - (Hernia )",
+      "label": "Retractions- (Hernia)",
       "pass": {
         "x": 213.53,
         "y": 265.13,
@@ -1563,7 +1563,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "Auto pul se detected",
+      "label": "Auto pulse detected",
       "pass": {
         "x": 495.34,
         "y": 386.47,
@@ -1613,7 +1613,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "Lung Compliance(2 - normal, 1 - low)",
+      "label": "Lung Compliance(2-normal, 1-low)",
       "pass": {
         "x": 495.34,
         "y": 356.69,
@@ -1713,7 +1713,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "4 HR at ECG snaps",
+      "label": "HR at ECG snaps",
       "pass": {
         "x": 495.34,
         "y": 280.01,
@@ -1738,7 +1738,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "5 Respiratory curve at ECG monitor",
+      "label": "Respiratory curve at ECG monitor",
       "pass": {
         "x": 495.34,
         "y": 265.13,
@@ -1763,7 +1763,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "6 ECG at defib. Snaps sites",
+      "label": "ECG at defib. Snaps sites",
       "pass": {
         "x": 495.34,
         "y": 250.13,
@@ -1788,7 +1788,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "7 HR at defib. snaps",
+      "label": "HR at defib. snaps",
       "pass": {
         "x": 495.34,
         "y": 235.25,
@@ -1813,7 +1813,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "8 Pacing detected ( 80 - 83 mA )",
+      "label": "Pacing detected ( 80-83 mA )",
       "pass": {
         "x": 495.34,
         "y": 220.37,
@@ -2185,7 +2185,7 @@
     {
       "id": "p1-t25",
       "page": 1,
-      "label": "Serial #",
+      "label": "Serial # simulator",
       "x": 121.56,
       "y": 636.94,
       "w": 34.41
@@ -2193,7 +2193,7 @@
     {
       "id": "p1-t26",
       "page": 1,
-      "label": "simulator",
+      "label": "Serial # simulator",
       "x": 156.02,
       "y": 636.94,
       "w": 68.46
@@ -2287,86 +2287,6 @@
       "w": 109.26
     },
     {
-      "id": "p1-t92",
-      "page": 1,
-      "label": "Notes",
-      "x": 84.5,
-      "y": 442.51,
-      "w": 328.41
-    },
-    {
-      "id": "p1-t93",
-      "page": 1,
-      "label": "Notes",
-      "x": 413.02,
-      "y": 442.51,
-      "w": 77.5
-    },
-    {
-      "id": "p1-t94",
-      "page": 1,
-      "label": "Notes",
-      "x": 490.54,
-      "y": 442.51,
-      "w": 72.94
-    },
-    {
-      "id": "p1-t95",
-      "page": 1,
-      "label": "Notes",
-      "x": 54,
-      "y": 431.11,
-      "w": 246.22
-    },
-    {
-      "id": "p1-t96",
-      "page": 1,
-      "label": "Notes",
-      "x": 300.31,
-      "y": 431.11,
-      "w": 113.98
-    },
-    {
-      "id": "p1-t97",
-      "page": 1,
-      "label": "Notes",
-      "x": 414.34,
-      "y": 431.11,
-      "w": 77.5
-    },
-    {
-      "id": "p1-t98",
-      "page": 1,
-      "label": "Notes",
-      "x": 491.86,
-      "y": 431.11,
-      "w": 68.38
-    },
-    {
-      "id": "p1-t115",
-      "page": 1,
-      "label": "Notes",
-      "x": 100.46,
-      "y": 376.51,
-      "w": 291.93
-    },
-    {
-      "id": "p1-t116",
-      "page": 1,
-      "label": "Notes",
-      "x": 392.5,
-      "y": 376.51,
-      "w": 182.38
-    },
-    {
-      "id": "p1-t117",
-      "page": 1,
-      "label": "Notes",
-      "x": 67.7,
-      "y": 365.09,
-      "w": 506.14
-    },
-    {
       "id": "p2-t21",
       "page": 2,
       "label": "",
@@ -2401,7 +2321,7 @@
     {
       "id": "p2-t60",
       "page": 2,
-      "label": "Arm",
+      "label": "Right Arm",
       "x": 198.05,
       "y": 634.9,
       "w": 31.9
@@ -2409,7 +2329,7 @@
     {
       "id": "p2-t61",
       "page": 2,
-      "label": "Arm",
+      "label": "Right Arm",
       "x": 245.45,
       "y": 634.9,
       "w": 31.9
@@ -2425,7 +2345,7 @@
     {
       "id": "p2-t74",
       "page": 2,
-      "label": "10)",
+      "label": "50/30 (+/- 10)",
       "x": 429.7,
       "y": 623.38,
       "w": 54.7
@@ -2437,46 +2357,6 @@
       "x": 54,
       "y": 611.98,
       "w": 120.25
-    },
-    {
-      "id": "p2-t119",
-      "page": 2,
-      "label": "Notes",
-      "x": 84.5,
-      "y": 466.75,
-      "w": 323.85
-    },
-    {
-      "id": "p2-t122",
-      "page": 2,
-      "label": "Notes",
-      "x": 54,
-      "y": 455.23,
-      "w": 168.7
-    },
-    {
-      "id": "p2-t123",
-      "page": 2,
-      "label": "Notes",
-      "x": 222.77,
-      "y": 455.23,
-      "w": 191.5
-    },
-    {
-      "id": "p2-t124",
-      "page": 2,
-      "label": "Notes",
-      "x": 414.34,
-      "y": 455.23,
-      "w": 77.5
-    },
-    {
-      "id": "p2-t125",
-      "page": 2,
-      "label": "Notes",
-      "x": 491.86,
-      "y": 455.23,
-      "w": 68.38
     },
     {
       "id": "p2-t232",
@@ -2501,6 +2381,121 @@
       "x": 459.8,
       "y": 114.5,
       "w": 106.42
+    },
+    {
+      "id": "notes-1-0",
+      "page": 1,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 442.51,
+      "w": 328.41,
+      "lines": [
+        {
+          "x": 84.5,
+          "y": 442.51,
+          "w": 328.41
+        },
+        {
+          "x": 413.02,
+          "y": 442.51,
+          "w": 77.5
+        },
+        {
+          "x": 490.54,
+          "y": 442.51,
+          "w": 72.94
+        },
+        {
+          "x": 54,
+          "y": 431.11,
+          "w": 246.22
+        },
+        {
+          "x": 300.31,
+          "y": 431.11,
+          "w": 113.98
+        },
+        {
+          "x": 414.34,
+          "y": 431.11,
+          "w": 77.5
+        },
+        {
+          "x": 491.86,
+          "y": 431.11,
+          "w": 68.38
+        }
+      ]
+    },
+    {
+      "id": "notes-1-1",
+      "page": 1,
+      "label": "Notes",
+      "x": 100.46,
+      "y": 376.51,
+      "w": 291.93,
+      "lines": [
+        {
+          "x": 100.46,
+          "y": 376.51,
+          "w": 291.93
+        },
+        {
+          "x": 392.5,
+          "y": 376.51,
+          "w": 182.38
+        },
+        {
+          "x": 67.7,
+          "y": 365.09,
+          "w": 506.14
+        }
+      ]
+    },
+    {
+      "id": "notes-2-2",
+      "page": 2,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 466.75,
+      "w": 323.85,
+      "lines": [
+        {
+          "x": 84.5,
+          "y": 466.75,
+          "w": 323.85
+        },
+        {
+          "x": 408.46,
+          "y": 466.75,
+          "w": 68.38
+        },
+        {
+          "x": 476.86,
+          "y": 466.75,
+          "w": 82.06
+        },
+        {
+          "x": 54,
+          "y": 455.23,
+          "w": 168.7
+        },
+        {
+          "x": 222.77,
+          "y": 455.23,
+          "w": 191.5
+        },
+        {
+          "x": 414.34,
+          "y": 455.23,
+          "w": 77.5
+        },
+        {
+          "x": 491.86,
+          "y": 455.23,
+          "w": 68.38
+        }
+      ]
     }
   ],
   "grids": [
@@ -2529,10 +2524,11 @@
       "groupLabel": "Job type",
       "label": "New",
       "page": 1,
-      "x": 332.07,
-      "y": 623.14,
-      "w": 8,
-      "h": 0
+      "x": 360.45,
+      "y": 622.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-condition-repair",
@@ -2540,10 +2536,11 @@
       "groupLabel": "Job type",
       "label": "Repair",
       "page": 1,
-      "x": 364.95,
-      "y": 623.14,
-      "w": 8,
-      "h": 0
+      "x": 405.7,
+      "y": 622.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-condition-upgrade",
@@ -2551,10 +2548,11 @@
       "groupLabel": "Job type",
       "label": "Upgrade",
       "page": 1,
-      "x": 408.3,
-      "y": 623.14,
-      "w": 8,
-      "h": 0
+      "x": 457.45,
+      "y": 622.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-colour-light",
@@ -2562,10 +2560,11 @@
       "groupLabel": "Colour",
       "label": "Light",
       "page": 1,
-      "x": 384.66,
-      "y": 609.34,
-      "w": 8,
-      "h": 0
+      "x": 414.35,
+      "y": 609.75,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-colour-medium",
@@ -2573,10 +2572,11 @@
       "groupLabel": "Colour",
       "label": "Medium",
       "page": 1,
-      "x": 445.74,
-      "y": 609.34,
-      "w": 8,
-      "h": 0
+      "x": 486,
+      "y": 609.75,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-colour-dark",
@@ -2584,10 +2584,35 @@
       "groupLabel": "Colour",
       "label": "Dark",
       "page": 1,
-      "x": 518.72,
-      "y": 609.34,
-      "w": 8,
-      "h": 0
+      "x": 553.1,
+      "y": 609.75,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
+    },
+    {
+      "id": "opt-purpose-show",
+      "group": "purpose",
+      "groupLabel": "Show / Loaner",
+      "label": "Show",
+      "page": 1,
+      "x": 499.75,
+      "y": 622.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
+    },
+    {
+      "id": "opt-purpose-loaner",
+      "group": "purpose",
+      "groupLabel": "Show / Loaner",
+      "label": "Loaner",
+      "page": 1,
+      "x": 544.45,
+      "y": 622.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     }
   ]
 }

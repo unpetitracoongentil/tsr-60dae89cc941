@@ -55,14 +55,26 @@ export async function stampReport(templateBytes, fieldMap, values) {
     if (!field || !String(text).trim()) continue;
     const page = doc.getPage(field.page - 1);
     if (!page) continue;
-    page.drawText(String(text), {
-      x: field.x + 1,
-      y: field.y + TEXT_LIFT,
-      size: TEXT_SIZE,
-      font: helvetica,
-      color: INK,
-      maxWidth: field.w,
-    });
+
+    if (field.lines?.length > 1) {
+      // A Notes block: flow the text down its printed lines.
+      for (const [i, line] of wrapToLines(String(text), field.lines, helvetica).entries()) {
+        if (!line) continue;
+        const at = field.lines[i];
+        page.drawText(line, {
+          x: at.x + 1, y: at.y + TEXT_LIFT, size: TEXT_SIZE, font: helvetica, color: INK,
+        });
+      }
+    } else {
+      page.drawText(String(text), {
+        x: field.x + 1,
+        y: field.y + TEXT_LIFT,
+        size: TEXT_SIZE,
+        font: helvetica,
+        color: INK,
+        maxWidth: field.w,
+      });
+    }
   }
 
   // --- pick-one header options (job type / colour): tick beside the chosen word ---
@@ -117,6 +129,29 @@ function drawPhotoPage(doc, font, img, caption) {
       maxWidth: availW,
     });
   }
+}
+
+/**
+ * Break text across a Notes block's printed lines, honouring each line's own
+ * width. Anything past the last line is dropped rather than overflowing the form.
+ */
+function wrapToLines(text, lines, font) {
+  const words = text.split(/\s+/).filter(Boolean);
+  const out = [];
+  let w = 0;
+
+  for (const line of lines) {
+    if (w >= words.length) break;
+    let current = '';
+    while (w < words.length) {
+      const next = current ? `${current} ${words[w]}` : words[w];
+      if (font.widthOfTextAtSize(next, TEXT_SIZE) > line.w - 2 && current) break;
+      current = next;
+      w++;
+    }
+    out.push(current);
+  }
+  return out;
 }
 
 function drawGlyph(page, strokesFor, cell) {

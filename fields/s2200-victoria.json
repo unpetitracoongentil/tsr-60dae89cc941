@@ -38,7 +38,7 @@
       "page": 1,
       "section": 1,
       "kind": "pair",
-      "label": "Compressor Press ure up to 180 mmHg",
+      "label": "Compressor Pressure up to 180 mmHg",
       "pass": {
         "x": 228.89,
         "y": 427.63,
@@ -163,7 +163,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "Eye s Blinking",
+      "label": "Eyes Blinking",
       "pass": {
         "x": 213.53,
         "y": 297.41,
@@ -338,7 +338,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "Right Radial Pulse D isabled",
+      "label": "Right Radial Pulse Disabled",
       "pass": {
         "x": 213.53,
         "y": 193.13,
@@ -438,7 +438,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "4 Seizures ( Mild )",
+      "label": "Seizures (Mild)",
       "pass": {
         "x": 495.46,
         "y": 327.17,
@@ -463,7 +463,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "5 Seizures (Severe)",
+      "label": "Seizures (Severe)",
       "pass": {
         "x": 495.46,
         "y": 312.29,
@@ -488,7 +488,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "6 Laryngospasm",
+      "label": "Laryngospasm",
       "pass": {
         "x": 495.46,
         "y": 297.41,
@@ -513,7 +513,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "7 Tongue Edema",
+      "label": "Tongue Edema",
       "pass": {
         "x": 495.46,
         "y": 282.53,
@@ -538,7 +538,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "8 Pharyngea l swelling",
+      "label": "Pharyngeal swelling",
       "pass": {
         "x": 495.46,
         "y": 267.65,
@@ -563,7 +563,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "O 2 SAT Index Left (70, 80, 95)",
+      "label": "O2SAT Index Left (70, 80, 95)",
       "pass": {
         "x": 495.46,
         "y": 252.65,
@@ -738,7 +738,7 @@
       "page": 1,
       "section": 2,
       "kind": "pair",
-      "label": "CO 2 (Optional)",
+      "label": "CO2 (Optional)",
       "pass": {
         "x": 494.74,
         "y": 124.94,
@@ -913,7 +913,7 @@
       "page": 2,
       "section": 0,
       "kind": "single",
-      "label": "Streaming Voice M - phone",
+      "label": "Streaming Voice M-phone",
       "pass": {
         "x": 485.38,
         "y": 510.55,
@@ -1188,7 +1188,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "ECG at defib snaps s ites",
+      "label": "ECG at defib snaps sites",
       "pass": {
         "x": 212.81,
         "y": 295.49,
@@ -1213,7 +1213,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "2 Pacing detection",
+      "label": "Pacing detection",
       "pass": {
         "x": 495.46,
         "y": 444.55,
@@ -1238,7 +1238,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "3 Pacing capture",
+      "label": "Pacing capture",
       "pass": {
         "x": 495.46,
         "y": 429.67,
@@ -1263,7 +1263,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "a Si mulator S/N Label",
+      "label": "a Simulator S/N Label",
       "pass": {
         "x": 495.46,
         "y": 399.91,
@@ -1388,7 +1388,7 @@
       "page": 2,
       "section": 1,
       "kind": "pair",
-      "label": "Ri ght leg rotation sensor",
+      "label": "Right leg rotation sensor",
       "pass": {
         "x": 495.46,
         "y": 325.37,
@@ -1488,7 +1488,7 @@
       "page": 2,
       "section": 2,
       "kind": "pair",
-      "label": "Lu brication",
+      "label": "Lubrication",
       "pass": {
         "x": 213.65,
         "y": 211.37,
@@ -1588,7 +1588,7 @@
       "page": 2,
       "section": 2,
       "kind": "pair",
-      "label": "Chec k Drain",
+      "label": "Check Drain",
       "pass": {
         "x": 213.65,
         "y": 139.7,
@@ -2088,7 +2088,7 @@
       "page": 3,
       "section": 0,
       "kind": "pair",
-      "label": "Vic toria and the PPH cover",
+      "label": "Victoria and the PPH cover",
       "pass": {
         "x": 498.22,
         "y": 485.83,
@@ -2188,7 +2188,7 @@
       "page": 3,
       "section": 1,
       "kind": "pair",
-      "label": "f its to belly",
+      "label": "fits to belly",
       "pass": {
         "x": 499.18,
         "y": 407.35,
@@ -2213,7 +2213,7 @@
       "page": 3,
       "section": 1,
       "kind": "pair",
-      "label": "C - Section insert snaps inspection",
+      "label": "C-Section insert snaps inspection",
       "pass": {
         "x": 498.46,
         "y": 390.91,
@@ -2338,7 +2338,7 @@
       "page": 3,
       "section": 2,
       "kind": "pair",
-      "label": "Vagi nal Hemorrhage",
+      "label": "Vaginal Hemorrhage",
       "pass": {
         "x": 498.94,
         "y": 295.97,
@@ -4463,7 +4463,7 @@
       "page": 4,
       "section": 2,
       "kind": "single",
-      "label": "Idle- Normal",
+      "label": "Idle-Normal",
       "pass": {
         "x": 468.88,
         "y": 466.79,
@@ -4488,7 +4488,7 @@
       "page": 4,
       "section": 2,
       "kind": "single",
-      "label": "Idle- Normal",
+      "label": "Idle-Normal",
       "pass": {
         "x": 468.8,
         "y": 466.63,
@@ -4513,7 +4513,7 @@
       "page": 4,
       "section": 2,
       "kind": "single",
-      "label": "Idle- Normal",
+      "label": "Idle-Normal",
       "pass": {
         "x": 468.88,
         "y": 466.46,
@@ -6938,7 +6938,7 @@
     {
       "id": "p1-t25",
       "page": 1,
-      "label": "Serial #",
+      "label": "Serial # simulator",
       "x": 130.49,
       "y": 660.1,
       "w": 107.17
@@ -6954,7 +6954,7 @@
     {
       "id": "p1-t29",
       "page": 1,
-      "label": "o be shipped with simulator",
+      "label": "Serial number for computer used for testing and is going to be shipped with simulator",
       "x": 380.24,
       "y": 648.1,
       "w": 182.36
@@ -7032,65 +7032,9 @@
       "w": 109.26
     },
     {
-      "id": "p1-t74",
-      "page": 1,
-      "label": "Notes",
-      "x": 84.5,
-      "y": 514.99,
-      "w": 328.41
-    },
-    {
-      "id": "p1-t75",
-      "page": 1,
-      "label": "Notes",
-      "x": 412.99,
-      "y": 514.99,
-      "w": 27.34
-    },
-    {
-      "id": "p1-t76",
-      "page": 1,
-      "label": "Notes",
-      "x": 440.35,
-      "y": 514.99,
-      "w": 50.14
-    },
-    {
-      "id": "p1-t77",
-      "page": 1,
-      "label": "Notes",
-      "x": 490.54,
-      "y": 514.99,
-      "w": 72.94
-    },
-    {
-      "id": "p1-t78",
-      "page": 1,
-      "label": "Notes",
-      "x": 54,
-      "y": 503.47,
-      "w": 360.22
-    },
-    {
-      "id": "p1-t79",
-      "page": 1,
-      "label": "Notes",
-      "x": 414.31,
-      "y": 503.47,
-      "w": 77.5
-    },
-    {
-      "id": "p1-t80",
-      "page": 1,
-      "label": "Notes",
-      "x": 491.86,
-      "y": 503.47,
-      "w": 68.38
-    },
-    {
       "id": "p1-t101",
       "page": 1,
-      "label": "Battery Level without charger",
+      "label": "3 Battery Level without charger",
       "x": 228.65,
       "y": 418.51,
       "w": 31.9
@@ -7098,7 +7042,7 @@
     {
       "id": "p1-t102",
       "page": 1,
-      "label": "Battery Level without charger",
+      "label": "3 Battery Level without charger",
       "x": 274.26,
       "y": 418.51,
       "w": 31.9
@@ -7106,7 +7050,7 @@
     {
       "id": "p1-t105",
       "page": 1,
-      "label": "Tracking Eyes Test",
+      "label": "6 Tracking Eyes Test",
       "x": 497.26,
       "y": 418.51,
       "w": 31.9
@@ -7114,26 +7058,10 @@
     {
       "id": "p1-t106",
       "page": 1,
-      "label": "Tracking Eyes Test",
+      "label": "6 Tracking Eyes Test",
       "x": 542.87,
       "y": 418.51,
       "w": 31.9
-    },
-    {
-      "id": "p1-t109",
-      "page": 1,
-      "label": "Notes",
-      "x": 84.5,
-      "y": 395.47,
-      "w": 474.33
-    },
-    {
-      "id": "p1-t110",
-      "page": 1,
-      "label": "Notes",
-      "x": 54,
-      "y": 384.07,
-      "w": 506.14
     },
     {
       "id": "p2-t21",
@@ -7162,7 +7090,7 @@
     {
       "id": "p2-t37",
       "page": 2,
-      "label": "120",
+      "label": "200/120 (+/-",
       "x": 443.71,
       "y": 658.06,
       "w": 40.87
@@ -7178,7 +7106,7 @@
     {
       "id": "p2-t56",
       "page": 2,
-      "label": "eft Arm",
+      "label": "Left Arm",
       "x": 198.02,
       "y": 635.02,
       "w": 31.9
@@ -7186,7 +7114,7 @@
     {
       "id": "p2-t57",
       "page": 2,
-      "label": "eft Arm",
+      "label": "Left Arm",
       "x": 245.45,
       "y": 635.02,
       "w": 31.9
@@ -7206,166 +7134,6 @@
       "x": 424.28,
       "y": 623.62,
       "w": 57.75
-    },
-    {
-      "id": "p2-t68",
-      "page": 2,
-      "label": "Notes",
-      "x": 84.5,
-      "y": 612.1,
-      "w": 323.85
-    },
-    {
-      "id": "p2-t69",
-      "page": 2,
-      "label": "Notes",
-      "x": 408.43,
-      "y": 612.1,
-      "w": 77.5
-    },
-    {
-      "id": "p2-t70",
-      "page": 2,
-      "label": "Notes",
-      "x": 485.98,
-      "y": 612.1,
-      "w": 72.94
-    },
-    {
-      "id": "p2-t71",
-      "page": 2,
-      "label": "Notes",
-      "x": 54,
-      "y": 600.58,
-      "w": 141.34
-    },
-    {
-      "id": "p2-t72",
-      "page": 2,
-      "label": "Notes",
-      "x": 195.38,
-      "y": 600.58,
-      "w": 218.86
-    },
-    {
-      "id": "p2-t73",
-      "page": 2,
-      "label": "Notes",
-      "x": 414.31,
-      "y": 600.58,
-      "w": 77.5
-    },
-    {
-      "id": "p2-t74",
-      "page": 2,
-      "label": "Notes",
-      "x": 491.86,
-      "y": 600.58,
-      "w": 68.38
-    },
-    {
-      "id": "p2-t97",
-      "page": 2,
-      "label": "Notes",
-      "x": 84.5,
-      "y": 501.31,
-      "w": 323.85
-    },
-    {
-      "id": "p2-t98",
-      "page": 2,
-      "label": "Notes",
-      "x": 408.43,
-      "y": 501.31,
-      "w": 77.5
-    },
-    {
-      "id": "p2-t99",
-      "page": 2,
-      "label": "Notes",
-      "x": 485.98,
-      "y": 501.31,
-      "w": 72.94
-    },
-    {
-      "id": "p2-t100",
-      "page": 2,
-      "label": "Notes",
-      "x": 54,
-      "y": 489.91,
-      "w": 360.22
-    },
-    {
-      "id": "p2-t101",
-      "page": 2,
-      "label": "Notes",
-      "x": 414.31,
-      "y": 489.91,
-      "w": 77.5
-    },
-    {
-      "id": "p2-t102",
-      "page": 2,
-      "label": "Notes",
-      "x": 491.86,
-      "y": 489.91,
-      "w": 59.26
-    },
-    {
-      "id": "p2-t164",
-      "page": 2,
-      "label": "Notes",
-      "x": 84.5,
-      "y": 286.37,
-      "w": 328.41
-    },
-    {
-      "id": "p2-t165",
-      "page": 2,
-      "label": "Notes",
-      "x": 412.99,
-      "y": 286.37,
-      "w": 72.94
-    },
-    {
-      "id": "p2-t166",
-      "page": 2,
-      "label": "Notes",
-      "x": 485.98,
-      "y": 286.37,
-      "w": 72.94
-    },
-    {
-      "id": "p2-t167",
-      "page": 2,
-      "label": "Notes",
-      "x": 54,
-      "y": 274.85,
-      "w": 72.94
-    },
-    {
-      "id": "p2-t168",
-      "page": 2,
-      "label": "Notes",
-      "x": 126.98,
-      "y": 274.85,
-      "w": 287.26
-    },
-    {
-      "id": "p2-t169",
-      "page": 2,
-      "label": "Notes",
-      "x": 414.31,
-      "y": 274.85,
-      "w": 77.5
-    },
-    {
-      "id": "p2-t170",
-      "page": 2,
-      "label": "Notes",
-      "x": 491.86,
-      "y": 274.85,
-      "w": 68.38
     },
     {
       "id": "p2-t183",
@@ -7402,7 +7170,7 @@
     {
       "id": "p3-t111",
       "page": 3,
-      "label": "Pass",
+      "label": "Check snaps in lower legs: Pass",
       "x": 212.69,
       "y": 251.21,
       "w": 27.34
@@ -7418,7 +7186,7 @@
     {
       "id": "p3-t119",
       "page": 3,
-      "label": "Pass",
+      "label": "Assembly lower legs to upper legs and make sure they bent properly: Pass",
       "x": 366.19,
       "y": 239.09,
       "w": 22.78
@@ -7462,14 +7230,6 @@
       "x": 504.03,
       "y": 226.85,
       "w": 47.89
-    },
-    {
-      "id": "p3-t134",
-      "page": 3,
-      "label": "Notes:",
-      "x": 85.38,
-      "y": 215.33,
-      "w": 327.25
     },
     {
       "id": "p3-t135",
@@ -7550,6 +7310,216 @@
       "x": 459.77,
       "y": 139.7,
       "w": 106.42
+    },
+    {
+      "id": "notes-1-0",
+      "page": 1,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 514.99,
+      "w": 328.41,
+      "lines": [
+        {
+          "x": 84.5,
+          "y": 514.99,
+          "w": 328.41
+        },
+        {
+          "x": 412.99,
+          "y": 514.99,
+          "w": 27.34
+        },
+        {
+          "x": 440.35,
+          "y": 514.99,
+          "w": 50.14
+        },
+        {
+          "x": 490.54,
+          "y": 514.99,
+          "w": 72.94
+        },
+        {
+          "x": 54,
+          "y": 503.47,
+          "w": 360.22
+        },
+        {
+          "x": 414.31,
+          "y": 503.47,
+          "w": 77.5
+        },
+        {
+          "x": 491.86,
+          "y": 503.47,
+          "w": 68.38
+        }
+      ]
+    },
+    {
+      "id": "notes-1-1",
+      "page": 1,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 395.47,
+      "w": 474.33,
+      "lines": [
+        {
+          "x": 84.5,
+          "y": 395.47,
+          "w": 474.33
+        },
+        {
+          "x": 54,
+          "y": 384.07,
+          "w": 506.14
+        }
+      ]
+    },
+    {
+      "id": "notes-2-2",
+      "page": 2,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 612.1,
+      "w": 323.85,
+      "lines": [
+        {
+          "x": 84.5,
+          "y": 612.1,
+          "w": 323.85
+        },
+        {
+          "x": 408.43,
+          "y": 612.1,
+          "w": 77.5
+        },
+        {
+          "x": 485.98,
+          "y": 612.1,
+          "w": 72.94
+        },
+        {
+          "x": 54,
+          "y": 600.58,
+          "w": 141.34
+        },
+        {
+          "x": 195.38,
+          "y": 600.58,
+          "w": 218.86
+        },
+        {
+          "x": 414.31,
+          "y": 600.58,
+          "w": 77.5
+        },
+        {
+          "x": 491.86,
+          "y": 600.58,
+          "w": 68.38
+        }
+      ]
+    },
+    {
+      "id": "notes-2-3",
+      "page": 2,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 501.31,
+      "w": 323.85,
+      "lines": [
+        {
+          "x": 84.5,
+          "y": 501.31,
+          "w": 323.85
+        },
+        {
+          "x": 408.43,
+          "y": 501.31,
+          "w": 77.5
+        },
+        {
+          "x": 485.98,
+          "y": 501.31,
+          "w": 72.94
+        },
+        {
+          "x": 54,
+          "y": 489.91,
+          "w": 360.22
+        },
+        {
+          "x": 414.31,
+          "y": 489.91,
+          "w": 77.5
+        },
+        {
+          "x": 491.86,
+          "y": 489.91,
+          "w": 59.26
+        }
+      ]
+    },
+    {
+      "id": "notes-2-4",
+      "page": 2,
+      "label": "Notes",
+      "x": 84.5,
+      "y": 286.37,
+      "w": 328.41,
+      "lines": [
+        {
+          "x": 84.5,
+          "y": 286.37,
+          "w": 328.41
+        },
+        {
+          "x": 412.99,
+          "y": 286.37,
+          "w": 72.94
+        },
+        {
+          "x": 485.98,
+          "y": 286.37,
+          "w": 72.94
+        },
+        {
+          "x": 54,
+          "y": 274.85,
+          "w": 72.94
+        },
+        {
+          "x": 126.98,
+          "y": 274.85,
+          "w": 287.26
+        },
+        {
+          "x": 414.31,
+          "y": 274.85,
+          "w": 77.5
+        },
+        {
+          "x": 491.86,
+          "y": 274.85,
+          "w": 68.38
+        }
+      ]
+    },
+    {
+      "id": "notes-3-5",
+      "page": 3,
+      "label": "Notes",
+      "x": 85.38,
+      "y": 215.33,
+      "w": 327.25,
+      "lines": [
+        {
+          "x": 85.38,
+          "y": 215.33,
+          "w": 327.25
+        }
+      ]
     }
   ],
   "grids": [],
@@ -7560,10 +7530,11 @@
       "groupLabel": "Job type",
       "label": "New",
       "page": 1,
-      "x": 332.07,
-      "y": 634.78,
-      "w": 8,
-      "h": 0
+      "x": 360.45,
+      "y": 634.05,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-condition-repair",
@@ -7571,10 +7542,11 @@
       "groupLabel": "Job type",
       "label": "Repair",
       "page": 1,
-      "x": 364.95,
-      "y": 634.78,
-      "w": 8,
-      "h": 0
+      "x": 405.7,
+      "y": 634.05,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-condition-upgrade",
@@ -7582,10 +7554,11 @@
       "groupLabel": "Job type",
       "label": "Upgrade",
       "page": 1,
-      "x": 408.27,
-      "y": 634.78,
-      "w": 8,
-      "h": 0
+      "x": 457.45,
+      "y": 634.05,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-colour-light",
@@ -7593,7 +7566,7 @@
       "groupLabel": "Colour",
       "label": "Light",
       "page": 1,
-      "x": 126.58,
+      "x": 159.61,
       "y": 331.49,
       "w": 8,
       "h": 0
@@ -7604,10 +7577,11 @@
       "groupLabel": "Colour",
       "label": "Medium",
       "page": 1,
-      "x": 445.71,
-      "y": 620.98,
-      "w": 8,
-      "h": 0
+      "x": 486,
+      "y": 621.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     },
     {
       "id": "opt-colour-dark",
@@ -7615,10 +7589,35 @@
       "groupLabel": "Colour",
       "label": "Dark",
       "page": 1,
-      "x": 518.7,
-      "y": 620.98,
-      "w": 8,
-      "h": 0
+      "x": 553.1,
+      "y": 621.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
+    },
+    {
+      "id": "opt-purpose-show",
+      "group": "purpose",
+      "groupLabel": "Show / Loaner",
+      "label": "Show",
+      "page": 1,
+      "x": 499.75,
+      "y": 634.05,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
+    },
+    {
+      "id": "opt-purpose-loaner",
+      "group": "purpose",
+      "groupLabel": "Show / Loaner",
+      "label": "Loaner",
+      "page": 1,
+      "x": 544.45,
+      "y": 634.05,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
     }
   ]
 }
