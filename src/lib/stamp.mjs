@@ -66,8 +66,15 @@ export async function stampReport(templateBytes, fieldMap, values) {
         });
       }
     } else {
+      // Most write-ins sit left-aligned on the blank; a `center` field (e.g. the
+      // CPS counts) is centred across its rule instead.
+      let x = field.x + 1;
+      if (field.center && field.w) {
+        const tw = helvetica.widthOfTextAtSize(String(text), TEXT_SIZE);
+        x = field.x + Math.max(1, (field.w - tw) / 2);
+      }
       page.drawText(String(text), {
-        x: field.x + 1,
+        x,
         y: field.y + TEXT_LIFT,
         size: TEXT_SIZE,
         font: helvetica,
