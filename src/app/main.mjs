@@ -17,6 +17,7 @@ const FORMS = [
   { id: 's2220-super-tory', name: 'S2220 Super Tory', subtitle: 'Final Inspection Form' },
   { id: 's5301-hal', name: 'S5301 HAL', subtitle: 'Final Inspection Form' },
   { id: 's2200-victoria', name: 'Victoria S2200', subtitle: 'Final Inspection Form' },
+  { id: 'wired-probe', name: 'Wired Probe', subtitle: 'Recertification QC Checklist' },
 ];
 
 const app = {

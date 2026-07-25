@@ -123,12 +123,31 @@ export async function checklistScreen(app) {
     },
   }, `Check all ${linearRows.length}`);
 
+  // Write-in fields that are neither header details, sign-off, nor notes — e.g.
+  // the wired probe's CPS counts and Probe Size. Surfaced so they can be filled.
+  const HANDLED = /serial|customer|voltage|inspected by|^date|^notes/i;
+  const writeIns = app.fieldMap.textFields
+    .filter((f) => !HANDLED.test(f.label))
+    .sort((a, b) => a.page - b.page || b.y - a.y);
+  const writeInSection = writeIns.length
+    ? el('div.section', {},
+        el('h2', {}, 'Measurements & write-ins'),
+        ...writeIns.map((f) =>
+          el('label', {},
+            el('span', {}, f.label),
+            el('input', {
+              value: app.report.textValues[f.id] ?? '',
+              oninput: (e) => { app.report = setText(app.report, f.id, e.target.value); save(); },
+            }))))
+    : null;
+
   render(app.root,
     el('div.section', {},
       el('p.muted', {}, 'Mark everything as Pass, then change only what failed.'),
       checkEverything),
     ...sections,
-    ...(app.fieldMap.grids ?? []).map(gridTable));
+    ...(app.fieldMap.grids ?? []).map(gridTable),
+    writeInSection);
 
   render(app.actionbar,
     el('button', { onclick: () => app.go('#/header') }, 'Back'),
