@@ -92,6 +92,21 @@ export async function stampReport(templateBytes, fieldMap, values) {
     if (page) drawGlyph(page, checkStrokes, opt);
   }
 
+  // --- overlays: short rules we redraw because the source hides them. On S3009
+  //     and S3201 the full-width header rule runs under an opaque logo image, so
+  //     it looks like the line only starts after the logo; we redraw the hidden
+  //     segment on top. The line sits below the logo mark, so it doesn't cut it.
+  for (const o of fieldMap.overlays ?? []) {
+    const page = doc.getPage(o.page - 1);
+    if (!page) continue;
+    page.drawLine({
+      start: { x: o.x1, y: o.y },
+      end: { x: o.x2, y: o.y },
+      thickness: o.thickness ?? 0.5,
+      color: INK,
+    });
+  }
+
   // --- appended photo pages ---
   for (const photo of values.photos ?? []) {
     try {
