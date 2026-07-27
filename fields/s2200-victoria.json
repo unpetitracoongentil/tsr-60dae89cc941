@@ -3678,6 +3678,94 @@
         "cx": 72,
         "cy": 669.46
       }
+    },
+    {
+      "id": "fix-battery-nocharger",
+      "page": 1,
+      "kind": "pair",
+      "label": "Battery Level without charger",
+      "pass": {
+        "x": 228.7,
+        "y": 418.5,
+        "w": 31.9,
+        "h": 0,
+        "cx": 244.65,
+        "cy": 418.5
+      },
+      "fail": {
+        "x": 274.3,
+        "y": 418.5,
+        "w": 31.9,
+        "h": 0,
+        "cx": 290.25,
+        "cy": 418.5
+      }
+    },
+    {
+      "id": "fix-tracking-eyes",
+      "page": 1,
+      "kind": "pair",
+      "label": "Tracking Eyes Test",
+      "pass": {
+        "x": 497.3,
+        "y": 418.5,
+        "w": 31.9,
+        "h": 0,
+        "cx": 513.25,
+        "cy": 418.5
+      },
+      "fail": {
+        "x": 542.9,
+        "y": 418.5,
+        "w": 31.9,
+        "h": 0,
+        "cx": 558.85,
+        "cy": 418.5
+      }
+    },
+    {
+      "id": "fix-misc-snaps",
+      "page": 3,
+      "kind": "pair",
+      "label": "Check snaps in lower legs",
+      "pass": {
+        "x": 213,
+        "y": 251.2,
+        "w": 27,
+        "h": 0,
+        "cx": 226.5,
+        "cy": 251.2
+      },
+      "fail": {
+        "x": 262,
+        "y": 251.2,
+        "w": 26,
+        "h": 0,
+        "cx": 275,
+        "cy": 251.2
+      }
+    },
+    {
+      "id": "fix-misc-assembly",
+      "page": 3,
+      "kind": "pair",
+      "label": "Assembly lower legs to upper legs (bent properly)",
+      "pass": {
+        "x": 366,
+        "y": 239.1,
+        "w": 23,
+        "h": 0,
+        "cx": 377.5,
+        "cy": 239.1
+      },
+      "fail": {
+        "x": 411,
+        "y": 239.1,
+        "w": 22,
+        "h": 0,
+        "cx": 422,
+        "cy": 239.1
+      }
     }
   ],
   "textFields": [
