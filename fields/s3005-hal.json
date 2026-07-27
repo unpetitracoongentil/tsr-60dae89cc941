@@ -2300,7 +2300,7 @@
     {
       "id": "opt-condition-new",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "New",
       "page": 1,
       "x": 369,
@@ -2312,7 +2312,7 @@
     {
       "id": "opt-condition-repair",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Repair",
       "page": 1,
       "x": 432,
@@ -2324,7 +2324,7 @@
     {
       "id": "opt-condition-upgrade",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Upgrade",
       "page": 1,
       "x": 500.64,

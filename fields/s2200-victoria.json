@@ -3823,15 +3823,7 @@
       "label": "Inspected by:",
       "x": 121.57,
       "y": 106.1,
-      "w": 173.74
-    },
-    {
-      "id": "p2-t208",
-      "page": 2,
-      "label": "Inspected by:",
-      "x": 295.25,
-      "y": 106.1,
-      "w": 115.52
+      "w": 289.2
     },
     {
       "id": "p2-t209",
@@ -3911,15 +3903,7 @@
       "label": "bent properly:",
       "x": 412.99,
       "y": 215.33,
-      "w": 72.94
-    },
-    {
-      "id": "p3-t136",
-      "page": 3,
-      "label": "bent properly:",
-      "x": 485.98,
-      "y": 215.33,
-      "w": 72.94
+      "w": 145.93
     },
     {
       "id": "p3-t137",
@@ -3927,15 +3911,7 @@
       "label": "bent properly:",
       "x": 54,
       "y": 202.85,
-      "w": 100.42
-    },
-    {
-      "id": "p3-t138",
-      "page": 3,
-      "label": "bent properly:",
-      "x": 154.46,
-      "y": 202.85,
-      "w": 411.21
+      "w": 511.67
     },
     {
       "id": "p3-t139",
@@ -3951,15 +3927,7 @@
       "label": "bent properly:",
       "x": 54,
       "y": 177.62,
-      "w": 346.17
-    },
-    {
-      "id": "p3-t141",
-      "page": 3,
-      "label": "bent properly:",
-      "x": 400.27,
-      "y": 177.62,
-      "w": 175.43
+      "w": 521.7
     },
     {
       "id": "p3-t142",
@@ -3967,15 +3935,7 @@
       "label": "Inspected by:",
       "x": 121.57,
       "y": 139.7,
-      "w": 173.74
-    },
-    {
-      "id": "p3-t143",
-      "page": 3,
-      "label": "Inspected by:",
-      "x": 295.25,
-      "y": 139.7,
-      "w": 115.52
+      "w": 289.2
     },
     {
       "id": "p3-t144",
@@ -4201,7 +4161,7 @@
     {
       "id": "opt-condition-new",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "New",
       "page": 1,
       "x": 360.07,
@@ -4213,7 +4173,7 @@
     {
       "id": "opt-condition-repair",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Repair",
       "page": 1,
       "x": 405.32,
@@ -4225,10 +4185,34 @@
     {
       "id": "opt-condition-upgrade",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Upgrade",
       "page": 1,
       "x": 457.07,
+      "y": 633.67,
+      "w": 9.4,
+      "h": 9.4,
+      "inCircle": true
+    },
+    {
+      "id": "opt-condition-show",
+      "group": "condition",
+      "groupLabel": "Type",
+      "label": "Show",
+      "page": 1,
+      "x": 499.38,
+      "y": 633.67,
+      "w": 9.4,
+      "h": 9.4,
+      "inCircle": true
+    },
+    {
+      "id": "opt-condition-loaner",
+      "group": "condition",
+      "groupLabel": "Type",
+      "label": "Loaner",
+      "page": 1,
+      "x": 544.08,
       "y": 633.67,
       "w": 9.4,
       "h": 9.4,
@@ -4265,30 +4249,6 @@
       "page": 1,
       "x": 552.73,
       "y": 621.02,
-      "w": 9.4,
-      "h": 9.4,
-      "inCircle": true
-    },
-    {
-      "id": "opt-purpose-show",
-      "group": "purpose",
-      "groupLabel": "Show / Loaner",
-      "label": "Show",
-      "page": 1,
-      "x": 499.38,
-      "y": 633.67,
-      "w": 9.4,
-      "h": 9.4,
-      "inCircle": true
-    },
-    {
-      "id": "opt-purpose-loaner",
-      "group": "purpose",
-      "groupLabel": "Show / Loaner",
-      "label": "Loaner",
-      "page": 1,
-      "x": 544.08,
-      "y": 633.67,
       "w": 9.4,
       "h": 9.4,
       "inCircle": true

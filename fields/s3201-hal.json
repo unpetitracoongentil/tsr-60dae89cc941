@@ -3329,7 +3329,7 @@
     {
       "id": "opt-condition-new",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "New",
       "page": 1,
       "x": 329.28,
@@ -3341,7 +3341,7 @@
     {
       "id": "opt-condition-repair",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Repair",
       "page": 1,
       "x": 382.44,
@@ -3353,7 +3353,7 @@
     {
       "id": "opt-condition-upgrade",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Upgrade",
       "page": 1,
       "x": 436.8,

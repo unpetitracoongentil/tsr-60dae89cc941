@@ -8252,7 +8252,7 @@
     {
       "id": "opt-condition-new",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "New",
       "page": 1,
       "x": 376.94,
@@ -8263,7 +8263,7 @@
     {
       "id": "opt-condition-repair",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Repair",
       "page": 1,
       "x": 420.2,
@@ -8274,10 +8274,32 @@
     {
       "id": "opt-condition-upgrade",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Upgrade",
       "page": 1,
       "x": 470.87,
+      "y": 637.08,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-show",
+      "group": "condition",
+      "groupLabel": "Type",
+      "label": "Show",
+      "page": 1,
+      "x": 510.49,
+      "y": 637.08,
+      "w": 8,
+      "h": 0
+    },
+    {
+      "id": "opt-condition-loaner",
+      "group": "condition",
+      "groupLabel": "Type",
+      "label": "Loaner",
+      "page": 1,
+      "x": 555.2,
       "y": 637.08,
       "w": 8,
       "h": 0
@@ -8312,28 +8334,6 @@
       "page": 1,
       "x": 464.41,
       "y": 621.84,
-      "w": 8,
-      "h": 0
-    },
-    {
-      "id": "opt-purpose-show",
-      "group": "purpose",
-      "groupLabel": "Show / Loaner",
-      "label": "Show",
-      "page": 1,
-      "x": 510.49,
-      "y": 637.08,
-      "w": 8,
-      "h": 0
-    },
-    {
-      "id": "opt-purpose-loaner",
-      "group": "purpose",
-      "groupLabel": "Show / Loaner",
-      "label": "Loaner",
-      "page": 1,
-      "x": 555.2,
-      "y": 637.08,
       "w": 8,
       "h": 0
     }

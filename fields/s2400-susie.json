@@ -3545,39 +3545,7 @@
       "label": "1. Simulator Serial No.:",
       "x": 146.18,
       "y": 640.3,
-      "w": 50.21
-    },
-    {
-      "id": "p1-t33",
-      "page": 1,
-      "label": "1. Simulator Serial No.:",
-      "x": 196.46,
-      "y": 640.3,
-      "w": 18.22
-    },
-    {
-      "id": "p1-t34",
-      "page": 1,
-      "label": "1. Simulator Serial No.:",
-      "x": 214.73,
-      "y": 640.3,
-      "w": 31.9
-    },
-    {
-      "id": "p1-t35",
-      "page": 1,
-      "label": "1. Simulator Serial No.:",
-      "x": 246.65,
-      "y": 640.3,
-      "w": 36.46
-    },
-    {
-      "id": "p1-t36",
-      "page": 1,
-      "label": "1. Simulator Serial No.:",
-      "x": 283.13,
-      "y": 640.3,
-      "w": 22.78
+      "w": 159.73
     },
     {
       "id": "p1-t41",
@@ -3585,23 +3553,7 @@
       "label": "2. Customer:",
       "x": 117.98,
       "y": 626.5,
-      "w": 82.06
-    },
-    {
-      "id": "p1-t42",
-      "page": 1,
-      "label": "2. Customer:",
-      "x": 200.09,
-      "y": 626.5,
-      "w": 86.62
-    },
-    {
-      "id": "p1-t43",
-      "page": 1,
-      "label": "2. Customer:",
-      "x": 286.73,
-      "y": 626.5,
-      "w": 13.66
+      "w": 182.41
     },
     {
       "id": "p1-t45",
@@ -3617,31 +3569,7 @@
       "label": "3. UNI version:",
       "x": 118.34,
       "y": 599.02,
-      "w": 18.22
-    },
-    {
-      "id": "p1-t52",
-      "page": 1,
-      "label": "3. UNI version:",
-      "x": 136.58,
-      "y": 599.02,
-      "w": 45.58
-    },
-    {
-      "id": "p1-t53",
-      "page": 1,
-      "label": "3. UNI version:",
-      "x": 182.3,
-      "y": 599.02,
-      "w": 86.62
-    },
-    {
-      "id": "p1-t54",
-      "page": 1,
-      "label": "3. UNI version:",
-      "x": 268.97,
-      "y": 599.02,
-      "w": 36.46
+      "w": 187.09
     },
     {
       "id": "p1-t77",
@@ -3649,23 +3577,7 @@
       "label": "7. Power Adapter AC Voltage:",
       "x": 432.07,
       "y": 612.1,
-      "w": 86.68
-    },
-    {
-      "id": "p1-t78",
-      "page": 1,
-      "label": "7. Power Adapter AC Voltage:",
-      "x": 518.86,
-      "y": 612.1,
-      "w": 13.66
-    },
-    {
-      "id": "p1-t79",
-      "page": 1,
-      "label": "7. Power Adapter AC Voltage:",
-      "x": 532.54,
-      "y": 612.1,
-      "w": 31.9
+      "w": 132.37
     },
     {
       "id": "p1-t81",
@@ -3753,15 +3665,7 @@
       "label": "160/90 (+/- 10)",
       "x": 226.49,
       "y": 654.1,
-      "w": 27.34
-    },
-    {
-      "id": "p3-t30",
-      "page": 3,
-      "label": "160/90 (+/- 10)",
-      "x": 253.85,
-      "y": 654.1,
-      "w": 31.9
+      "w": 59.26
     },
     {
       "id": "p3-t35",
@@ -4239,7 +4143,7 @@
     {
       "id": "opt-condition-new",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "New",
       "page": 1,
       "x": 373.27,
@@ -4251,7 +4155,7 @@
     {
       "id": "opt-condition-repair",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Repair",
       "page": 1,
       "x": 416.59,
@@ -4263,10 +4167,34 @@
     {
       "id": "opt-condition-upgrade",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Upgrade",
       "page": 1,
       "x": 467.26,
+      "y": 641.74,
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
+    },
+    {
+      "id": "opt-condition-show",
+      "group": "condition",
+      "groupLabel": "Type",
+      "label": "Show",
+      "page": 1,
+      "x": 506.86,
+      "y": 641.74,
+      "w": 10,
+      "h": 7.42,
+      "inCircle": true
+    },
+    {
+      "id": "opt-condition-loaner",
+      "group": "condition",
+      "groupLabel": "Type",
+      "label": "Loaner",
+      "page": 1,
+      "x": 551.62,
       "y": 641.74,
       "w": 10,
       "h": 7.42,
@@ -4304,30 +4232,6 @@
       "page": 1,
       "x": 460.75,
       "y": 626.5,
-      "w": 10,
-      "h": 7.42,
-      "inCircle": true
-    },
-    {
-      "id": "opt-purpose-show",
-      "group": "purpose",
-      "groupLabel": "Show / Loaner",
-      "label": "Show",
-      "page": 1,
-      "x": 506.86,
-      "y": 641.74,
-      "w": 10,
-      "h": 7.42,
-      "inCircle": true
-    },
-    {
-      "id": "opt-purpose-loaner",
-      "group": "purpose",
-      "groupLabel": "Show / Loaner",
-      "label": "Loaner",
-      "page": 1,
-      "x": 551.62,
-      "y": 641.74,
       "w": 10,
       "h": 7.42,
       "inCircle": true

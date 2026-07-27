@@ -2188,15 +2188,7 @@
       "label": "Serial # simulator",
       "x": 121.56,
       "y": 636.94,
-      "w": 34.41
-    },
-    {
-      "id": "p1-t26",
-      "page": 1,
-      "label": "Serial # simulator",
-      "x": 156.02,
-      "y": 636.94,
-      "w": 68.46
+      "w": 102.92
     },
     {
       "id": "p1-t27",
@@ -2244,15 +2236,7 @@
       "label": "Options: (Special Orders):",
       "x": 461.62,
       "y": 595.66,
-      "w": 71.03
-    },
-    {
-      "id": "p1-t46",
-      "page": 1,
-      "label": "Options: (Special Orders):",
-      "x": 533.4,
-      "y": 595.66,
-      "w": 38.2
+      "w": 109.98
     },
     {
       "id": "p1-t47",
@@ -2364,15 +2348,7 @@
       "label": "Inspected by:",
       "x": 121.57,
       "y": 114.5,
-      "w": 173.74
-    },
-    {
-      "id": "p2-t233",
-      "page": 2,
-      "label": "Inspected by:",
-      "x": 295.27,
-      "y": 114.5,
-      "w": 115.52
+      "w": 289.22
     },
     {
       "id": "p2-t234",
@@ -2520,7 +2496,7 @@
     {
       "id": "opt-condition-new",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "New",
       "page": 1,
       "x": 360.45,
@@ -2532,7 +2508,7 @@
     {
       "id": "opt-condition-repair",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Repair",
       "page": 1,
       "x": 405.7,
@@ -2544,10 +2520,34 @@
     {
       "id": "opt-condition-upgrade",
       "group": "condition",
-      "groupLabel": "Job type",
+      "groupLabel": "Type",
       "label": "Upgrade",
       "page": 1,
       "x": 457.45,
+      "y": 622.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
+    },
+    {
+      "id": "opt-condition-show",
+      "group": "condition",
+      "groupLabel": "Type",
+      "label": "Show",
+      "page": 1,
+      "x": 499.75,
+      "y": 622.4,
+      "w": 8.65,
+      "h": 8.65,
+      "inCircle": true
+    },
+    {
+      "id": "opt-condition-loaner",
+      "group": "condition",
+      "groupLabel": "Type",
+      "label": "Loaner",
+      "page": 1,
+      "x": 544.45,
       "y": 622.4,
       "w": 8.65,
       "h": 8.65,
@@ -2585,30 +2585,6 @@
       "page": 1,
       "x": 553.1,
       "y": 609.75,
-      "w": 8.65,
-      "h": 8.65,
-      "inCircle": true
-    },
-    {
-      "id": "opt-purpose-show",
-      "group": "purpose",
-      "groupLabel": "Show / Loaner",
-      "label": "Show",
-      "page": 1,
-      "x": 499.75,
-      "y": 622.4,
-      "w": 8.65,
-      "h": 8.65,
-      "inCircle": true
-    },
-    {
-      "id": "opt-purpose-loaner",
-      "group": "purpose",
-      "groupLabel": "Show / Loaner",
-      "label": "Loaner",
-      "page": 1,
-      "x": 544.45,
-      "y": 622.4,
       "w": 8.65,
       "h": 8.65,
       "inCircle": true
