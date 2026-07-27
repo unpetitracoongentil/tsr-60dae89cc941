@@ -2159,6 +2159,78 @@
       }
     },
     {
+      "id": "ko-r0-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 0,
+      "label": "Right Arm Systolic",
+      "pass": {
+        "x": 198.05,
+        "y": 634.9,
+        "w": 31.9,
+        "h": 0,
+        "cx": 214,
+        "cy": 634.9
+      },
+      "fail": {
+        "x": 198.05,
+        "y": 634.9,
+        "w": 31.9,
+        "h": 0,
+        "cx": 214,
+        "cy": 634.9
+      }
+    },
+    {
+      "id": "ko-r0-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 1,
+      "label": "Right Arm Diastolic",
+      "pass": {
+        "x": 245.45,
+        "y": 634.9,
+        "w": 31.9,
+        "h": 0,
+        "cx": 261.4,
+        "cy": 634.9
+      },
+      "fail": {
+        "x": 245.45,
+        "y": 634.9,
+        "w": 31.9,
+        "h": 0,
+        "cx": 261.4,
+        "cy": 634.9
+      }
+    },
+    {
+      "id": "verify-bp",
+      "page": 2,
+      "kind": "single",
+      "label": "Bp = 60/40 (Verify √)",
+      "pass": {
+        "x": 54,
+        "y": 669.34,
+        "w": 36,
+        "h": 0,
+        "cx": 72,
+        "cy": 669.34
+      },
+      "fail": {
+        "x": 54,
+        "y": 669.34,
+        "w": 36,
+        "h": 0,
+        "cx": 72,
+        "cy": 669.34
+      }
+    },
+    {
       "id": "verify-pulse",
       "page": 2,
       "kind": "single",
@@ -2301,38 +2373,6 @@
       "x": 425.49,
       "y": 646.3,
       "w": 57.65
-    },
-    {
-      "id": "p2-t60",
-      "page": 2,
-      "label": "Right Arm",
-      "x": 198.05,
-      "y": 634.9,
-      "w": 31.9
-    },
-    {
-      "id": "p2-t61",
-      "page": 2,
-      "label": "Right Arm",
-      "x": 245.45,
-      "y": 634.9,
-      "w": 31.9
-    },
-    {
-      "id": "p2-t65",
-      "page": 2,
-      "label": "10)",
-      "x": 425.49,
-      "y": 634.9,
-      "w": 57.65
-    },
-    {
-      "id": "p2-t74",
-      "page": 2,
-      "label": "50/30 (+/- 10)",
-      "x": 429.7,
-      "y": 623.38,
-      "w": 54.7
     },
     {
       "id": "p2-t75",
@@ -2489,6 +2529,19 @@
         "Femoral",
         "Radial",
         "Pedal"
+      ]
+    },
+    {
+      "id": "korotkoff",
+      "page": 2,
+      "title": "BP Korotkoff Sound",
+      "mode": "cycle",
+      "rowLabels": [
+        "Right Arm"
+      ],
+      "colLabels": [
+        "Systolic",
+        "Diastolic"
       ]
     }
   ],
