@@ -94,6 +94,18 @@ export async function checklistScreen(app) {
   }
   const notesFor = (page, section) => notesBySection.get(`${page}-${section}`) ?? [];
 
+  // One Notes blank, rendered as a labelled textarea.
+  const noteField = (f) =>
+    el('label', {},
+      el('span', {}, f.label),
+      el('textarea', {
+        rows: 2,
+        oninput: (e) => {
+          app.report = setText(app.report, f.id, e.target.value);
+          save();
+        },
+      }, app.report.textValues[f.id] ?? ''));
+
   const sections = [...groups.entries()].map(([key, rows]) => {
     const [page, section] = key.split('-').map(Number);
     const heading = Number.isFinite(section)
@@ -104,17 +116,20 @@ export async function checklistScreen(app) {
         el('h2', {}, heading),
         el('button.small', { onclick: () => checkAll(rows) }, 'Check all')),
       ...rows.map(rowButton),
-      ...notesFor(page, section).map((f) =>
-        el('label', {},
-          el('span', {}, f.label),
-          el('textarea', {
-            rows: 2,
-            oninput: (e) => {
-              app.report = setText(app.report, f.id, e.target.value);
-              save();
-            },
-          }, app.report.textValues[f.id] ?? ''))));
+      ...notesFor(page, section).map(noteField));
   });
+
+  // Notes that sit under the grid tables (above every linear row on their page)
+  // belong to no linear section, so the mapping above never claims them. Surface
+  // them in their own block so they stay writable — e.g. the S2000 note under
+  // the Pulse/BP tables.
+  const assignedNotes = new Set([...notesBySection.values()].flat());
+  const orphanNotes = app.fieldMap.textFields
+    .filter((f) => /^notes/i.test(f.label) && !assignedNotes.has(f))
+    .sort((a, b) => a.page - b.page || b.y - a.y);
+  const orphanNoteSection = orphanNotes.length
+    ? el('div.section', {}, el('h2', {}, 'Notes'), ...orphanNotes.map(noteField))
+    : null;
 
   const checkEverything = el('button', {
     onclick: () => {
@@ -147,6 +162,7 @@ export async function checklistScreen(app) {
       checkEverything),
     ...sections,
     ...(app.fieldMap.grids ?? []).map(gridTable),
+    orphanNoteSection,
     writeInSection);
 
   render(app.actionbar,
