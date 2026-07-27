@@ -5987,6 +5987,56 @@
         "cx": 549.24,
         "cy": 75.62
       }
+    },
+    {
+      "id": "ko-r0-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 0,
+      "label": "Left Arm Systolic",
+      "pass": {
+        "x": 113.88,
+        "y": 262.8,
+        "w": 50.16,
+        "h": 0,
+        "cx": 138.95999999999998,
+        "cy": 262.8
+      },
+      "fail": {
+        "x": 113.88,
+        "y": 262.8,
+        "w": 50.16,
+        "h": 0,
+        "cx": 138.95999999999998,
+        "cy": 262.8
+      }
+    },
+    {
+      "id": "ko-r0-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 1,
+      "label": "Left Arm Diastolic",
+      "pass": {
+        "x": 203.63,
+        "y": 262.8,
+        "w": 50.16,
+        "h": 0,
+        "cx": 228.70999999999998,
+        "cy": 262.8
+      },
+      "fail": {
+        "x": 203.63,
+        "y": 262.8,
+        "w": 50.16,
+        "h": 0,
+        "cx": 228.70999999999998,
+        "cy": 262.8
+      }
     }
   ],
   "textFields": [
@@ -6027,14 +6077,6 @@
       "page": 2,
       "label": "Left Arm",
       "x": 113.88,
-      "y": 262.8,
-      "w": 50.16
-    },
-    {
-      "id": "p2-t105",
-      "page": 2,
-      "label": "Left Arm",
-      "x": 203.63,
       "y": 262.8,
       "w": 50.16
     },
@@ -7531,6 +7573,21 @@
       "y": 621.84,
       "w": 8,
       "h": 0
+    }
+  ],
+  "grids": [
+    {
+      "id": "korotkoff",
+      "page": 2,
+      "title": "BP Korotkoff Sound",
+      "mode": "cycle",
+      "rowLabels": [
+        "Left Arm"
+      ],
+      "colLabels": [
+        "Systolic",
+        "Diastolic"
+      ]
     }
   ]
 }
