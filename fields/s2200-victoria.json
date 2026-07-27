@@ -3606,6 +3606,78 @@
         "cy": 524.47,
         "source": "rect"
       }
+    },
+    {
+      "id": "ko-r0-c0",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 0,
+      "label": "Left Arm Systolic",
+      "pass": {
+        "x": 198.02,
+        "y": 635.02,
+        "w": 31.9,
+        "h": 0,
+        "cx": 213.97,
+        "cy": 635.02
+      },
+      "fail": {
+        "x": 198.02,
+        "y": 635.02,
+        "w": 31.9,
+        "h": 0,
+        "cx": 213.97,
+        "cy": 635.02
+      }
+    },
+    {
+      "id": "ko-r0-c1",
+      "page": 2,
+      "kind": "grid",
+      "grid": "korotkoff",
+      "gridRow": 0,
+      "gridCol": 1,
+      "label": "Left Arm Diastolic",
+      "pass": {
+        "x": 245.45,
+        "y": 635.02,
+        "w": 31.9,
+        "h": 0,
+        "cx": 261.4,
+        "cy": 635.02
+      },
+      "fail": {
+        "x": 245.45,
+        "y": 635.02,
+        "w": 31.9,
+        "h": 0,
+        "cx": 261.4,
+        "cy": 635.02
+      }
+    },
+    {
+      "id": "verify-bp",
+      "page": 2,
+      "kind": "single",
+      "label": "Bp = 120/80 (Verify √)",
+      "pass": {
+        "x": 54,
+        "y": 669.46,
+        "w": 36,
+        "h": 0,
+        "cx": 72,
+        "cy": 669.46
+      },
+      "fail": {
+        "x": 54,
+        "y": 669.46,
+        "w": 36,
+        "h": 0,
+        "cx": 72,
+        "cy": 669.46
+      }
     }
   ],
   "textFields": [
@@ -3775,30 +3847,6 @@
       "label": "10)",
       "x": 425.46,
       "y": 646.54,
-      "w": 57.65
-    },
-    {
-      "id": "p2-t56",
-      "page": 2,
-      "label": "Left Arm",
-      "x": 198.02,
-      "y": 635.02,
-      "w": 31.9
-    },
-    {
-      "id": "p2-t57",
-      "page": 2,
-      "label": "Left Arm",
-      "x": 245.45,
-      "y": 635.02,
-      "w": 31.9
-    },
-    {
-      "id": "p2-t61",
-      "page": 2,
-      "label": "10)",
-      "x": 425.46,
-      "y": 635.02,
       "w": 57.65
     },
     {
@@ -4156,7 +4204,21 @@
       ]
     }
   ],
-  "grids": [],
+  "grids": [
+    {
+      "id": "korotkoff",
+      "page": 2,
+      "title": "BP Korotkoff Sound",
+      "mode": "cycle",
+      "rowLabels": [
+        "Left Arm"
+      ],
+      "colLabels": [
+        "Systolic",
+        "Diastolic"
+      ]
+    }
+  ],
   "options": [
     {
       "id": "opt-condition-new",
